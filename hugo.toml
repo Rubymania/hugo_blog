@@ -1,0 +1,108 @@
+baseURL = "https://plantmaru.com/" # 실제 도메인으로 변경하세요.
+title = "PlantMaru"
+languageCode = "ko"
+defaultContentLanguage = "ko"
+theme = "Blowfish" 
+hasCJKLanguage = true
+enableEmoji = true
+enableRobotsTXT = true
+buildFuture = true
+
+
+[pagination]
+  pagerSize = 10
+
+[languages]
+  [languages.ko]
+    title = "PlantMaru"
+    weight = 1
+    languageName = "Korean"
+    languageCode = "ko"
+
+[params]
+  defaultTheme = "auto"     # 또는 "auto" / "dark"
+  dateFormat = "2006-01-02"
+  subtitle = "반려식물과 함께하는 건강한 일상 🌿"
+
+[params.author]
+  name = "plantmaru"
+  email = "plantmaru@plantmaru.com"
+  link = ""
+
+[params.home.hero]
+  enable = true
+  title = "플랜트마루"
+  subtitle = "반려식물과 함께하는 건강한 일상 🌿"
+  typing = ["🌿 **플랜트마루**는 반려식물을 사랑하는 사람들을 위한 블로그입니다. ", "초보자도 쉽게 따라할 수 있는 키우는 팁부터, 제품 리뷰, IoT 연동까지 함께합니다."]
+
+[params.header.title]
+  name = "플랜트마루"
+  type = "text"
+
+[params.footer]
+  enable = true
+  custom = "© 2025 플랜트마루 | 함께하는 반려식물 일상"
+  hugo = false
+  theme = false
+  copyright = false
+  author = false
+  since = 2025
+
+[params.social]
+	enable = false
+
+[params.site]
+	copyright = ""
+
+
+[[menu.main]]
+  name = "🌿 반려식물 가이드"
+  identifier = "guide"
+  url = "#"
+  weight = 1
+
+  [[menu.main]]
+    parent = "guide"
+    name = "🌱 식물백과"
+    url = "/posts/encyclopedia/"
+
+  [[menu.main]]
+    parent = "guide"
+    name = "🧑‍🌾 키우는 팁"
+    url = "/posts/guides/"
+
+  [[menu.main]]
+    parent = "guide"
+    name = "🚨 문제 해결"
+    url = "/posts/problems/"
+
+[[menu.main]]
+  name = "🛒 제품 & 리뷰"
+  url = "/posts/reviews/"
+  weight = 2
+
+[[menu.main]]
+  name = "📆 키우기 캘린더"
+  url = "/posts/calendar/"
+  weight = 3
+
+[[menu.main]]
+  name = "📰 커뮤니티"
+  identifier = "community"
+  url = "#"
+  weight = 4
+
+  [[menu.main]]
+    parent = "community"
+    name = "📘 반려식물 이야기"
+    url = "/posts/stories/"
+
+  [[menu.main]]
+    parent = "community"
+    name = "📰 뉴스 & 트렌드"
+    url = "/posts/trends/"
+
+[[menu.main]]
+  name = "📱 앱 안내"
+  url = "/posts/app-guide/"
+  weight = 5

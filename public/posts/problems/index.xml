@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🚨 식물 문제 해결 on PlantMaru</title>
+    <link>http://localhost:1313/posts/problems/</link>
+    <description>Recent content in 🚨 식물 문제 해결 on PlantMaru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
+    <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
+    <copyright>© 2025 plantmaru</copyright>
+    <lastBuildDate>Wed, 21 May 2025 10:24:36 +0900</lastBuildDate><atom:link href="http://localhost:1313/posts/problems/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>
