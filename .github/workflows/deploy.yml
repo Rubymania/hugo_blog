@@ -1,0 +1,38 @@
+name: Deploy Hugo Blog to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # main 브랜치에 푸시될 때마다 워크플로우 실행
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # gh-pages 브랜치에 푸시하기 위한 권한 부여
+      pages: write # GitHub Pages에 배포하기 위한 권한 (새로운 권한, 필요시 추가)
+      id-token: write # OpenID Connect (OIDC) 지원을 위한 권한 (새로운 권한, 필요시 추가)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: true # 서브모듈(테마)이 있는 경우 필수
+          fetch-depth: 0 # 모든 기록을 가져와야 하는 경우
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # 최신 Hugo 버전 사용
+          extended: true # Blowfish 테마는 extended 버전 필요
+
+      - name: Build Hugo site
+        run: hugo --minify # Hugo 사이트 빌드 및 minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub에서 제공하는 기본 토큰 사용
+          publish_dir: ./public # 빌드된 public 폴더를 배포
+          publish_branch: gh-pages # gh-pages 브랜치에 배포 (이 브랜치가 자동으로 생성됩니다)
+          force_orphan: true # 이전 gh-pages 브랜치 내용을 지우고 새로 생성 (안전)
