@@ -5,7 +5,7 @@ on:
     branches:
       - main # main 브랜치에 푸시될 때마다 워크플로우 실행
 
-# GitHub Pages 배포를 위한 권한 설정 (이전과 동일, 하지만 중요!)
+# GitHub Pages 배포를 위한 권한 설정 (최상위 레벨에 위치)
 permissions:
   contents: write
   pages: write
@@ -19,25 +19,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true # 서브모듈(테마)이 있는 경우 필수
-          fetch-depth: 0 # 모든 기록을 가져와야 하는 경우
+          submodules: true # 필수: 서브모듈(테마)이 있는 경우 이걸 true로 해야 합니다.
+          fetch-depth: 0   # 모든 기록을 가져와야 하는 경우
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest' # 최신 Hugo 버전 사용
-          extended: true         # Blowfish 테마는 extended 버전 필요
+          extended: true         # Blowfish 테마는 extended 버전 필요 (확장 기능 지원)
 
       - name: Build Hugo site
         run: hugo --minify # Hugo 사이트 빌드 및 minify
-
-      # --- 여기서부터 중요! 변경된 부분입니다. ---
 
       - name: Upload artifact # 빌드된 사이트 파일을 아티팩트로 업로드
         uses: actions/upload-pages-artifact@v3 # GitHub Pages 액션에서 사용할 수 있도록
         with:
           path: ./public # public 폴더 내용을 업로드 (Hugo 빌드 결과물)
-          
+
       - name: Deploy to GitHub Pages # Pages 배포 서비스에 아티팩트 연결
         id: deployment
         uses: actions/deploy-pages@v4 # GitHub에서 제공하는 공식 Pages 배포 액션
