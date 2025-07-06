@@ -5,14 +5,16 @@ on:
     branches:
       - main # main 브랜치에 푸시될 때마다 워크플로우 실행
 
+# GitHub Pages 배포를 위한 권한 설정 (이전과 동일, 하지만 중요!)
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # gh-pages 브랜치에 푸시하기 위한 권한 부여
-      pages: write # GitHub Pages에 배포하기 위한 권한 (새로운 권한, 필요시 추가)
-      id-token: write # OpenID Connect (OIDC) 지원을 위한 권한 (새로운 권한, 필요시 추가)
-
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -24,15 +26,18 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest' # 최신 Hugo 버전 사용
-          extended: true # Blowfish 테마는 extended 버전 필요
+          extended: true         # Blowfish 테마는 extended 버전 필요
 
       - name: Build Hugo site
         run: hugo --minify # Hugo 사이트 빌드 및 minify
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      # --- 여기서부터 중요! 변경된 부분입니다. ---
+
+      - name: Upload artifact # 빌드된 사이트 파일을 아티팩트로 업로드
+        uses: actions/upload-pages-artifact@v3 # GitHub Pages 액션에서 사용할 수 있도록
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub에서 제공하는 기본 토큰 사용
-          publish_dir: ./public # 빌드된 public 폴더를 배포
-          publish_branch: gh-pages # gh-pages 브랜치에 배포 (이 브랜치가 자동으로 생성됩니다)
-          force_orphan: true # 이전 gh-pages 브랜치 내용을 지우고 새로 생성 (안전)
+          path: ./public # public 폴더 내용을 업로드 (Hugo 빌드 결과물)
+
+      - name: Deploy to GitHub Pages # Pages 배포 서비스에 아티팩트 연결
+        id: deployment
+        uses: actions/deploy-pages@v4 # GitHub에서 제공하는 공식 Pages 배포 액션
