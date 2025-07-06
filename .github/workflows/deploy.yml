@@ -15,6 +15,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     
+    environment: # 환경 설정 추가
+      name: github-pages # GitHub Pages를 위한 표준 환경 이름
+      url: ${{ steps.deployment.outputs.page_url }} # 배포된 페이지 URL을 연결
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
