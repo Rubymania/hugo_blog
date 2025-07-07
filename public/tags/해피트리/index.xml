@@ -1,29 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>해피트리 on PlantMaru</title>
-    <link>http://localhost:1313/tags/%ED%95%B4%ED%94%BC%ED%8A%B8%EB%A6%AC/</link>
-    <description>Recent content in 해피트리 on PlantMaru</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
-    <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
-    <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%ED%95%B4%ED%94%BC%ED%8A%B8%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>집에서 많이 키우는 실내식물 톱 10</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</link>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;반려식물 입문자를 위한 초록 추천 리스트&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;요즘 집안에서 식물을 키우는 분들이 부쩍 늘었어요.&lt;br&gt;
-조용히 자라는 식물 하나만 있어도 공간 분위기가 달라지고,&lt;br&gt;
-보는 사람의 마음도 한결 편안해지거든요.&lt;br&gt;
-그런데 처음 시작할 땐 ‘어떤 식물이 쉬울까?’ 고민하게 되죠.&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>해피트리 on PlantMaru</title><link>https://plantmaru.com/tags/%ED%95%B4%ED%94%BC%ED%8A%B8%EB%A6%AC/</link><description>Recent content in 해피트리 on PlantMaru</description><generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor><webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster><copyright>© 2025 plantmaru</copyright><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/tags/%ED%95%B4%ED%94%BC%ED%8A%B8%EB%A6%AC/index.xml" rel="self" type="application/rss+xml"/><item><title>집에서 많이 키우는 실내식물 톱 10</title><link>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><author>plantmaru@plantmaru.com (plantmaru)</author><guid>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</guid><description>&lt;p>&lt;strong>반려식물 입문자를 위한 초록 추천 리스트&lt;/strong>&lt;/p>
+&lt;p>요즘 집안에서 식물을 키우는 분들이 부쩍 늘었어요.&lt;br>
+조용히 자라는 식물 하나만 있어도 공간 분위기가 달라지고,&lt;br>
+보는 사람의 마음도 한결 편안해지거든요.&lt;br>
+그런데 처음 시작할 땐 ‘어떤 식물이 쉬울까?’ 고민하게 되죠.&lt;/p></description></item></channel></rss>
