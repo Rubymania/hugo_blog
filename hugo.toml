@@ -24,36 +24,71 @@ buildFuture = true
   dateFormat = "2006-01-02"
   subtitle = "반려식물과 함께하는 건강한 일상 🌿"
 
-[params.author]
-  name = "plantmaru"
-  email = "plantmaru@plantmaru.com"
-  link = ""
+  [params.author]
+    name = "plantmaru"
+    email = "plantmaru@plantmaru.com"
+    link = ""
 
-[params.home.hero]
-  enable = true
-  title = "플랜트마루"
-  subtitle = "반려식물과 함께하는 건강한 일상 🌿"
-  typing = ["🌿 **플랜트마루**는 반려식물을 사랑하는 사람들을 위한 블로그입니다. ", "초보자도 쉽게 따라할 수 있는 키우는 팁부터, 제품 리뷰, IoT 연동까지 함께합니다."]
+  [params.home.hero]
+    enable = true
+    title = "플랜트마루"
+    subtitle = "반려식물과 함께하는 건강한 일상 🌿"
+    typing = ["🌿 **플랜트마루**는 반려식물을 사랑하는 사람들을 위한 블로그입니다. ", "초보자도 쉽게 따라할 수 있는 키우는 팁부터, 제품 리뷰, IoT 연동까지 함께합니다."]
 
-[params.header.title]
-  name = "플랜트마루"
-  type = "text"
+  [params.header.title]
+    name = "플랜트마루"
+    type = "text"
 
-[params.footer]
-  enable = true
-  custom = "© 2025 플랜트마루 | 함께하는 반려식물 일상"
-  hugo = false
-  theme = false
-  copyright = false
-  author = false
-  since = 2025
+  [params.footer]
+    enable = true
+    custom = "© 2025 플랜트마루 | 함께하는 반려식물 일상"
+    hugo = false
+    theme = false
+    copyright = false
+    author = false
+    since = 2025
 
-[params.social]
-	enable = false
+  [params.social]
+    enable = false
 
-[params.site]
-	copyright = ""
+  [params.site]
+    copyright = ""
 
+  [params.share]
+    # 전체 공유 기능 활성화 (기본값: false). true로 설정해야 합니다.
+    enable = true 
+
+    # 개별 공유 플랫폼 설정 (원하는 것만 true로)
+    # 아래 목록은 Blowfish가 지원하는 일부 공유 플랫폼입니다.
+    # 여기서 카카오톡, 네이버, 링크 복사 위주로 설정합니다.
+
+    kakao = true
+    naver = true
+    clipboard = true
+
+    # 다른 공유 플랫폼도 필요하면 true로 설정하세요 (예시):
+    # email = false
+    # facebook = false
+    # mastodon = false
+    # pinterest = false
+    # reddit = false
+    # telegram = false
+    # tumblr = false
+    # twitter = false
+    # whatsapp = false
+    # linkedin = false
+    # vk = false
+    # weibo = false
+    # xing = false
+    # line = false
+    # buffer = false
+    # pocket = false
+    # hackernews = false
+    # douban = false
+    # renren = false
+    # qzone = false
+    # instapaper = false
+    print = true # 인쇄 버튼
 
 [[menu.main]]
   name = "🌿 반려식물 가이드"

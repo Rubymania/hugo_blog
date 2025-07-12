@@ -9,14 +9,84 @@
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>노란잎</title>
+      <link>http://localhost:1313/tags/%EB%85%B8%EB%9E%80%EC%9E%8E/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%EB%85%B8%EB%9E%80%EC%9E%8E/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>반려식물</title>
       <link>http://localhost:1313/tags/%EB%B0%98%EB%A0%A4%EC%8B%9D%EB%AC%BC/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
       <guid>http://localhost:1313/tags/%EB%B0%98%EB%A0%A4%EC%8B%9D%EB%AC%BC/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>식물건강</title>
+      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B1%B4%EA%B0%95/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B1%B4%EA%B0%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>식물관리법</title>
+      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>식물입문자</title>
+      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EC%9E%85%EB%AC%B8%EC%9E%90/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EC%9E%85%EB%AC%B8%EC%9E%90/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>식물키우기</title>
+      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%ED%82%A4%EC%9A%B0%EA%B8%B0/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%ED%82%A4%EC%9A%B0%EA%B8%B0/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>여름</title>
+      <link>http://localhost:1313/tags/%EC%97%AC%EB%A6%84/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%EC%97%AC%EB%A6%84/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>해충</title>
+      <link>http://localhost:1313/tags/%ED%95%B4%EC%B6%A9/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/tags/%ED%95%B4%EC%B6%A9/</guid>
       <description></description>
       
     </item>
@@ -32,41 +102,11 @@
     </item>
     
     <item>
-      <title>식물관리법</title>
-      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B4%80%EB%A6%AC%EB%B2%95/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>식물기초</title>
       <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B8%B0%EC%B4%88/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
       <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B8%B0%EC%B4%88/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>식물입문자</title>
-      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EC%9E%85%EB%AC%B8%EC%9E%90/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EC%9E%85%EB%AC%B8%EC%9E%90/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>식물키우기</title>
-      <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%ED%82%A4%EC%9A%B0%EA%B8%B0/</link>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%ED%82%A4%EC%9A%B0%EA%B8%B0/</guid>
       <description></description>
       
     </item>
@@ -207,16 +247,6 @@
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
       <guid>http://localhost:1313/tags/%EB%AC%BC%EC%A3%BC%EA%B8%B0/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>여름</title>
-      <link>http://localhost:1313/tags/%EC%97%AC%EB%A6%84/</link>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/tags/%EC%97%AC%EB%A6%84/</guid>
       <description></description>
       
     </item>
