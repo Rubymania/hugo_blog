@@ -23,11 +23,22 @@ buildFuture = true
   defaultTheme = "auto"     # 또는 "auto" / "dark"
   dateFormat = "2006-01-02"
   subtitle = "반려식물과 함께하는 건강한 일상 🌿"
+  # 메인 페이지에 표시할 섹션 지정
+  # "posts" 또는 "blog" 섹션만 메인 페이지에 표시되도록 합니다.
+  mainSections = ["posts"] # <-- 이 부분을 추가하거나 수정합니다.
 
   [params.author]
     name = "plantmaru"
     email = "plantmaru@plantmaru.com"
     link = ""
+
+  [params.homepage]
+    # 이 줄을 삭제하거나 주석 처리하세요.
+    # layout = 'profile' # <-- 이 줄을 삭제하거나 #으로 주석 처리합니다.
+    # 또는, 만약 목록 형태로 바꾸고 싶다면:
+    layout = 'default' # Ananke 처럼 기본 목록 레이아웃을 사용하도록
+    showmorelinkdest = '/posts/'
+    showrecentitems = 5
 
   [params.home.hero]
     enable = true
