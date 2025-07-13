@@ -6,7 +6,7 @@ draft: false
 cover: "/images/summer-watering.jpg"
 ---
 
-# 여름철 반려식물 물주는 법
+## 여름철 반려식물 물주는 법
 
 ![여름철 물주는 반려식물](/images/summer-watering.jpg)
 
