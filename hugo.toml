@@ -32,14 +32,6 @@ buildFuture = true
     email = "plantmaru@plantmaru.com"
     link = ""
 
-  [params.homepage]
-    # 이 줄을 삭제하거나 주석 처리하세요.
-    # layout = 'profile' # <-- 이 줄을 삭제하거나 #으로 주석 처리합니다.
-    # 또는, 만약 목록 형태로 바꾸고 싶다면:
-    layout = 'default' # Ananke 처럼 기본 목록 레이아웃을 사용하도록
-    showmorelinkdest = '/posts/'
-    showrecentitems = 5
-
   [params.home.hero]
     enable = true
     title = "플랜트마루"
