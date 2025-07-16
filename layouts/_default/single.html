@@ -19,6 +19,7 @@
       {{ if .Params.showBreadcrumbs | default (.Site.Params.article.showBreadcrumbs | default false) }}
         {{ partial "breadcrumbs.html" . }}
       {{ end }}
+      
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
         {{ .Title | emojify }}
       </h1>
@@ -133,7 +134,7 @@
               content: {
                 title: document.title,
                 description: '이 포스트를 확인해보세요!',
-                imageUrl: 'https://yourdomain.com/default-image.jpg', // 썸네일 이미지
+                imageUrl: 'https://plantmaru.com/images/share-thumbnail.jpg', // 썸네일 이미지
                 link: {
                   mobileWebUrl: window.location.href,
                   webUrl: window.location.href
