@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Example Post in encyclopedia"
 date: 2025-05-21T10:24:36+09:00
 categories: ["encyclopedia"]
