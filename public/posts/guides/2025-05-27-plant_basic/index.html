@@ -347,87 +347,6 @@
 
 
       
-        
-  <div>
-  <div class="cursor-pointer flex items-center nested-menu">
-    
-    <a
-      
-        href="#"
-        
-      
-      class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400"
-      title="">
-      📰 커뮤니티
-    </a>
-    <span>
-      
-
-  <span class="relative block icon">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-
-  </span>
-
-
-    </span>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-          <a
-            href="/posts/stories/"
-            
-            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              📘 반려식물 이야기
-            </p>
-          </a>
-        
-          <a
-            href="/posts/trends/"
-            
-            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              📰 뉴스 &amp; 트렌드
-            </p>
-          </a>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-      
-        
-  <a
-  href="/posts/app-guide/"
-  
-  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-  
-  <p class="text-base font-medium" title="">
-    📱 앱 안내
-  </p>
-</a>
-
-
-
-      
     
 
     
@@ -669,84 +588,6 @@
     
     <p class="text-bg font-bg" title="">
       📆 키우기 캘린더
-    </p>
-  </a>
-</li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="#"
-    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="">
-      📰 커뮤니티
-    </p>
-    <span>
-      
-
-  <span class="relative block icon">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-
-  </span>
-
-
-    </span>
-  </a>
-</li>
-
-  <li class="mt-1">
-    <a
-      href="/posts/stories/"
-      
-      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        📘 반려식물 이야기
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/posts/trends/"
-      
-      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        📰 뉴스 &amp; 트렌드
-      </p>
-    </a>
-  </li>
-
-<li class="mb-2"></li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/posts/app-guide/"
-    
-    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="">
-      📱 앱 안내
     </p>
   </a>
 </li>
@@ -1030,6 +871,64 @@ LED 식물등을 활용하면 어두운 방에서도 키울 수 있어요!</p>
 <strong>반려식물과 함께 살아가는 식물친구</strong>가 되어 있을 거예요 🌿</p>
 <p>궁금한 게 생기면 언제든지 또 찾아주세요.<br>
 함께 초록 생활을 키워나가요 💚</p>
+
+
+          <div id="share-buttons" style="margin-top: 30px; display: flex; gap: 10px; flex-wrap: wrap;">
+            <a id="copy-link-btn" href=javascript:copyLink(); style="touch-action: none;">
+              <img src="/images/icons/btn_link.png" alt="링크 복사" style="width: 25px; height: 25px;"/>
+            </a>
+
+            <a id="kakao-link-btn" href=javascript:sendKakaoLink(); style="touch-action: manipulation;">
+              <img src="/images/icons/btn_kakao.svg" alt="카카오톡 공유" style="width: 25px; height: 25px;"/>
+            </a>
+          </div>
+
+          <script>
+              
+              Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); 
+
+              
+              function sendKakaoLink() {
+                Kakao.Link.sendDefault({
+                  objectType: 'feed',
+                  content: {
+                    title: '반려식물 입문자를 위한 식물 기초 사전',
+                    description: '\u003ch2 class=\u0022relative group\u0022\u003e반려식물 입문자를 위한 식물 기초 사전 \n    \u003cdiv id=\u0022반려식물-입문자를-위한-식물-기초-사전\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline\u0022 href=\u0022#%eb%b0%98%eb%a0%a4%ec%8b%9d%eb%ac%bc-%ec%9e%85%eb%ac%b8%ec%9e%90%eb%a5%bc-%ec%9c%84%ed%95%9c-%ec%8b%9d%eb%ac%bc-%ea%b8%b0%ec%b4%88-%ec%82%ac%ec%a0%84\u0022 aria-label=\u0022앵커\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h2\u003e\n\u003cp\u003e물주기는 언제? 빛은 얼마나? 자꾸 잎이 누래지는데 왜 그럴까?\u003cbr\u003e\n처음 식물을 키우기 시작하면 궁금한 게 정말 많아요.\u003cbr\u003e\n누군가 “물만 잘 주면 된다”고 해서 시작했는데, 막상 키우다 보면\u003cbr\u003e\n잎이 마르고, 흙이 곰팡이 피고, 빛도 부족한 것 같고… 복잡하죠?\u003c\/p\u003e',
+                    imageUrl: 'http:\/\/localhost:1313\/',
+                    link: {
+                      mobileWebUrl: 'http:\/\/localhost:1313\/posts\/guides\/2025-05-27-plant_basic\/',
+                      webUrl: 'http:\/\/localhost:1313\/posts\/guides\/2025-05-27-plant_basic\/',
+                    }
+                  },
+                  buttons: [
+                    {
+                      title: '웹에서 보기',
+                      link: {
+                        mobileWebUrl: 'http:\/\/localhost:1313\/posts\/guides\/2025-05-27-plant_basic\/',
+                        webUrl: 'http:\/\/localhost:1313\/posts\/guides\/2025-05-27-plant_basic\/'
+                      }
+                    },
+                  ]
+                });
+              }
+
+           
+
+              
+              function copyLink() {
+                navigator.clipboard.writeText('http:\/\/localhost:1313\/posts\/guides\/2025-05-27-plant_basic\/')
+                  .then(() => {
+                    alert('링크가 클립보드에 복사되었습니다.');
+                  })
+                  .catch(err => {
+                    console.error('링크 복사 실패:', err);
+                    alert('링크 복사에 실패했습니다.');
+                  });
+              }
+
+              
+
+            </script>
 
           
           

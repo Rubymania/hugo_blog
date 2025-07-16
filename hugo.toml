@@ -124,23 +124,23 @@ buildFuture = true
   url = "/posts/calendar/"
   weight = 3
 
-[[menu.main]]
-  name = "📰 커뮤니티"
-  identifier = "community"
-  url = "#"
-  weight = 4
+#[[menu.main]]
+#  name = "📰 커뮤니티"
+#  identifier = "community"
+#  url = "#"
+#  weight = 4
 
-  [[menu.main]]
-    parent = "community"
-    name = "📘 반려식물 이야기"
-    url = "/posts/stories/"
+#  [[menu.main]]
+#    parent = "community"
+#    name = "📘 반려식물 이야기"
+#    url = "/posts/stories/"
 
-  [[menu.main]]
-    parent = "community"
-    name = "📰 뉴스 & 트렌드"
-    url = "/posts/trends/"
+#  [[menu.main]]
+#    parent = "community"
+#    name = "📰 뉴스 & 트렌드"
+#    url = "/posts/trends/"
 
-[[menu.main]]
-  name = "📱 앱 안내"
-  url = "/posts/app-guide/"
-  weight = 5
+#[[menu.main]]
+#  name = "📱 앱 안내"
+#  url = "/posts/app-guide/"
+#  weight = 5

@@ -350,87 +350,6 @@
 
 
       
-        
-  <div>
-  <div class="cursor-pointer flex items-center nested-menu">
-    
-    <a
-      
-        href="#"
-        
-      
-      class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400"
-      title="">
-      📰 커뮤니티
-    </a>
-    <span>
-      
-
-  <span class="relative block icon">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-
-  </span>
-
-
-    </span>
-  </div>
-  <div class="absolute menuhide">
-    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
-      <div class="flex flex-col space-y-3">
-        
-          <a
-            href="/posts/stories/"
-            
-            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              📘 반려식물 이야기
-            </p>
-          </a>
-        
-          <a
-            href="/posts/trends/"
-            
-            class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-            
-            <p class="text-sm font-sm" title="">
-              📰 뉴스 &amp; 트렌드
-            </p>
-          </a>
-        
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-      
-        
-  <a
-  href="/posts/app-guide/"
-  
-  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-  
-  <p class="text-base font-medium" title="">
-    📱 앱 안내
-  </p>
-</a>
-
-
-
-      
     
 
     
@@ -672,84 +591,6 @@
     
     <p class="text-bg font-bg" title="">
       📆 키우기 캘린더
-    </p>
-  </a>
-</li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="#"
-    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="">
-      📰 커뮤니티
-    </p>
-    <span>
-      
-
-  <span class="relative block icon">
-    <svg
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 20 20"
-  fill="currentColor"
-  aria-hidden="true"
->
-  <path
-    fill-rule="evenodd"
-    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    clip-rule="evenodd"
-  />
-</svg>
-
-  </span>
-
-
-    </span>
-  </a>
-</li>
-
-  <li class="mt-1">
-    <a
-      href="/posts/stories/"
-      
-      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        📘 반려식물 이야기
-      </p>
-    </a>
-  </li>
-
-  <li class="mt-1">
-    <a
-      href="/posts/trends/"
-      
-      class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-      
-      <p class="text-sm font-small" title="">
-        📰 뉴스 &amp; 트렌드
-      </p>
-    </a>
-  </li>
-
-<li class="mb-2"></li>
-
-
-
-            
-              
-  <li class="mt-1">
-  <a
-    href="/posts/app-guide/"
-    
-    class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-bg font-bg" title="">
-      📱 앱 안내
     </p>
   </a>
 </li>
@@ -1402,6 +1243,64 @@
 무언가를 돌본다는 소소한 기쁨이 따뜻하게 돌아오는 경험이에요.<br>
 처음에는 작은 초록 하나로 시작하더라도,<br>
 시간이 지나면 그 초록이 당신의 하루를 환하게 밝혀줄 거예요.  🌿</p>
+
+
+          <div id="share-buttons" style="margin-top: 30px; display: flex; gap: 10px; flex-wrap: wrap;">
+            <a id="copy-link-btn" href=javascript:copyLink(); style="touch-action: none;">
+              <img src="/images/icons/btn_link.png" alt="링크 복사" style="width: 25px; height: 25px;"/>
+            </a>
+
+            <a id="kakao-link-btn" href=javascript:sendKakaoLink(); style="touch-action: manipulation;">
+              <img src="/images/icons/btn_kakao.svg" alt="카카오톡 공유" style="width: 25px; height: 25px;"/>
+            </a>
+          </div>
+
+          <script>
+              
+              Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); 
+
+              
+              function sendKakaoLink() {
+                Kakao.Link.sendDefault({
+                  objectType: 'feed',
+                  content: {
+                    title: '집에서 많이 키우는 실내식물 톱 10',
+                    description: '\u003cp\u003e\u003cstrong\u003e반려식물 입문자를 위한 초록 추천 리스트\u003c\/strong\u003e\u003c\/p\u003e\n\u003cp\u003e요즘 집안에서 식물을 키우는 분들이 부쩍 늘었어요.\u003cbr\u003e\n조용히 자라는 식물 하나만 있어도 공간 분위기가 달라지고,\u003cbr\u003e\n보는 사람의 마음도 한결 편안해지거든요.\u003cbr\u003e\n그런데 처음 시작할 땐 ‘어떤 식물이 쉬울까?’ 고민하게 되죠.\u003c\/p\u003e',
+                    imageUrl: 'http:\/\/localhost:1313\/',
+                    link: {
+                      mobileWebUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/',
+                      webUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/',
+                    }
+                  },
+                  buttons: [
+                    {
+                      title: '웹에서 보기',
+                      link: {
+                        mobileWebUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/',
+                        webUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/'
+                      }
+                    },
+                  ]
+                });
+              }
+
+           
+
+              
+              function copyLink() {
+                navigator.clipboard.writeText('http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/')
+                  .then(() => {
+                    alert('링크가 클립보드에 복사되었습니다.');
+                  })
+                  .catch(err => {
+                    console.error('링크 복사 실패:', err);
+                    alert('링크 복사에 실패했습니다.');
+                  });
+              }
+
+              
+
+            </script>
 
           
           
