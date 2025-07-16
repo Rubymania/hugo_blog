@@ -1246,61 +1246,64 @@
 
 
           <div id="share-buttons" style="margin-top: 30px; display: flex; gap: 10px; flex-wrap: wrap;">
-            <a id="copy-link-btn" href=javascript:copyLink(); style="touch-action: none;">
-              <img src="/images/icons/btn_link.png" alt="링크 복사" style="width: 25px; height: 25px;"/>
-            </a>
+            
+            <button id="copy-link-btn" style="background: none; border: none; cursor: pointer;">
+              <img src="/images/icons/btn_link.png" alt="링크 복사" width="40" 
+              style="pointer-events: none; user-select: none; touch-action: none;" />
+            </button>
 
-            <a id="kakao-link-btn" href=javascript:sendKakaoLink(); style="touch-action: manipulation;">
-              <img src="/images/icons/btn_kakao.svg" alt="카카오톡 공유" style="width: 25px; height: 25px;"/>
-            </a>
+            
+            <button id="kakao-share-btn" style="background: none; border: none; cursor: pointer;">
+              <img src="/images/icons/btn_kakao.svg" alt="카카오톡 공유" width="40" 
+              style="pointer-events: none; user-select: none; touch-action: none;" />
+            </button>
           </div>
 
-          <script>
-              
-              Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); 
+        
+        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script>
+          
+          Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); 
 
-              
-              function sendKakaoLink() {
-                Kakao.Link.sendDefault({
-                  objectType: 'feed',
-                  content: {
-                    title: '집에서 많이 키우는 실내식물 톱 10',
-                    description: '\u003cp\u003e\u003cstrong\u003e반려식물 입문자를 위한 초록 추천 리스트\u003c\/strong\u003e\u003c\/p\u003e\n\u003cp\u003e요즘 집안에서 식물을 키우는 분들이 부쩍 늘었어요.\u003cbr\u003e\n조용히 자라는 식물 하나만 있어도 공간 분위기가 달라지고,\u003cbr\u003e\n보는 사람의 마음도 한결 편안해지거든요.\u003cbr\u003e\n그런데 처음 시작할 땐 ‘어떤 식물이 쉬울까?’ 고민하게 되죠.\u003c\/p\u003e',
-                    imageUrl: 'http:\/\/localhost:1313\/',
-                    link: {
-                      mobileWebUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/',
-                      webUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/',
-                    }
-                  },
-                  buttons: [
-                    {
-                      title: '웹에서 보기',
-                      link: {
-                        mobileWebUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/',
-                        webUrl: 'http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/'
-                      }
-                    },
-                  ]
-                });
-              }
+          
+          document.getElementById('kakao-share-btn').addEventListener('click', function () {
+            Kakao.Link.sendDefault({
+              objectType: 'feed',
+              content: {
+                title: document.title,
+                description: '이 포스트를 확인해보세요!',
+                imageUrl: 'https://yourdomain.com/default-image.jpg', 
+                link: {
+                  mobileWebUrl: window.location.href,
+                  webUrl: window.location.href
+                }
+              },
+              buttons: [
+                {
+                  title: '자세히 보기',
+                  link: {
+                    mobileWebUrl: window.location.href,
+                    webUrl: window.location.href
+                  }
+                }
+              ]
+            });
+          });
+
+          
+          document.getElementById('copy-link-btn').addEventListener('click', function () {
+            const dummy = document.createElement('input');
+            const text = window.location.href;
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+            alert('링크가 복사되었습니다!');
+          });
+        </script>
 
            
-
-              
-              function copyLink() {
-                navigator.clipboard.writeText('http:\/\/localhost:1313\/posts\/encyclopedia\/2025-05-23-top10_plants\/')
-                  .then(() => {
-                    alert('링크가 클립보드에 복사되었습니다.');
-                  })
-                  .catch(err => {
-                    console.error('링크 복사 실패:', err);
-                    alert('링크 복사에 실패했습니다.');
-                  });
-              }
-
-              
-
-            </script>
 
           
           

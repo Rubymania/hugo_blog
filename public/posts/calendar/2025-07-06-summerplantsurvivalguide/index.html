@@ -874,61 +874,64 @@
 
 
           <div id="share-buttons" style="margin-top: 30px; display: flex; gap: 10px; flex-wrap: wrap;">
-            <a id="copy-link-btn" href=javascript:copyLink(); style="touch-action: none;">
-              <img src="/images/icons/btn_link.png" alt="링크 복사" style="width: 25px; height: 25px;"/>
-            </a>
+            
+            <button id="copy-link-btn" style="background: none; border: none; cursor: pointer;">
+              <img src="/images/icons/btn_link.png" alt="링크 복사" width="40" 
+              style="pointer-events: none; user-select: none; touch-action: none;" />
+            </button>
 
-            <a id="kakao-link-btn" href=javascript:sendKakaoLink(); style="touch-action: manipulation;">
-              <img src="/images/icons/btn_kakao.svg" alt="카카오톡 공유" style="width: 25px; height: 25px;"/>
-            </a>
+            
+            <button id="kakao-share-btn" style="background: none; border: none; cursor: pointer;">
+              <img src="/images/icons/btn_kakao.svg" alt="카카오톡 공유" width="40" 
+              style="pointer-events: none; user-select: none; touch-action: none;" />
+            </button>
           </div>
 
-          <script>
-              
-              Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); 
+        
+        <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        <script>
+          
+          Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); 
 
-              
-              function sendKakaoLink() {
-                Kakao.Link.sendDefault({
-                  objectType: 'feed',
-                  content: {
-                    title: '식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은?',
-                    description: '\u003ch2 class=\u0022relative group\u0022\u003e식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은? 🌿☀️ \n    \u003cdiv id=\u0022식집사님들-필독-폭염에도-끄떡없는-반려식물-여름나기-비법은\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline\u0022 href=\u0022#%ec%8b%9d%ec%a7%91%ec%82%ac%eb%8b%98%eb%93%a4-%ed%95%84%eb%8f%85-%ed%8f%ad%ec%97%bc%ec%97%90%eb%8f%84-%eb%81%84%eb%96%a1%ec%97%86%eb%8a%94-%eb%b0%98%eb%a0%a4%ec%8b%9d%eb%ac%bc-%ec%97%ac%eb%a6%84%eb%82%98%ea%b8%b0-%eb%b9%84%eb%b2%95%ec%9d%80\u0022 aria-label=\u0022앵커\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h2\u003e\n\u003cp\u003e안녕하세요, 플랜트마루 블로거입니다! 🌞🌡️ 연일 계속되는 폭염에 사람도 지치지만, 우리 푸릇푸릇한 반려식물들은 괜찮을까요? 뜨거운 햇볕과 높은 습도는 식물들에게 큰 스트레스가 될 수 있습니다. 하지만 너무 걱정 마세요! 몇 가지 여름철 관리 비법만 알고 있다면, 우리 집 식물들은 그 어느 때보다 싱그러운 여름을 보낼 수 있답니다. 식집사라면 반드시 알아야 할 폭염 속 반려식물 생존 전략, 지금 바로 공개합니다! (3분 집중! 👀)\u003c\/p\u003e',
-                    imageUrl: 'http:\/\/localhost:1313\/',
-                    link: {
-                      mobileWebUrl: 'http:\/\/localhost:1313\/posts\/calendar\/2025-07-06-summerplantsurvivalguide\/',
-                      webUrl: 'http:\/\/localhost:1313\/posts\/calendar\/2025-07-06-summerplantsurvivalguide\/',
-                    }
-                  },
-                  buttons: [
-                    {
-                      title: '웹에서 보기',
-                      link: {
-                        mobileWebUrl: 'http:\/\/localhost:1313\/posts\/calendar\/2025-07-06-summerplantsurvivalguide\/',
-                        webUrl: 'http:\/\/localhost:1313\/posts\/calendar\/2025-07-06-summerplantsurvivalguide\/'
-                      }
-                    },
-                  ]
-                });
-              }
+          
+          document.getElementById('kakao-share-btn').addEventListener('click', function () {
+            Kakao.Link.sendDefault({
+              objectType: 'feed',
+              content: {
+                title: document.title,
+                description: '이 포스트를 확인해보세요!',
+                imageUrl: 'https://yourdomain.com/default-image.jpg', 
+                link: {
+                  mobileWebUrl: window.location.href,
+                  webUrl: window.location.href
+                }
+              },
+              buttons: [
+                {
+                  title: '자세히 보기',
+                  link: {
+                    mobileWebUrl: window.location.href,
+                    webUrl: window.location.href
+                  }
+                }
+              ]
+            });
+          });
+
+          
+          document.getElementById('copy-link-btn').addEventListener('click', function () {
+            const dummy = document.createElement('input');
+            const text = window.location.href;
+            document.body.appendChild(dummy);
+            dummy.value = text;
+            dummy.select();
+            document.execCommand('copy');
+            document.body.removeChild(dummy);
+            alert('링크가 복사되었습니다!');
+          });
+        </script>
 
            
-
-              
-              function copyLink() {
-                navigator.clipboard.writeText('http:\/\/localhost:1313\/posts\/calendar\/2025-07-06-summerplantsurvivalguide\/')
-                  .then(() => {
-                    alert('링크가 클립보드에 복사되었습니다.');
-                  })
-                  .catch(err => {
-                    console.error('링크 복사 실패:', err);
-                    alert('링크 복사에 실패했습니다.');
-                  });
-              }
-
-              
-
-            </script>
 
           
           
