@@ -7,7 +7,7 @@ hasCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
 buildFuture = true
-googleAnalytics = G-0ZBM5EWZS5
+googleAnalytics = "G-0ZBM5EWZS5"
 
 [pagination]
   pagerSize = 10
