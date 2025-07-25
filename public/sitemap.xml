@@ -3,171 +3,127 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://plantmaru.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</loc>
+    <loc>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/reviews/</loc>
+    <loc>http://localhost:1313/posts/reviews/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-24-spathiphyllum-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-24-spathiphyllum-plant-guide/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/</loc>
     <lastmod>2025-07-24T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/guides/2025-07-23-healing-with-companion-plants/</loc>
+    <loc>http://localhost:1313/posts/guides/2025-07-23-healing-with-companion-plants/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/guides/</loc>
+    <loc>http://localhost:1313/posts/guides/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/guides/2025-07-22-smart-farm-in-house/</loc>
+    <loc>http://localhost:1313/posts/guides/2025-07-22-smart-farm-in-house/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-21-rubber-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-21-rubber-plant-guide/</loc>
     <lastmod>2025-07-21T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-19-dieffenbachia-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-19-dieffenbachia-plant-guide/</loc>
     <lastmod>2025-07-19T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-19-areca-palm-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-19-areca-palm-guide/</loc>
     <lastmod>2025-07-19T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-19-goldcrest-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-19-goldcrest-plant-guide/</loc>
     <lastmod>2025-07-19T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-18-ivy-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-18-ivy-plant-guide/</loc>
     <lastmod>2025-07-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-18-happytree-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-18-happytree-plant-guide/</loc>
     <lastmod>2025-07-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-18-philodendron-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-18-philodendron-plant-guide/</loc>
     <lastmod>2025-07-18T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-17-peppermint-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-17-peppermint-plant-guide/</loc>
     <lastmod>2025-07-17T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-16-sansevieria-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-16-sansevieria-plant-guide/</loc>
     <lastmod>2025-07-16T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-15-stuckyi-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-15-stuckyi-plant-guide/</loc>
     <lastmod>2025-07-15T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-14-monstera-plant-guide/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-14-monstera-plant-guide/</loc>
     <lastmod>2025-07-14T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-07-13-longest-living-houseplants/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-07-13-longest-living-houseplants/</loc>
     <lastmod>2025-07-13T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/problems/</loc>
+    <loc>http://localhost:1313/posts/problems/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/problems/2025-07-12-sick-plant-sos-guide/</loc>
+    <loc>http://localhost:1313/posts/problems/2025-07-12-sick-plant-sos-guide/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/problems/2025-07-11-pest-control-summer-plants/</loc>
+    <loc>http://localhost:1313/posts/problems/2025-07-11-pest-control-summer-plants/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/guides/2025-07-10-4season-with-plants/</loc>
+    <loc>http://localhost:1313/posts/guides/2025-07-10-4season-with-plants/</loc>
     <lastmod>2025-07-10T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/guides/2025-07-07-ac-wind-plants-guide/</loc>
+    <loc>http://localhost:1313/posts/guides/2025-07-07-ac-wind-plants-guide/</loc>
     <lastmod>2025-07-07T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</loc>
+    <loc>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/calendar/</loc>
+    <loc>http://localhost:1313/posts/calendar/</loc>
     <lastmod>2025-07-06T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/guides/2025-05-27-plant_basic/</loc>
+    <loc>http://localhost:1313/posts/guides/2025-05-27-plant_basic/</loc>
     <lastmod>2025-05-27T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</loc>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</loc>
     <lastmod>2025-05-23T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://plantmaru.com/posts/calendar/2025-05-22-summer_watering/</loc>
+    <loc>http://localhost:1313/posts/calendar/2025-05-22-summer_watering/</loc>
     <lastmod>2025-05-22T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/stories/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/trends/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/app-guide/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/app-guide/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/calendar/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/encyclopedia/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/guides/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/problems/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/reviews/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/stories/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-  </url>
-  <url>
-    <loc>https://plantmaru.com/posts/trends/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
   </url>
 </urlset>

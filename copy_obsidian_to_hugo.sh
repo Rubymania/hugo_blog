@@ -24,14 +24,14 @@ echo ""
 # 1. 각 섹션 폴더별로 마크다운 파일 복사
 # Obsidian의 8개 폴더명을 배열로 정의합니다.
 OBSIDIAN_SECTIONS=(
-    "app-guide"
+    # "app-guide"
     "calendar"
     "encyclopedia"
     "guides"
     "problems"
     "reviews"
-    "stories"
-    "trends"
+    # "stories"
+    # "trends"
 )
 
 for section in "${OBSIDIAN_SECTIONS[@]}"; do

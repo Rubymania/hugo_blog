@@ -9,6 +9,9 @@ enableRobotsTXT = true
 buildFuture = true
 googleAnalytics = "G-0ZBM5EWZS5"
 
+[params.article]
+  showHeadingAnchors = false
+
 # 1. 'app' 이라는 이름의 새로운 출력 포맷을 정의합니다.
 [outputFormats.app]
   mediaType = "text/html"
