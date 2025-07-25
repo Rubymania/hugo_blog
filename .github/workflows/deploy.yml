@@ -33,7 +33,7 @@ jobs:
           extended: true         # Blowfish 테마는 extended 버전 필요
 
       - name: Build Hugo site
-        run: hugo --minify # Hugo 사이트 빌드 및 minify
+        run: hugo -D --buildFuture --minify # Hugo 사이트 빌드 및 minify
 
       - name: Upload artifact # 빌드된 사이트 파일을 아티팩트로 업로드
         uses: actions/upload-pages-artifact@v3 # GitHub Pages 액션에서 사용할 수 있도록
