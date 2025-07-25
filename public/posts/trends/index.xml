@@ -2,14 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>📰 뉴스 &amp; 트렌드 on PlantMaru</title>
-    <link>http://localhost:1313/posts/trends/</link>
+    <link>https://plantmaru.com/posts/trends/</link>
     <description>Recent content in 📰 뉴스 &amp; 트렌드 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Wed, 21 May 2025 10:24:36 +0900</lastBuildDate><atom:link href="http://localhost:1313/posts/trends/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 May 2025 10:24:36 +0900</lastBuildDate><atom:link href="https://plantmaru.com/posts/trends/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Example Post in trends</title>
+      <link>https://plantmaru.com/posts/trends/example/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>https://plantmaru.com/posts/trends/example/</guid>
+      <description>&lt;p&gt;This is an example post in the &amp;rsquo;trends&amp;rsquo; category. You can replace this with actual content later.&lt;/p&gt;</description>
+      
+    </item>
     
   </channel>
 </rss>

@@ -2,21 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>반려식물 on PlantMaru</title>
-    <link>http://localhost:1313/tags/%EB%B0%98%EB%A0%A4%EC%8B%9D%EB%AC%BC/</link>
+    <link>https://plantmaru.com/tags/%EB%B0%98%EB%A0%A4%EC%8B%9D%EB%AC%BC/</link>
     <description>Recent content in 반려식물 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Thu, 24 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%EB%B0%98%EB%A0%A4%EC%8B%9D%EB%AC%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/tags/%EB%B0%98%EB%A0%A4%EC%8B%9D%EB%AC%BC/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>똑똑한 식물 도우미, 샤오미 플라워 케어 언박싱!</title>
+      <link>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</link>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</guid>
+      <description>&lt;p&gt;어서 오세요! 플랜트마루 블로거입니다.&lt;/p&gt;
+&lt;p&gt;오늘은 여러분의 사랑스러운 반려식물들을 더욱 스마트하게 돌볼 수 있도록 도와줄 &lt;strong&gt;샤오미 플라워 케어 (Xiaomi Flower Care) IoT 기기&lt;/strong&gt;를 직접 사용해본 솔직한 리뷰를 들고 왔어요. 저처럼 식물 집사 생활을 즐기시는 분들이라면 분명 솔깃하실 거예요!&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>(식물백과) 스파티필룸 완벽 가이드. 우아한 초록 친구, 우리 집에서 꽃피우기!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-24-spathiphyllum-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-24-spathiphyllum-plant-guide/</link>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-24-spathiphyllum-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-24-spathiphyllum-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;(식물백과) 스파티필룸 완벽 가이드: 우아한 초록 친구, 우리 집에서 꽃피우기! 🌸🌿 
     &lt;div id=&#34;식물백과-스파티필룸-완벽-가이드-우아한-초록-친구-우리-집에서-꽃피우기-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -33,10 +44,10 @@
     
     <item>
       <title>바쁜 일상 속 힐링, 반려식물로 얻는 마음의 평화</title>
-      <link>http://localhost:1313/posts/guides/2025-07-23-healing-with-companion-plants/</link>
+      <link>https://plantmaru.com/posts/guides/2025-07-23-healing-with-companion-plants/</link>
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/guides/2025-07-23-healing-with-companion-plants/</guid>
+      <guid>https://plantmaru.com/posts/guides/2025-07-23-healing-with-companion-plants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;바쁜 일상 속 힐링, 반려식물로 얻는 마음의 평화 🌿 
     &lt;div id=&#34;바쁜-일상-속-힐링-반려식물로-얻는-마음의-평화-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -52,10 +63,10 @@
     
     <item>
       <title>스마트팜, 이제 우리 집으로! 미래형 식물 관리의 모든 것</title>
-      <link>http://localhost:1313/posts/guides/2025-07-22-smart-farm-in-house/</link>
+      <link>https://plantmaru.com/posts/guides/2025-07-22-smart-farm-in-house/</link>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/guides/2025-07-22-smart-farm-in-house/</guid>
+      <guid>https://plantmaru.com/posts/guides/2025-07-22-smart-farm-in-house/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;스마트팜, 이제 우리 집으로! 미래형 식물 관리의 모든 것 🏡🌿 
     &lt;div id=&#34;스마트팜-이제-우리-집으로-미래형-식물-관리의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -71,10 +82,10 @@
     
     <item>
       <title>(식물 백과) 든든한 초록 친구, 고무나무의 모든 것!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-21-rubber-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-21-rubber-plant-guide/</link>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-21-rubber-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-21-rubber-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚   (식물 백과) 든든한 초록 친구, 고무나무의 모든 것! 💚 
     &lt;div id=&#34;---식물-백과-든든한-초록-친구-고무나무의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -90,10 +101,10 @@
     
     <item>
       <title>(식물 백과) 이국적인 잎 무늬, 디펜바키아의 매력에 빠져봐!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-19-dieffenbachia-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-19-dieffenbachia-plant-guide/</link>
       <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-19-dieffenbachia-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-19-dieffenbachia-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚  (식물 백과) 이국적인 잎 무늬, 디펜바키아의 매력에 빠져봐! 💚 
     &lt;div id=&#34;--식물-백과-이국적인-잎-무늬-디펜바키아의-매력에-빠져봐-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -109,10 +120,10 @@
     
     <item>
       <title>(식물 백과) 이국적인 힐링, 아레카 야자의 모든 것!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-19-areca-palm-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-19-areca-palm-guide/</link>
       <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-19-areca-palm-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-19-areca-palm-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚   (식물 백과) 이국적인 힐링, 아레카 야자의 모든 것! 💚 
     &lt;div id=&#34;---식물-백과-이국적인-힐링-아레카-야자의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -128,10 +139,10 @@
     
     <item>
       <title>(식물 백과) 작은 황금빛 트리, 골드크레스트의 매력 속으로!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-19-goldcrest-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-19-goldcrest-plant-guide/</link>
       <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-19-goldcrest-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-19-goldcrest-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚   (식물 백과) 작은 황금빛 트리, 골드크레스트의 매력 속으로! ✨ 
     &lt;div id=&#34;---식물-백과-작은-황금빛-트리-골드크레스트의-매력-속으로-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -147,10 +158,10 @@
     
     <item>
       <title>(식물백과) 어디서든 푸르게! 늘 푸른 덩굴식물, 아이비 이야기!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-18-ivy-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-18-ivy-plant-guide/</link>
       <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-18-ivy-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-18-ivy-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚  (식물백과) 어디서든 푸르게! 늘 푸른 덩굴식물, 아이비 이야기! 
     &lt;div id=&#34;--식물백과-어디서든-푸르게-늘-푸른-덩굴식물-아이비-이야기&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -166,10 +177,10 @@
     
     <item>
       <title>(식물백과) 집 안 가득 행복을 심는 식물, 해피트리!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-18-happytree-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-18-happytree-plant-guide/</link>
       <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-18-happytree-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-18-happytree-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚  (식물백과) 집 안 가득 행복을 심는 식물, 해피트리! 
     &lt;div id=&#34;--식물백과-집-안-가득-행복을-심는-식물-해피트리&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -185,10 +196,10 @@
     
     <item>
       <title>(식물백과) 필로덴드론 (Philodendron) – 열대의 매력을 담은 실내 식물!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-18-philodendron-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-18-philodendron-plant-guide/</link>
       <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-18-philodendron-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-18-philodendron-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚   (식물백과) 필로덴드론 (Philodendron) – 열대의 매력을 담은 실내 식물! 
     &lt;div id=&#34;---식물백과-필로덴드론-philodendron--열대의-매력을-담은-실내-식물&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -204,10 +215,10 @@
     
     <item>
       <title>(식물백과) 상쾌한 향기의 매력,  페퍼민트  이야기!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-17-peppermint-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-17-peppermint-plant-guide/</link>
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-17-peppermint-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-17-peppermint-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚 (식물백과) 상쾌한 향기의 매력,  페퍼민트  이야기 
     &lt;div id=&#34;-식물백과-상쾌한-향기의-매력-페퍼민트-이야기&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -223,10 +234,10 @@
     
     <item>
       <title>(식물백과) 초보도 성공하는 공기정화 식물, 산세베리아의 모든 것!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-16-sansevieria-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-16-sansevieria-plant-guide/</link>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-16-sansevieria-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-16-sansevieria-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚 (식물백과) 초보도 성공하는 공기정화 식물, 산세베리아의 모든 것! 🌵💚 
     &lt;div id=&#34;-식물백과-초보도-성공하는-공기정화-식물-산세베리아의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -242,10 +253,10 @@
     
     <item>
       <title>(식물백과) 공기정화 끝판왕, 스투키의 모든 것!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-15-stuckyi-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-15-stuckyi-plant-guide/</link>
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-15-stuckyi-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-15-stuckyi-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚 (식물백과) 공기정화 끝판왕, 스투키의 모든 것! 💚 
     &lt;div id=&#34;-식물백과-공기정화-끝판왕-스투키의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -261,10 +272,10 @@
     
     <item>
       <title>(식물백과) 신비로운 구멍 잎, 몬스테라의 모든 것!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-14-monstera-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-14-monstera-plant-guide/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-14-monstera-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-14-monstera-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚 (식물백과) 신비로운 구멍 잎, 몬스테라의 모든 것! 💚 
     &lt;div id=&#34;-식물백과-신비로운-구멍-잎-몬스테라의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -280,10 +291,10 @@
     
     <item>
       <title>수명이 제일 긴 집안에서 키울 수 있는 반려식물은?</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-13-longest-living-houseplants/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-13-longest-living-houseplants/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-13-longest-living-houseplants/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-13-longest-living-houseplants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;수명이 제일 긴 집안에서 키울 수 있는 반려식물은? 🪴🕰️ 
     &lt;div id=&#34;수명이-제일-긴-집안에서-키울-수-있는-반려식물은-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -299,10 +310,10 @@
     
     <item>
       <title>우리 집 식물, 왜 자꾸 시들까? 초보 식집사를 위한 SOS 진단법!</title>
-      <link>http://localhost:1313/posts/problems/2025-07-12-sick-plant-sos-guide/</link>
+      <link>https://plantmaru.com/posts/problems/2025-07-12-sick-plant-sos-guide/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/problems/2025-07-12-sick-plant-sos-guide/</guid>
+      <guid>https://plantmaru.com/posts/problems/2025-07-12-sick-plant-sos-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;우리 집 식물, 왜 자꾸 시들까? 초보 식집사를 위한 SOS 진단법! 🆘🌿 
     &lt;div id=&#34;우리-집-식물-왜-자꾸-시들까-초보-식집사를-위한-sos-진단법-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -318,10 +329,10 @@
     
     <item>
       <title>벌레 OUT! 여름철 반려식물 해충 예방 및 퇴치 노하우</title>
-      <link>http://localhost:1313/posts/problems/2025-07-11-pest-control-summer-plants/</link>
+      <link>https://plantmaru.com/posts/problems/2025-07-11-pest-control-summer-plants/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/problems/2025-07-11-pest-control-summer-plants/</guid>
+      <guid>https://plantmaru.com/posts/problems/2025-07-11-pest-control-summer-plants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;벌레 OUT! 여름철 반려식물 해충 예방 및 퇴치 노하우 🐛🚫🌿 
     &lt;div id=&#34;벌레-out-여름철-반려식물-해충-예방-및-퇴치-노하우-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -337,10 +348,10 @@
     
     <item>
       <title>사계절 푸른 우리 집! 여름에도 빛나는 반려식물 키우기</title>
-      <link>http://localhost:1313/posts/guides/2025-07-10-4season-with-plants/</link>
+      <link>https://plantmaru.com/posts/guides/2025-07-10-4season-with-plants/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/guides/2025-07-10-4season-with-plants/</guid>
+      <guid>https://plantmaru.com/posts/guides/2025-07-10-4season-with-plants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;사계절 푸른 우리 집! 여름에도 빛나는 반려식물 키우기 🌿✨ 
     &lt;div id=&#34;사계절-푸른-우리-집-여름에도-빛나는-반려식물-키우기-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -356,10 +367,10 @@
     
     <item>
       <title>에어컨 바람, 독이 될까 약이 될까? 여름철 식물 배치 가이드!</title>
-      <link>http://localhost:1313/posts/guides/2025-07-07-ac-wind-plants-guide/</link>
+      <link>https://plantmaru.com/posts/guides/2025-07-07-ac-wind-plants-guide/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/guides/2025-07-07-ac-wind-plants-guide/</guid>
+      <guid>https://plantmaru.com/posts/guides/2025-07-07-ac-wind-plants-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;에어컨 바람, 독이 될까 약이 될까? 여름철 식물 배치 가이드! 🌬️🌿 
     &lt;div id=&#34;에어컨-바람-독이-될까-약이-될까-여름철-식물-배치-가이드-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -375,10 +386,10 @@
     
     <item>
       <title>식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은?</title>
-      <link>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</link>
+      <link>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</guid>
+      <guid>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은? 🌿☀️ 
     &lt;div id=&#34;식집사님들-필독-폭염에도-끄떡없는-반려식물-여름나기-비법은&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -394,10 +405,10 @@
     
     <item>
       <title>반려식물 입문자를 위한 식물 기초 사전</title>
-      <link>http://localhost:1313/posts/guides/2025-05-27-plant_basic/</link>
+      <link>https://plantmaru.com/posts/guides/2025-05-27-plant_basic/</link>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/guides/2025-05-27-plant_basic/</guid>
+      <guid>https://plantmaru.com/posts/guides/2025-05-27-plant_basic/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;반려식물 입문자를 위한 식물 기초 사전 
     &lt;div id=&#34;반려식물-입문자를-위한-식물-기초-사전&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -416,10 +427,10 @@
     
     <item>
       <title>집에서 많이 키우는 실내식물 톱 10</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</guid>
       <description>&lt;p&gt;&lt;strong&gt;반려식물 입문자를 위한 초록 추천 리스트&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;요즘 집안에서 식물을 키우는 분들이 부쩍 늘었어요.&lt;br&gt;
 조용히 자라는 식물 하나만 있어도 공간 분위기가 달라지고,&lt;br&gt;
@@ -430,10 +441,10 @@
     
     <item>
       <title>여름철 반려식물 물주는 법</title>
-      <link>http://localhost:1313/posts/calendar/2025-05-22-summer_watering/</link>
+      <link>https://plantmaru.com/posts/calendar/2025-05-22-summer_watering/</link>
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/calendar/2025-05-22-summer_watering/</guid>
+      <guid>https://plantmaru.com/posts/calendar/2025-05-22-summer_watering/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;여름철 반려식물 물주는 법 
     &lt;div id=&#34;여름철-반려식물-물주는-법&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -451,7 +462,7 @@
 
 
 &lt;figure&gt;
-    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;여름철 물주는 반려식물&#34; src=&#34;http://localhost:1313/images/summer-watering.jpg&#34;&gt;
+    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;여름철 물주는 반려식물&#34; src=&#34;https://plantmaru.com/images/summer-watering.jpg&#34;&gt;
 
   
 &lt;/figure&gt;

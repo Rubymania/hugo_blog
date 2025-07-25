@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>몬스테라 on PlantMaru</title>
-    <link>http://localhost:1313/tags/%EB%AA%AC%EC%8A%A4%ED%85%8C%EB%9D%BC/</link>
+    <link>https://plantmaru.com/tags/%EB%AA%AC%EC%8A%A4%ED%85%8C%EB%9D%BC/</link>
     <description>Recent content in 몬스테라 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%EB%AA%AC%EC%8A%A4%ED%85%8C%EB%9D%BC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/tags/%EB%AA%AC%EC%8A%A4%ED%85%8C%EB%9D%BC/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>(식물백과) 신비로운 구멍 잎, 몬스테라의 모든 것!</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-07-14-monstera-plant-guide/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-07-14-monstera-plant-guide/</link>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-07-14-monstera-plant-guide/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-14-monstera-plant-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;📚 (식물백과) 신비로운 구멍 잎, 몬스테라의 모든 것! 💚 
     &lt;div id=&#34;-식물백과-신비로운-구멍-잎-몬스테라의-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -32,10 +32,10 @@
     
     <item>
       <title>집에서 많이 키우는 실내식물 톱 10</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</link>
+      <link>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</link>
       <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-05-23-top10_plants/</guid>
+      <guid>https://plantmaru.com/posts/encyclopedia/2025-05-23-top10_plants/</guid>
       <description>&lt;p&gt;&lt;strong&gt;반려식물 입문자를 위한 초록 추천 리스트&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;요즘 집안에서 식물을 키우는 분들이 부쩍 늘었어요.&lt;br&gt;
 조용히 자라는 식물 하나만 있어도 공간 분위기가 달라지고,&lt;br&gt;

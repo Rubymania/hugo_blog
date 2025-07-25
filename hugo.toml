@@ -9,6 +9,17 @@ enableRobotsTXT = true
 buildFuture = true
 googleAnalytics = "G-0ZBM5EWZS5"
 
+# 1. 'app' 이라는 이름의 새로운 출력 포맷을 정의합니다.
+[outputFormats.app]
+  mediaType = "text/html"
+  baseName = "index.app" # 결과 파일 이름을 'index.app.html'로 지정
+
+# 2. 어떤 종류의 페이지에 'app' 포맷을 적용할지 설정합니다.
+[outputs]
+  page = ["HTML", "app"] # 개별 포스트(page)에 기본 HTML과 app 포맷을 모두 생성
+  home = ["HTML", "RSS"] # 홈페이지나 다른 페이지들은 기존 설정을 그대로 유지
+  section = ["HTML", "RSS"]
+
 [pagination]
   pagerSize = 10
 
@@ -144,3 +155,4 @@ googleAnalytics = "G-0ZBM5EWZS5"
 #  name = "📱 앱 안내"
 #  url = "/posts/app-guide/"
 #  weight = 5
+
