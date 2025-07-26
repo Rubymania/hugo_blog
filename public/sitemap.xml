@@ -4,14 +4,22 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</loc>
-    <lastmod>2025-07-25T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/guides/2025-07-26-beginner-plant-parent-essentials/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/guides/</loc>
+    <lastmod>2025-07-26T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</loc>
     <lastmod>2025-07-25T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -28,10 +36,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/guides/2025-07-23-healing-with-companion-plants/</loc>
-    <lastmod>2025-07-23T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/guides/</loc>
     <lastmod>2025-07-23T00:00:00+00:00</lastmod>
   </url>
   <url>
