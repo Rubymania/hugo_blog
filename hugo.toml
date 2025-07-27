@@ -8,6 +8,8 @@ enableEmoji = true
 enableRobotsTXT = true
 buildFuture = true
 googleAnalytics = "G-0ZBM5EWZS5"
+sitemap = { changefreq = "monthly", priority = 0.5, filename = "sitemap.xml" }
+enableRobotsTXT = true
 
 [params.article]
   showHeadingAnchors = false
