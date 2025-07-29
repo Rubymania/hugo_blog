@@ -1,6 +1,13 @@
 ---
 title: (식물백과) 16. 향기로운 녹색 보석, 호야(Hoya) 이야기
 date: 2025-07-30
+description: "은은한 향기, 고급스러운 입사귀, 호야(Hoya), 호야카르노사(Hoya carnosa)"
+type: "website"
+images:
+  - "/images/hoya.jpg"
+og_title: "향기로운 녹색 보석, 호야(Hoya) 이야기"
+og_description: "은은한 향기와 고급스러운 잎사귀로 사람들의 마음을 사로잡는 식물, 호야 이야기"
+og_image: "/images/hoya.jpg"
 tags:
   - 반려식물
   - 호야
