@@ -4,9 +4,9 @@
     {{- if $index }},{{ end }}
     {
       "title": {{ $page.Title | jsonify }},
-      "author": "플랜트마루",
       "permalink": {{ $page.Permalink | jsonify }},
       "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
+      "author": "플랜트마루",
       "summary": {{ $page.Summary | jsonify }},
       "content": {{ $page.Plain | jsonify }},
       "tags": {{ $page.Params.tags | jsonify }},         
