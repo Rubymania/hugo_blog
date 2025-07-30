@@ -8,7 +8,15 @@ enableEmoji = true
 enableRobotsTXT = true
 buildFuture = true
 googleAnalytics = "G-0ZBM5EWZS5"
+
+searchTypes = ["posts"]
+
 sitemap = { changefreq = "monthly", priority = 0.5, filename = "sitemap.xml" }
+
+[params.search]
+enabled = true
+type = "lunr"
+
 
 [params.article]
   showHeadingAnchors = false
@@ -21,8 +29,13 @@ sitemap = { changefreq = "monthly", priority = 0.5, filename = "sitemap.xml" }
 # 2. 어떤 종류의 페이지에 'app' 포맷을 적용할지 설정합니다.
 [outputs]
   page = ["HTML", "app"] # 개별 포스트(page)에 기본 HTML과 app 포맷을 모두 생성
-  home = ["HTML", "RSS"] # 홈페이지나 다른 페이지들은 기존 설정을 그대로 유지
+  home = ["HTML", "RSS", "JSON"] # 홈페이지나 다른 페이지들은 기존 설정을 그대로 유지
   section = ["HTML", "RSS"]
+
+[outputFormats.JSON]
+    mediaType = "application/json"
+    baseName = "index" # 인덱스 파일 이름 (예: index.json)
+    isPlainText = true # 일반 텍스트로 출력
 
 [pagination]
   pagerSize = 10
