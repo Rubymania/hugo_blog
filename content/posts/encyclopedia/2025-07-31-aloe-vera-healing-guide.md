@@ -1,8 +1,8 @@
-
 ---
-
 title: "알로에 베라: 피부와 건강을 위한 자연의 선물"
 description: "피부 진정과 자연 치유의 대표 식물, 알로에 베라의 놀라운 효능과 키우는 방법을 소개합니다."
+type: "website"
+images: "/images/aloevera.jpg"
 tags:
   - Aloe Vera
   - 알로에 베라
@@ -15,7 +15,6 @@ tags:
 og_title: "알로에 베라: 피부와 건강을 위한 자연의 선물"
 og_description: "알로에 베라는 단순한 다육식물이 아닙니다. 피부 진정, 화상 치료, 공기 정화까지! 실내에서 키우기 쉬운 이 반려식물의 놀라운 매력을 알아보세요."
 draft: false
-
 ---
 
 
