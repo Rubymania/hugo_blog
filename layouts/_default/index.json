@@ -1,12 +1,16 @@
-{{- $pages := .Site.RegularPages }}
+{{- $pages := .Site.RegularPages -}}
 [
   {{- range $index, $page := $pages }}
     {{- if $index }},{{ end }}
     {
       "title": {{ $page.Title | jsonify }},
+      "author": "플랜트마루",
       "permalink": {{ $page.Permalink | jsonify }},
+      "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
       "summary": {{ $page.Summary | jsonify }},
-      "content": {{ $page.Plain | jsonify }}
+      "content": {{ $page.Plain | jsonify }},
+      "tags": {{ $page.Params.tags | jsonify }},         
+      "description": {{ $page.Description | jsonify }}   
     }
   {{- end }}
 ]
