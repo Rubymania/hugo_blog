@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🗓️ 식물 캘린더 on PlantMaru</title>
-    <link>https://plantmaru.com/posts/calendar/</link>
+    <link>http://localhost:1313/posts/calendar/</link>
     <description>Recent content in 🗓️ 식물 캘린더 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/posts/calendar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/calendar/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>폭염에도 푸르게! 뜨거운 여름, 우리 집 반려식물 건강하게 지키는 법</title>
-      <link>https://plantmaru.com/posts/calendar/2025-07-27-hot-summer-with-plants/</link>
+      <link>http://localhost:1313/posts/calendar/2025-07-27-hot-summer-with-plants/</link>
       <pubDate>Sun, 27 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/calendar/2025-07-27-hot-summer-with-plants/</guid>
+      <guid>http://localhost:1313/posts/calendar/2025-07-27-hot-summer-with-plants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;폭염에도 푸르게! 뜨거운 여름, 우리 집 반려식물 건강하게 지키는 법 
     &lt;div id=&#34;폭염에도-푸르게-뜨거운-여름-우리-집-반려식물-건강하게-지키는-법&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -28,10 +28,10 @@
     
     <item>
       <title>식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은?</title>
-      <link>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</link>
+      <link>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</guid>
+      <guid>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은? 🌿☀️ 
     &lt;div id=&#34;식집사님들-필독-폭염에도-끄떡없는-반려식물-여름나기-비법은&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -42,10 +42,10 @@
     
     <item>
       <title>여름철 반려식물 물주는 법</title>
-      <link>https://plantmaru.com/posts/calendar/2025-05-22-summer_watering/</link>
+      <link>http://localhost:1313/posts/calendar/2025-05-22-summer_watering/</link>
       <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/calendar/2025-05-22-summer_watering/</guid>
+      <guid>http://localhost:1313/posts/calendar/2025-05-22-summer_watering/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;여름철 반려식물 물주는 법 
     &lt;div id=&#34;여름철-반려식물-물주는-법&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -58,23 +58,13 @@
 
 
 &lt;figure&gt;
-    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;여름철 물주는 반려식물&#34; src=&#34;https://plantmaru.com/images/summer-watering.jpg&#34;&gt;
+    &lt;img class=&#34;my-0 rounded-md&#34; loading=&#34;lazy&#34; alt=&#34;여름철 물주는 반려식물&#34; src=&#34;http://localhost:1313/images/summer-watering.jpg&#34;&gt;
 
   
 &lt;/figure&gt;
 &lt;/p&gt;
 &lt;p&gt;여름은 반려식물에게 가장 까다로운 계절 중 하나입니다.&lt;br&gt;
 뜨거운 햇살과 높은 온도는 식물의 수분 증발을 빠르게 만들기 때문에, 평소보다 물주기에 더욱 신경 써야 합니다.&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Example Post in calendar</title>
-      <link>https://plantmaru.com/posts/calendar/example/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/calendar/example/</guid>
-      <description>&lt;p&gt;This is an example post in the &amp;lsquo;calendar&amp;rsquo; category. You can replace this with actual content later.&lt;/p&gt;</description>
       
     </item>
     

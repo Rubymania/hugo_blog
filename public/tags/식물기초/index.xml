@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>식물기초 on PlantMaru</title>
-    <link>https://plantmaru.com/tags/%EC%8B%9D%EB%AC%BC%EA%B8%B0%EC%B4%88/</link>
+    <link>http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B8%B0%EC%B4%88/</link>
     <description>Recent content in 식물기초 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/tags/%EC%8B%9D%EB%AC%BC%EA%B8%B0%EC%B4%88/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%EC%8B%9D%EB%AC%BC%EA%B8%B0%EC%B4%88/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>수명이 제일 긴 집안에서 키울 수 있는 반려식물은?</title>
-      <link>https://plantmaru.com/posts/encyclopedia/2025-07-13-longest-living-houseplants/</link>
+      <link>http://localhost:1313/posts/encyclopedia/2025-07-13-longest-living-houseplants/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/encyclopedia/2025-07-13-longest-living-houseplants/</guid>
+      <guid>http://localhost:1313/posts/encyclopedia/2025-07-13-longest-living-houseplants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;수명이 제일 긴 집안에서 키울 수 있는 반려식물은? 🪴🕰️ 
     &lt;div id=&#34;수명이-제일-긴-집안에서-키울-수-있는-반려식물은-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -27,10 +27,10 @@
     
     <item>
       <title>사계절 푸른 우리 집! 여름에도 빛나는 반려식물 키우기</title>
-      <link>https://plantmaru.com/posts/guides/2025-07-10-4season-with-plants/</link>
+      <link>http://localhost:1313/posts/guides/2025-07-10-4season-with-plants/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/guides/2025-07-10-4season-with-plants/</guid>
+      <guid>http://localhost:1313/posts/guides/2025-07-10-4season-with-plants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;사계절 푸른 우리 집! 여름에도 빛나는 반려식물 키우기 🌿✨ 
     &lt;div id=&#34;사계절-푸른-우리-집-여름에도-빛나는-반려식물-키우기-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -41,10 +41,10 @@
     
     <item>
       <title>에어컨 바람, 독이 될까 약이 될까? 여름철 식물 배치 가이드!</title>
-      <link>https://plantmaru.com/posts/guides/2025-07-07-ac-wind-plants-guide/</link>
+      <link>http://localhost:1313/posts/guides/2025-07-07-ac-wind-plants-guide/</link>
       <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/guides/2025-07-07-ac-wind-plants-guide/</guid>
+      <guid>http://localhost:1313/posts/guides/2025-07-07-ac-wind-plants-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;에어컨 바람, 독이 될까 약이 될까? 여름철 식물 배치 가이드! 🌬️🌿 
     &lt;div id=&#34;에어컨-바람-독이-될까-약이-될까-여름철-식물-배치-가이드-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -55,10 +55,10 @@
     
     <item>
       <title>식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은?</title>
-      <link>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</link>
+      <link>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</link>
       <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/calendar/2025-07-06-summerplantsurvivalguide/</guid>
+      <guid>http://localhost:1313/posts/calendar/2025-07-06-summerplantsurvivalguide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;식집사님들 필독! 폭염에도 끄떡없는 반려식물 여름나기 비법은? 🌿☀️ 
     &lt;div id=&#34;식집사님들-필독-폭염에도-끄떡없는-반려식물-여름나기-비법은&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -69,10 +69,10 @@
     
     <item>
       <title>반려식물 입문자를 위한 식물 기초 사전</title>
-      <link>https://plantmaru.com/posts/guides/2025-05-27-plant_basic/</link>
+      <link>http://localhost:1313/posts/guides/2025-05-27-plant_basic/</link>
       <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/guides/2025-05-27-plant_basic/</guid>
+      <guid>http://localhost:1313/posts/guides/2025-05-27-plant_basic/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;반려식물 입문자를 위한 식물 기초 사전 
     &lt;div id=&#34;반려식물-입문자를-위한-식물-기초-사전&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     

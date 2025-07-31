@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🚨 식물 문제 해결 on PlantMaru</title>
-    <link>https://plantmaru.com/posts/problems/</link>
+    <link>http://localhost:1313/posts/problems/</link>
     <description>Recent content in 🚨 식물 문제 해결 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/posts/problems/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/problems/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>우리 집 식물, 왜 자꾸 시들까? 초보 식집사를 위한 SOS 진단법!</title>
-      <link>https://plantmaru.com/posts/problems/2025-07-12-sick-plant-sos-guide/</link>
+      <link>http://localhost:1313/posts/problems/2025-07-12-sick-plant-sos-guide/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/problems/2025-07-12-sick-plant-sos-guide/</guid>
+      <guid>http://localhost:1313/posts/problems/2025-07-12-sick-plant-sos-guide/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;우리 집 식물, 왜 자꾸 시들까? 초보 식집사를 위한 SOS 진단법! 🆘🌿 
     &lt;div id=&#34;우리-집-식물-왜-자꾸-시들까-초보-식집사를-위한-sos-진단법-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
@@ -27,25 +27,15 @@
     
     <item>
       <title>벌레 OUT! 여름철 반려식물 해충 예방 및 퇴치 노하우</title>
-      <link>https://plantmaru.com/posts/problems/2025-07-11-pest-control-summer-plants/</link>
+      <link>http://localhost:1313/posts/problems/2025-07-11-pest-control-summer-plants/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/problems/2025-07-11-pest-control-summer-plants/</guid>
+      <guid>http://localhost:1313/posts/problems/2025-07-11-pest-control-summer-plants/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;벌레 OUT! 여름철 반려식물 해충 예방 및 퇴치 노하우 🐛🚫🌿 
     &lt;div id=&#34;벌레-out-여름철-반려식물-해충-예방-및-퇴치-노하우-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
     
 &lt;/h2&gt;
 &lt;p&gt;안녕하세요, 플랜트마루 블로거입니다! 🌞 올해(2025년)는 유난히 더운 날씨가 이어지고 있죠? 이렇게 뜨겁고 습한 여름은 우리 식집사님들에게는 반갑지 않은 손님, 바로 &lt;strong&gt;해충&lt;/strong&gt;들이 기승을 부리는 시기이기도 합니다. 따뜻하고 습한 환경은 해충들이 번식하고 활동하기에 최적의 조건이거든요. 우리 소중한 반려식물들을 괴롭히는 이 불청객들을 어떻게 하면 효과적으로 예방하고 퇴치할 수 있을지, 플랜트마루의 노하우를 지금부터 자연스럽게 들려드릴게요!&lt;/p&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>Example Post in problems</title>
-      <link>https://plantmaru.com/posts/problems/example/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/posts/problems/example/</guid>
-      <description>&lt;p&gt;This is an example post in the &amp;lsquo;problems&amp;rsquo; category. You can replace this with actual content later.&lt;/p&gt;</description>
       
     </item>
     
