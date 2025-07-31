@@ -2,23 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>🏷️ 제품 추천 &amp; 리뷰 on PlantMaru</title>
-    <link>http://localhost:1313/posts/reviews/</link>
+    <link>https://plantmaru.com/posts/reviews/</link>
     <description>Recent content in 🏷️ 제품 추천 &amp; 리뷰 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/posts/reviews/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>똑똑한 식물 도우미, 샤오미 플라워 케어 언박싱!</title>
-      <link>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</link>
+      <link>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</link>
       <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
       <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</guid>
+      <guid>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</guid>
       <description>&lt;p&gt;어서 오세요! 플랜트마루 블로거입니다.&lt;/p&gt;
 &lt;p&gt;오늘은 여러분의 사랑스러운 반려식물들을 더욱 스마트하게 돌볼 수 있도록 도와줄 &lt;strong&gt;샤오미 플라워 케어 (Xiaomi Flower Care) IoT 기기&lt;/strong&gt;를 직접 사용해본 솔직한 리뷰를 들고 왔어요. 저처럼 식물 집사 생활을 즐기시는 분들이라면 분명 솔깃하실 거예요!&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Example Post in reviews</title>
+      <link>https://plantmaru.com/posts/reviews/example/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>https://plantmaru.com/posts/reviews/example/</guid>
+      <description>&lt;p&gt;This is an example post in the &amp;lsquo;reviews&amp;rsquo; category. You can replace this with actual content later.&lt;/p&gt;</description>
       
     </item>
     

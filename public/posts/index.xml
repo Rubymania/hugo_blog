@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>플랜트마루 블로그 홈 on PlantMaru</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://plantmaru.com/posts/</link>
     <description>Recent content in 플랜트마루 블로그 홈 on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
