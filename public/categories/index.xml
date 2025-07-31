@@ -2,14 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on PlantMaru</title>
-    <link>https://plantmaru.com/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on PlantMaru</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko</language>
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <atom:link href="https://plantmaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 May 2025 10:24:36 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Calendar</title>
+      <link>http://localhost:1313/categories/calendar/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/categories/calendar/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Encyclopedia</title>
+      <link>http://localhost:1313/categories/encyclopedia/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/categories/encyclopedia/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Guides</title>
+      <link>http://localhost:1313/categories/guides/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/categories/guides/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Problems</title>
+      <link>http://localhost:1313/categories/problems/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/categories/problems/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Reviews</title>
+      <link>http://localhost:1313/categories/reviews/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/categories/reviews/</guid>
+      <description></description>
+      
+    </item>
     
   </channel>
 </rss>
