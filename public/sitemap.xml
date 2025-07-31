@@ -237,36 +237,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/calendar/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/encyclopedia/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/guides/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/problems/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/reviews/example/</loc>
-    <lastmod>2025-05-21T10:24:36+09:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/search/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

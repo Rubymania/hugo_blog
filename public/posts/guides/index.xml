@@ -101,15 +101,5 @@
       
     </item>
     
-    <item>
-      <title>Example Post in guides</title>
-      <link>http://localhost:1313/posts/guides/example/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/guides/example/</guid>
-      <description>&lt;p&gt;This is an example post in the &amp;lsquo;guides&amp;rsquo; category. You can replace this with actual content later.&lt;/p&gt;</description>
-      
-    </item>
-    
   </channel>
 </rss>

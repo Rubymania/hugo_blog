@@ -1,6 +1,7 @@
 ---
 title: "(식물백과) 17. 피부와 건강을 위한 자연의 선물, 알로에 베라(Aloe Vera)"
 date: 2025-07-31
+publishDate: 2025-07-31T00:00:00+09:00
 description: "피부 진정과 자연 치유의 대표 식물, 알로에 베라의 놀라운 효능과 키우는 방법을 소개합니다."
 type: "website"
 images: ["/images/aloevera.jpg"]
