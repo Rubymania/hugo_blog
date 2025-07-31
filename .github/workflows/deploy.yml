@@ -29,7 +29,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest' # 최신 Hugo 버전 사용
+          hugo-version: '0.147.5' # local hugo 버전과 일치시켜야 함
           extended: true         # Blowfish 테마는 extended 버전 필요
 
       - name: Build Hugo site
@@ -38,7 +38,7 @@ jobs:
         # 3. 'hugo --minify'는 이미 hugo.toml에 minify: true 설정이 있다면 생략 가능
         #    Blowfish 테마는 minify 기능이 내장되어 있어 플래그 없이도 작동할 수 있음
         run: hugo -D --cleanDestinationDir
-        
+
       - name: Upload artifact # 빌드된 사이트 파일을 아티팩트로 업로드
         uses: actions/upload-pages-artifact@v3 # GitHub Pages 액션에서 사용할 수 있도록
         with:
