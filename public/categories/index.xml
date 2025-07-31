@@ -9,57 +9,7 @@
     <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
     <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
     <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Wed, 21 May 2025 10:24:36 +0900</lastBuildDate><atom:link href="https://plantmaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Calendar</title>
-      <link>https://plantmaru.com/categories/calendar/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/categories/calendar/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Encyclopedia</title>
-      <link>https://plantmaru.com/categories/encyclopedia/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/categories/encyclopedia/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Guides</title>
-      <link>https://plantmaru.com/categories/guides/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/categories/guides/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Problems</title>
-      <link>https://plantmaru.com/categories/problems/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/categories/problems/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Reviews</title>
-      <link>https://plantmaru.com/categories/reviews/</link>
-      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
-      <author>plantmaru@plantmaru.com (plantmaru)</author>
-      <guid>https://plantmaru.com/categories/reviews/</guid>
-      <description></description>
-      
-    </item>
+    <atom:link href="https://plantmaru.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

@@ -35,7 +35,8 @@ jobs:
       - name: Build Hugo site with Debugging
         # 템플릿 빌드 과정의 상세 로그를 확인하기 위한 플래그 추가
         # 이 로그를 통해 어떤 템플릿에서 오류가 발생하는지 알 수 있습니다.
-        run: hugo -D --cleanDestinationDir --buildFuture --templateMetrics --templateMetricsHints
+        #run: hugo -D --cleanDestinationDir --buildFuture --templateMetrics --templateMetricsHints
+        run: hugo --gc --cleanDestinationDir --buildFuture --logLevel debug
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
