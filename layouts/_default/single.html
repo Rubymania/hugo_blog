@@ -134,7 +134,7 @@
         <!-- 카카오 SDK 로드 -->
         <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
         {{ $defaultOgImage := "images/share-thumbnail.jpg" }}
-        {{ $ogImage := or (.Params.image) (.Params.images | first) $defaultOgImage }}
+        {{ $ogImage := or (.Params.image) (index (first 1 .Params.images) 0) $defaultOgImage }}
         <script>
           // 카카오 초기화
           Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); // 여기에 본인의 JavaScript 키 입력
