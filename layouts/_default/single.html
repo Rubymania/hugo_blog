@@ -133,6 +133,8 @@
 
         <!-- 카카오 SDK 로드 -->
         <script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
+        {{ $defaultOgImage := "images/share-thumbnail.jpg" }}
+        {{ $ogImage := or (.Params.image) (.Params.images | first) $defaultOgImage }}
         <script>
           // 카카오 초기화
           Kakao.init('465178513bc6c112a1ed531f7b6c8a49'); // 여기에 본인의 JavaScript 키 입력
@@ -144,7 +146,7 @@
               content: {
                 title: document.title,
                 description: '이 포스트를 확인해보세요!',
-                imageUrl: 'https://plantmaru.com/images/share-thumbnail.jpg', // 썸네일 이미지
+                imageUrl: '{{ printf "%s/%s" .Site.BaseURL $ogImage | absURL }}',
                 link: {
                   mobileWebUrl: window.location.href,
                   webUrl: window.location.href
