@@ -1,7 +1,8 @@
 ---
-title: (식물백과) 13. 은은한 반짝임, 스킨답서스와의 하루
+title: "(식물백과) 13. 은은한 반짝임, 스킨답서스와의 하루"
 date: 2025-07-29
 images: ["/images/scindapsus.jpg"]
+og_image: ["/images/scindapsus.jpg"]
 tags:
   - 반려식물
   - 식물키우기
@@ -9,7 +10,6 @@ tags:
   - 무늬
   - 식물백과
   - 스킨답서스
-og_image:["/images/scindapsus.jpg"]
 draft: false
 ---
 

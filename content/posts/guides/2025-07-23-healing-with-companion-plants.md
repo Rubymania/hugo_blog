@@ -1,14 +1,14 @@
 ---
-title: 바쁜 일상 속 힐링, 반려식물로 얻는 마음의 평화
+title: "바쁜 일상 속 힐링, 반려식물로 얻는 마음의 평화"
 date: 2025-07-23
 images: ["/images/healing.png"]
+og_image: ["/images/healing.png"]
 tags:
   - 반려식물
   - 식물힐링
   - 플랜테리어
   - 마음의평화
   - 힐링
-og_image: ["/images/healing.png"]
 draft: false
 ---
 

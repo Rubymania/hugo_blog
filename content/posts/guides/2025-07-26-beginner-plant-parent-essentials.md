@@ -1,14 +1,14 @@
 ---
-title: 초보 식집사님, 이것만 준비하면 시작할 수 있어요! 나만의 초록 정원을 위한 필수템 가이드
+title: "초보 식집사님, 이것만 준비하면 시작할 수 있어요! 나만의 초록 정원을 위한 필수템 가이드"
 date: 2025-07-26
 images: ["/images/tools.jpg"]
+og_image: ["/images/tools.jpg"]
 tags:
   - 반려식물
   - 식물힐링
   - 식물입문자
   - 필수도구
   - 힐링
-og_image: ["/images/tools.jpg"]
 draft: false
 ---
 

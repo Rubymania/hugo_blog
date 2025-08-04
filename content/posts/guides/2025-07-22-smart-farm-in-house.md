@@ -1,7 +1,8 @@
 ---
-title: 스마트팜, 이제 우리 집으로! 미래형 식물 관리의 모든 것
+title: "스마트팜, 이제 우리 집으로! 미래형 식물 관리의 모든 것"
 date: 2025-07-22
 images: ["/images/plant_care.png"]
+og_image: ["/images/plant_care.png"]
 tags:
   - 반려식물
   - 식물키우기
@@ -9,7 +10,6 @@ tags:
   - 미래형식물관리
   - 플랜테리어
   - IoT
-og_image: ["/images/plant_care.png"]
 draft: false
 ---
 

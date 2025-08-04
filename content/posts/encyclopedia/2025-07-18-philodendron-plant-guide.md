@@ -1,15 +1,10 @@
 ---
-title: (식물백과) 7. 필로덴드론 (Philodendron) – 열대의 매력을 담은 실내 식물!
+title: "(식물백과) 7. 필로덴드론 (Philodendron) 열대의 매력을 담은 실내 식물!"
 date: 2025-07-18
-images:["/images/philodendron.png"]
-tags:
-  - 반려식물
-  - 식물키우기
-  - 식물입문자
-  - 식물수명
-  - 공기정화
-  - 필로덴드론
-og_image:["/images/philodendron.png"]
+images: ["/images/philodendron.png"]
+og:
+og_image: ["/images/philodendron.png"]
+tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "공기정화", "필로덴드론"]
 draft: false
 ---
 

@@ -1,9 +1,11 @@
 ---
 title: (식물백과) 1. 신비로운 구멍 잎, 몬스테라의 모든 것!
 date: 2025-07-14
-images:["/images/monstera.jpg"]
+publishDate: 2025-07-14T00:00:00+09:00
+images: ["/images/monstera.jpg"]
+og:
+og_image: ["/images/monstera.jpg"]
 tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "몬스테라"]
-og_image:["/images/monstera.jpg"]
 draft: false
 ---
 

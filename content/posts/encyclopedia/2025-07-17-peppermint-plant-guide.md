@@ -1,15 +1,10 @@
 ---
-title: (식물백과) 4. 상쾌한 향기의 매력,  페퍼민트  이야기!
+title: "(식물백과) 4. 상쾌한 향기의 매력,  페퍼민트  이야기!"
 date: 2025-07-17
-images:["/images/peppermint.png"]
-tags:
-  - 반려식물
-  - 식물키우기
-  - 식물입문자
-  - 식물수명
-  - 향기
-  - 페퍼민트
-og_image:["/images/peppermint.png"]
+publishDate: 2025-07-17T00:00:00+09:00
+images: ["/images/peppermint.png"]
+og_image: ["/images/peppermint.png"]
+tags: ["반려식물","식물키우기","식물입문자","식물수명","향기","페퍼민트"]
 draft: false
 ---
 

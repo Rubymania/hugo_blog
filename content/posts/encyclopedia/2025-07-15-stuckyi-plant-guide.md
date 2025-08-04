@@ -1,9 +1,11 @@
 ---
-title: (식물백과) 2. 공기정화 끝판왕, 스투키의 모든 것! 
+title: "(식물백과) 2. 공기정화 끝판왕, 스투키의 모든 것!" 
 date: 2025-07-15
-images:["/images/sansevieria_stuckyi.png"]
+publishDate: 2025-07-15T00:00:00+09:00
+images: ["/images/sansevieria_stuckyi.png"]
+og:
+og_image: ["/images/sansevieria_stuckyi.png"]
 tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "스투키", "산세베리아"]
-og_image:["/images/sansevieria_stuckyi.png"]
 draft: false
 ---
 

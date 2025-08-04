@@ -1,7 +1,8 @@
 ---
-title: 내 방에서 수확한 딸기 한 입?
+title: "내 방에서 수확한 딸기 한 입?"
 date: 2025-07-28
-images:["/images/strawberry.jpg"]
+images: ["/images/strawberry.jpg"]
+og_image: ["/images/strawberry.jpg"]
 tags:
   - 반려식물
   - 식물키우기
@@ -10,7 +11,6 @@ tags:
   - 토마토
   - 레몬
   - 블루베리
-og_image:["/images/strawberry.jpg"]
 draft: false
 ---
 

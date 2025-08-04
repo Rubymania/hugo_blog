@@ -1,9 +1,11 @@
 ---
-title: (식물백과) 3. 초보도 성공하는 공기정화 식물, 산세베리아의 모든 것! 
+title: "(식물백과) 3. 초보도 성공하는 공기정화 식물, 산세베리아의 모든 것!" 
 date: 2025-07-16
-images:["/images/sansevieria.png"]
+publishDate: 2025-07-16T00:00:00+09:00
+images: ["/images/sansevieria.png"]
+og:
+og_image: ["/images/sansevieria.png"]
 tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "공기정화", "산세베리아"]
-og_image:["/images/sansevieria.png"]
 draft: false
 ---
 

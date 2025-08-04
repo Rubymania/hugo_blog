@@ -3,7 +3,6 @@ title: "(식물백과) 21. 마란타 레우코네우라, 기도하는 식물의 
 date: 2025-08-04
 publishDate: 2025-08-04T00:00:00+09:00
 description: "마란타 레우코네우라(Prayer Plant)는 화려한 잎무늬와 밤에 잎을 오므리는 특별한 움직임으로 사랑받는 실내 식물입니다. 이 독특한 식물의 특징과 키우는 방법을 알아보세요."
-og:
 type: "article"
 images: ["/images/prayerplant.jpg"]
 og_title: "밤마다 기도하는 식물, 마란타 레우코네우라 🌿"

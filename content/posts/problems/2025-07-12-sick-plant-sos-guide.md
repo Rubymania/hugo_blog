@@ -1,9 +1,9 @@
 ---
-title: 우리 집 식물, 왜 자꾸 시들까? 초보 식집사를 위한 SOS 진단법! 
+title: "우리 집 식물, 왜 자꾸 시들까? 초보 식집사를 위한 SOS 진단법!" 
 date: 2025-07-12
 images: ["/images/sick-plant-sos.png"]
-tags: ["반려식물", "식물키우기", "식물입문자", "노란잎", "식물건강", "식물관리법"]
 og_image: ["/images/sick-plant-sos.png"]
+tags: ["반려식물", "식물키우기", "식물입문자", "노란잎", "식물건강", "식물관리법"]
 draft: false
 ---
 

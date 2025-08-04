@@ -1,9 +1,9 @@
 ---
-title: 벌레 OUT! 여름철 반려식물 해충 예방 및 퇴치 노하우 
+title: "벌레 OUT! 여름철 반려식물 해충 예방 및 퇴치 노하우" 
 date: 2025-07-11
 images: ["/images/pest-control-summer-plants.png"]
-tags: ["반려식물", "식물키우기", "식물입문자", "해충", "여름", "식물관리법"]
 og_image: ["/images/pest-control-summer-plants.png"]
+tags: ["반려식물", "식물키우기", "식물입문자", "해충", "여름", "식물관리법"]
 draft: false
 ---
 
