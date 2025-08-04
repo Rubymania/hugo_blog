@@ -8,6 +8,7 @@ tags:
   - 미래형식물관리
   - 플랜테리어
   - IoT
+og_image: ["/images/plant_care.png"]
 draft: false
 ---
 

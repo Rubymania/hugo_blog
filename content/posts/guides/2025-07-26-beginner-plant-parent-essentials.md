@@ -7,6 +7,7 @@ tags:
   - 식물입문자
   - 필수도구
   - 힐링
+og_image: ["/images/tools.jpg"]
 draft: false
 ---
 

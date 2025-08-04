@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 해피트리
   - 드라세나 프라그란스 마사네아
+og_image:[/images/happytree.png"]
 draft: false
 ---
 

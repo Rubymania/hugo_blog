@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 식물백과
   - 골드크레스트
+og_image:["/images/goldcrest.png"]
 draft: false
 ---
 

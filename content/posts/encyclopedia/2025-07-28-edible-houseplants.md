@@ -9,6 +9,7 @@ tags:
   - 토마토
   - 레몬
   - 블루베리
+og_image:["/images/strawberry.jpg"]
 draft: false
 ---
 

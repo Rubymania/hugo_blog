@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 식물백과
   - 스트티필룸
+og_image:["/images/spathiphyllum.png"]
 draft: false
 ---
 

@@ -9,6 +9,7 @@ tags:
   - 공기정화
   - 아레카
   - 야자
+og_image:["/images/arecapalm.png"]
 draft: false
 ---
 

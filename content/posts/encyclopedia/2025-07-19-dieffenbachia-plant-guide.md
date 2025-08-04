@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 식물백과
   - 디펜바키아
+og_image:["/images/dieffenbachia.png"]
 draft: false
 ---
 

@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 식물백과
   - 고무나무
+og_image:["/images/rubber_plant.png"]
 draft: false
 ---
 

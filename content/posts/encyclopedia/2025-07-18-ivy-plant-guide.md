@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 덩굴
   - 아이비
+og_image:["/images/ivy.png"]
 draft: false
 ---
 

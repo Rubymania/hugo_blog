@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 공기정화
   - 필로덴드론
+og_image:["/images/philodendron.png"]
 draft: false
 ---
 

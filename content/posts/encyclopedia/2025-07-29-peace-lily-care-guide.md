@@ -8,6 +8,7 @@ tags:
   - 평화
   - 식물백과
   - 백합
+og_image:["/images/lily.jpg"]
 draft: false
 ---
 

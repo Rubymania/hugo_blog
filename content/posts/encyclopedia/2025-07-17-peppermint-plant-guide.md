@@ -8,6 +8,7 @@ tags:
   - 식물수명
   - 향기
   - 페퍼민트
+og_image:["/images/peppermint.png"]
 draft: false
 ---
 

@@ -7,6 +7,7 @@ tags:
   - 플랜테리어
   - 마음의평화
   - 힐링
+og_image: ["/images/healing.png"]
 draft: false
 ---
 
