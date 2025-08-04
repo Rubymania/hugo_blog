@@ -1,6 +1,7 @@
 ---
 title: (식물백과) 14. 평화백합, Peace Lily 이야기
 date: 2025-07-29
+images:["/images/lily.jpg"]
 tags:
   - 반려식물
   - 식물키우기

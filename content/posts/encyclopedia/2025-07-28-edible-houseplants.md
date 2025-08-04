@@ -1,6 +1,7 @@
 ---
 title: 내 방에서 수확한 딸기 한 입?
 date: 2025-07-28
+images:["/images/strawberry.jpg"]
 tags:
   - 반려식물
   - 식물키우기

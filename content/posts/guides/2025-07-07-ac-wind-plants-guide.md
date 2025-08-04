@@ -1,7 +1,7 @@
-
 ---
 title: 에어컨 바람, 독이 될까 약이 될까? 여름철 식물 배치 가이드!
 date: 2025-07-07
+images: ["/images/plants_with_airconditioner.png"]
 tags: ["반려식물", "식물키우기", "식물입문자", "에어컨", "식물기초", "식물관리법"]
 og_image: ["/images/plants_with_airconditioner.png"]
 draft: false

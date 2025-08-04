@@ -1,6 +1,7 @@
 ---
 title: (식물 백과) 9. 이국적인 잎 무늬, 디펜바키아의 매력에 빠져봐!
 date: 2025-07-19
+images:["/images/dieffenbachia.png"]
 tags:
   - 반려식물
   - 식물키우기

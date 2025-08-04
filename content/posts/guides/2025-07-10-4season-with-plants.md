@@ -1,6 +1,7 @@
 ---
 title: 사계절 푸른 우리 집! 여름에도 빛나는 반려식물 키우기 
 date: 2025-07-10
+images: ["/images/4season_plant.png"]
 tags: ["반려식물", "식물키우기", "식물입문자", "사계절", "식물기초", "식물관리법"]
 og_image: ["/images/4season_plant.png"]
 draft: false

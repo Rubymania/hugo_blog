@@ -1,6 +1,7 @@
 ---
 title: 반려식물 입문자를 위한 식물 기초 사전
 date: 2025-05-27
+images: ["/images/plant_basic.jpg"]
 tags: ["반려식물", "식물키우기", "식물입문자", "식물기초", "식물관리법"]
 og_image: ["/images/plant_basic.jpg"]
 draft: false

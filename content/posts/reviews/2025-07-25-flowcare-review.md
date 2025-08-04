@@ -1,6 +1,7 @@
 ---
 title: 똑똑한 식물 도우미, 샤오미 플라워 케어 언박싱! 
 date: 2025-07-25
+images: ["/images/flowercare.jpg"]
 tags: ["반려식물", "식물키우기", "Flower care", "IoT", "스마트팜", "플라워케어"]
 og_image: ["/images/flowercare.jpg"]
 draft: false

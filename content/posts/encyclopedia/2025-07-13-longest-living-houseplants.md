@@ -1,6 +1,7 @@
 ---
 title: 수명이 제일 긴 집안에서 키울 수 있는 반려식물은?
 date: 2025-07-13
+images:["/images/longest-living-houseplants.png"]
 tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "식물기초"]
 og_image:["/images/longest-living-houseplants.png"]
 draft: false

@@ -1,6 +1,7 @@
 ---
 title: 바쁜 일상 속 힐링, 반려식물로 얻는 마음의 평화
 date: 2025-07-23
+images: ["/images/healing.png"]
 tags:
   - 반려식물
   - 식물힐링

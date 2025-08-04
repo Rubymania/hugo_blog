@@ -1,6 +1,7 @@
 ---
 title: (식물 백과) 8. 이국적인 힐링, 아레카 야자의 모든 것!
 date: 2025-07-19
+images:["/images/arecapalm.png"]
 tags:
   - 반려식물
   - 식물키우기

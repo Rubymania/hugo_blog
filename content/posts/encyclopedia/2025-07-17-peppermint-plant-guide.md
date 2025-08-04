@@ -1,6 +1,7 @@
 ---
 title: (식물백과) 4. 상쾌한 향기의 매력,  페퍼민트  이야기!
 date: 2025-07-17
+images:["/images/peppermint.png"]
 tags:
   - 반려식물
   - 식물키우기

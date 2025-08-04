@@ -1,6 +1,7 @@
 ---
 title: (식물 백과) 11. 든든한 초록 친구, 고무나무의 모든 것!
 date: 2025-07-21
+images:["/images/rubber_plant.png"]
 tags:
   - 반려식물
   - 식물키우기
