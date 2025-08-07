@@ -1,14 +1,26 @@
 ---
-title: "(식물백과) 25. 스파티필럼 – 조용한 위로를 건네는 실내 식물 🌿"
+title: (식물백과) 25. 대나무야자 – 공간에 싱그러움을 더하는 실내의 작은 숲 🌿
 date: 2025-08-07
 publishDate: 2025-08-07T00:00:00+09:00
-description: "우아한 하얀 꽃과 공기정화 능력까지 갖춘 스파티필럼(Peace Lily). 초보자도 키우기 쉬운 반려식물로, 실내 분위기를 차분하게 바꾸어주는 자연의 선물을 소개합니다."
-type: "article"
-images: ["/images/bamboo_palm.jpg"]
-og_title: "대나무야자, 집 안의 작은 열대 정원 🌿"
-og_description: "공기정화 능력과 아늑한 분위기를 동시에 선사하는 대나무야자. 키우기 쉬운 방법부터 인테리어 활용까지, 반려식물의 매력을 알아보세요."
-og_image: ["/images/bamboo_palm.jpg"]
-tags: ["대나무야자", "Bamboo Palm", "Chamaedorea seifrizii", "실내식물", "반려식물", "공기정화식물", "실내 정원"]
+description: 우아한 하얀 꽃과 공기정화 능력까지 갖춘 스파티필럼(Peace Lily). 초보자도 키우기 쉬운 반려식물로, 실내 분위기를 차분하게 바꾸어주는 자연의 선물을 소개합니다.
+type: article
+images:
+  - /images/bamboo_palm.jpg
+og_title: 대나무야자, 집 안의 작은 열대 정원 🌿
+og_description: 공기정화 능력과 아늑한 분위기를 동시에 선사하는 대나무야자. 키우기 쉬운 방법부터 인테리어 활용까지, 반려식물의 매력을 알아보세요.
+og_image:
+  - /images/bamboo_palm.jpg
+tags:
+  - 대나무야자
+  - Bamboo
+  - Palm
+  - Chamaedorea
+  - seifrizii
+  - 실내식물
+  - 반려식물
+  - 공기정화식물
+  - 실내
+  - 정원
 draft: false
 ---
 
