@@ -5,7 +5,7 @@ publishDate: 2025-08-12T00:00:00+09:00
 description: 거베라(Gerbera Daisy, Gerbera jamesonii) 키우기 가이드. 물주기, 햇빛, 온도, 색상별 의미와 IoT 센서를 활용한 스마트 가드닝 방법까지 소개합니다.
 type: article
 images:
-  - "/images/gerbera.\bjpg"
+  - "/images/gerbera.jpg"
 og_title: 거베라(Gerbera Daisy) 스마트 가드닝 가이드 🌼
 og_description: 햇살처럼 화사한 거베라. 키우기 요령, 색상별 의미, 인테리어 활용법, 그리고 IoT 센서를 활용한 스마트 재배법까지!
 og_image:
@@ -35,7 +35,7 @@ draft: false
 
 남아프리카 원산인 거베라는 비교적 강한 생명력을 지니고 있어 초보자도 키우기 쉬운 꽃입니다. 화분에 심어 베란다나 거실 창가를 화사하게 꾸밀 수 있고, 절화로 꽃병에 꽂아두면 며칠간 싱그러움을 유지합니다. 봄부터 가을까지 긴 개화기를 자랑해 오랫동안 꽃을 감상할 수 있다는 것도 큰 장점입니다.
 
-![거베라](/images/gerbera.jpg)   
+![거베라](/images/gerbera.jpg)
 
 ### 🌱 거베라 키우기 기본 팁
 
