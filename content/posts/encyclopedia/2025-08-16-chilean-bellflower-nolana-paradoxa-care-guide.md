@@ -5,7 +5,7 @@ publishDate: 2025-08-16T00:00:00+09:00
 description: 칠레안 벨 플라워(Chilean Bellflower, Nolana paradoxa)의 특징, 원산지, 키우는 법, 주의사항, 인테리어 활용 팁까지 상세하게 알려드립니다. 바닷바람과 햇살이 빚은 종 모양의 매력을 느껴보세요.
 type: article
 images:
-  - /images/bellflower.jpg
+  - /images/bellflower.jpg
 og_title: 칠레안 벨 플라워 키우기 가이드 | Chilean Bellflower
 og_description: 종 모양의 귀여운 칠레안 벨 플라워(Chilean Bellflower, Nolana paradoxa)를 잘 키우는 법과 인테리어 활용 팁을 소개합니다.
 og_image:
