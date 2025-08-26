@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/encyclopedia/2025-08-26-amaryllis-flower-care-guide-winter-blooming-bulb/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-08-27-pteris-multifida-care-guide/</loc>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/encyclopedia/</loc>
-    <lastmod>2025-08-26T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-08-26-amaryllis-flower-care-guide-winter-blooming-bulb/</loc>
     <lastmod>2025-08-26T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
