@@ -9,6 +9,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/posts/encyclopedia/2025-08-28-soleirolia-soleirolii-care-guide/</loc>
+    <lastmod>2025-08-27T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/posts/encyclopedia/</loc>
     <lastmod>2025-08-27T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
