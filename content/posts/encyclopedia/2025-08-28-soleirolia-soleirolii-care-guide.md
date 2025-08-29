@@ -1,7 +1,7 @@
 ---
 title: (식물백과) 45. 솔레이롤리아 키우기 | Soleirolia soleirolii 관리 가이드
-date: 2025-08-27
-publishDate: 2025-08-27T00:00:00+09:00
+date: 2025-08-28
+publishDate: 2025-08-28T00:00:00+09:00
 description: 솔레이롤리아(Soleirolia soleirolii) 키우는 법, 관리 요령, 인테리어 활용 팁까지 한눈에 알아보세요. 초보자도 쉽게 키울 수 있는 감성 반려식물 가이드!
 type: article
 images:
