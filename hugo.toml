@@ -57,7 +57,7 @@ type = "lunr"
 
   [params.author]
     name = "plantmaru"
-    email = "plantmaru@plantmaru.com"
+    email = "contact@plantmaru.com"
     link = ""
 
   [params.home.hero]
@@ -72,10 +72,11 @@ type = "lunr"
 
   [params.footer]
     enable = true
+    display_powered_by = false
     custom = "© 2025 플랜트마루 | 함께하는 반려식물 일상"
     hugo = false
-    theme = false
-    copyright = false
+    theme = true
+    copyright = "© {year} 플랜트마루 | 함께하는 반려식물 일상 (E-mail: contact@plantmaru.com), All rights reserved. "
     author = false
     since = 2025
 
@@ -83,7 +84,7 @@ type = "lunr"
     enable = false
 
   [params.site]
-    copyright = ""
+    copyright = "© 2025 플랜트마루 | 함께하는 반려식물 일상 (E-mail: contact@plantmaru.com)"
 
   [params.share]
     # 전체 공유 기능 활성화 (기본값: false). true로 설정해야 합니다.
