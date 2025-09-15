@@ -5,11 +5,11 @@ publishDate: 2025-09-16T00:00:00+09:00
 description: 익소라(Ixora chinensis)는 불꽃 같은 붉은 꽃이 매력적인 열대식물입니다. 키우는 방법, 관리 요령, 인테리어 활용법까지 함께 알아보세요.
 type: article
 images:
-  - /images/ixora-interior.jpg
+  - /images/ixora_interior.jpg
 og_title: 불꽃처럼 피어나는 꽃, 익소라(Ixora chinensis)
 og_description: 화려한 붉은 꽃으로 정원과 실내를 환하게 밝혀주는 익소라의 매력과 키우는 법을 만나보세요.
 og_image:
-  - /images/ixora-interior.jpg
+  - /images/ixora_interior.jpg
 tags: ["익소라", "Ixora", "산호수", "산호화", "열대식물", "꽃식물", "정원식물", "실내화분", "반려식물"]
 ---
 
