@@ -5,11 +5,11 @@ publishDate: 2025-09-23T00:00:00+09:00
 description: 무늬알피니아(Alpinia zerumbet 'Variegata')는 노란색과 초록색의 무늬잎이 매력적인 열대식물입니다. 관리법, 특징, 그리고 인테리어 활용 아이디어까지 확인해 보세요.
 type: article
 images: 
-  - /images/variegata-potted.jpg
+  - /images/variegata_potted.jpg
 og_title: 무늬알피니아 (Alpinia zerumbet 'Variegata') - 화려한 무늬잎의 열대식물
 og_description: 무늬알피니아의 화려한 무늬와 관리법, 인테리어 활용법까지 소개합니다. 공간을 환하게 밝히는 관엽식물로 만나보세요.
 og_image: 
-  - /images/variegata-potted.jpg
+  - /images/variegata_potted.jpg
 tags: ["무늬알피니아", "Alpinia_zerumbet_Variegata", "Variegated_Shell_Ginger", "관엽식물", "열대식물", "실내식물", "houseplant", "tropical_plant", "인테리어_식물", "green_interior", "플랜테리어"]
 ---
 
