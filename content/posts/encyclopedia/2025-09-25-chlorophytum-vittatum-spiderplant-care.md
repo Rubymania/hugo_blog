@@ -5,7 +5,7 @@ publishDate: 2025-09-25T00:00:00+09:00
 description: 비타툼접란(줄무늬 접란)은 관리가 쉽고 공기정화 효과가 뛰어난 실내 식물입니다. 키우는 방법과 인테리어 활용법까지 확인해보세요.
 type: article
 images:
-  - /images/chlorophytum-potted.jpg
+  - /images/chlorophytum_vittatum_potted.jpg
 og_title: 비타툼접란 (줄무늬 접란) 키우기 가이드
 og_description: 흰 줄무늬가 매력적인 비타툼접란(Chlorophytum comosum var. vittatum). 초보자도 쉽게 키우는 법과 인테리어 효과를 소개합니다.
 og_image:
