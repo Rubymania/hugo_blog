@@ -1,30 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>향기식물 on PlantMaru</title>
-    <link>http://localhost:1313/tags/%ED%96%A5%EA%B8%B0%EC%8B%9D%EB%AC%BC/</link>
-    <description>Recent content in 향기식물 on PlantMaru</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <managingEditor>contact@plantmaru.com (plantmaru)</managingEditor>
-    <webMaster>contact@plantmaru.com (plantmaru)</webMaster>
-    <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%ED%96%A5%EA%B8%B0%EC%8B%9D%EB%AC%BC/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>(식물백과) 47. 치자나무 키우기 가이드 | Gardenia jasminoides 관리법, 물주기, 인테리어 활용</title>
-      <link>http://localhost:1313/posts/encyclopedia/2025-08-30-gardenia-jasminoides-care-guide/</link>
-      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <author>contact@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/encyclopedia/2025-08-30-gardenia-jasminoides-care-guide/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;🌿 향긋한 매력, 치자나무 
-    &lt;div id=&#34;-향긋한-매력-치자나무&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
-    
-&lt;/h2&gt;
-&lt;p&gt;치자나무(&lt;em&gt;Gardenia jasminoides&lt;/em&gt;)는 &lt;strong&gt;짙고 향긋한 꽃향기&lt;/strong&gt; 로 유명한 상록 관목이에요.&lt;/p&gt;
-&lt;p&gt;초여름에서 한여름 사이, 깨끗하고 고운 &lt;strong&gt;순백의 꽃&lt;/strong&gt; 을 피우며 은은하면서도 진한 향을 풍기는 것이 특징입니다.&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>향기식물 on PlantMaru</title><link>https://plantmaru.com/tags/%ED%96%A5%EA%B8%B0%EC%8B%9D%EB%AC%BC/</link><description>Recent content in 향기식물 on PlantMaru</description><generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>contact@plantmaru.com (plantmaru)</managingEditor><webMaster>contact@plantmaru.com (plantmaru)</webMaster><copyright>© 2026 plantmaru</copyright><lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/tags/%ED%96%A5%EA%B8%B0%EC%8B%9D%EB%AC%BC/index.xml" rel="self" type="application/rss+xml"/><item><title>(식물백과) 47. 치자나무 키우기 가이드 | Gardenia jasminoides 관리법, 물주기, 인테리어 활용</title><link>https://plantmaru.com/posts/encyclopedia/2025-08-30-gardenia-jasminoides-care-guide/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><author>contact@plantmaru.com (plantmaru)</author><guid>https://plantmaru.com/posts/encyclopedia/2025-08-30-gardenia-jasminoides-care-guide/</guid><description>&lt;h2 class="relative group">🌿 향긋한 매력, 치자나무
+&lt;div id="-향긋한-매력-치자나무" class="anchor">&lt;/div>
+&lt;/h2>
+&lt;p>치자나무(&lt;em>Gardenia jasminoides&lt;/em>)는 &lt;strong>짙고 향긋한 꽃향기&lt;/strong> 로 유명한 상록 관목이에요.&lt;/p>
+&lt;p>초여름에서 한여름 사이, 깨끗하고 고운 &lt;strong>순백의 꽃&lt;/strong> 을 피우며 은은하면서도 진한 향을 풍기는 것이 특징입니다.&lt;/p></description></item></channel></rss>

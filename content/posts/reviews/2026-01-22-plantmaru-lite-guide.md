@@ -22,8 +22,8 @@ tags: ["플랜트마루", "식물집사", "반려식물", "가이드"]
 > [!info] **플랜트마루 Lite란?**
 
 > 복잡한 가입 절차 없이, 사진 한 장으로 식물의 병해충과 영양 상태를 분석해주는 AI 식물 건강 진단 앱입니다.
-
-![[plantmaru_lite_launcher.png]]
+> 
+![플랜트마루 실행](/images/plantmaru_lite_launcher.png)
 
 ---
 
@@ -31,7 +31,7 @@ tags: ["플랜트마루", "식물집사", "반려식물", "가이드"]
 
 앱을 실행하면 직관적인 두 가지 실행 버튼이 나타납니다.
 
-![[plantmaru_lite_home.png]]
+![플랜트마루 Lite 홈](/images/plantmaru_home.png)
 
 - 📸 **카메라**: 식물의 잎을 지금 바로 촬영하여 진단합니다.
 
@@ -49,7 +49,7 @@ tags: ["플랜트마루", "식물집사", "반려식물", "가이드"]
 
 사진을 전송하면 AI가 실시간으로 상태를 분석합니다.
 
-![[plantmaru_lite_diagnosis_result.png]]
+![플랜트마루 분석 결과](/images/plantmaru_lite_diagnosis_result.png)
 
 - **건강 점수**: 우리 식물의 에너지를 0~100점 사이로 표현합니다.
 
@@ -63,15 +63,15 @@ tags: ["플랜트마루", "식물집사", "반려식물", "가이드"]
 
 진단 결과는 예쁜 카드 형태로 공유하거나 기록으로 남길 수 있습니다.
 
-### 📤 카카오톡 공유
+### 📤 SNS (카카오톡,인스타그램) 공유
 
-![[plantmaru_lite_share.png]]
+![플랜트마루 분석 결과](/images/plantmaru_lite_share.png)
 
 - 하단의 **결과 공유** 버튼을 눌러 소중한 진단 결과를 가족, 친구에게 전송하세요.
 
 ### 📁 히스토리 확인
 
-![[plantmaru_lite_home_history.png]]
+![분석 히스토리](/images/plantmaru_lite_home_history.png)
 
 - **초록 친구들** 목록에는 그동안 내가 진단했던 모든 식물의 이력을 한눈에 볼 수 있습니다. 점수의 변화를 체크하며 식물의 회복 과정을 지켜보세요.
 

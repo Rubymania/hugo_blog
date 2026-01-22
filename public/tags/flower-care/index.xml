@@ -1,26 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Flower Care on PlantMaru</title>
-    <link>http://localhost:1313/tags/flower-care/</link>
-    <description>Recent content in Flower Care on PlantMaru</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    <managingEditor>contact@plantmaru.com (plantmaru)</managingEditor>
-    <webMaster>contact@plantmaru.com (plantmaru)</webMaster>
-    <copyright>© 2025 plantmaru</copyright>
-    <lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/flower-care/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>똑똑한 식물 도우미, 샤오미 플라워 케어 언박싱!</title>
-      <link>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</link>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-      <author>contact@plantmaru.com (plantmaru)</author>
-      <guid>http://localhost:1313/posts/reviews/2025-07-25-flowcare-review/</guid>
-      <description>&lt;p&gt;어서 오세요! 플랜트마루 블로거입니다.&lt;/p&gt;
-&lt;p&gt;오늘은 여러분의 사랑스러운 반려식물들을 더욱 스마트하게 돌볼 수 있도록 도와줄 &lt;strong&gt;샤오미 플라워 케어 (Xiaomi Flower Care) IoT 기기&lt;/strong&gt;를 직접 사용해본 솔직한 리뷰를 들고 왔어요. 저처럼 식물 집사 생활을 즐기시는 분들이라면 분명 솔깃하실 거예요!&lt;/p&gt;</description>
-      
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Flower Care on PlantMaru</title><link>https://plantmaru.com/tags/flower-care/</link><description>Recent content in Flower Care on PlantMaru</description><generator>Hugo -- gohugo.io</generator><language>ko</language><managingEditor>contact@plantmaru.com (plantmaru)</managingEditor><webMaster>contact@plantmaru.com (plantmaru)</webMaster><copyright>© 2026 plantmaru</copyright><lastBuildDate>Fri, 25 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://plantmaru.com/tags/flower-care/index.xml" rel="self" type="application/rss+xml"/><item><title>똑똑한 식물 도우미, 샤오미 플라워 케어 언박싱!</title><link>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</link><pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate><author>contact@plantmaru.com (plantmaru)</author><guid>https://plantmaru.com/posts/reviews/2025-07-25-flowcare-review/</guid><description>&lt;p>어서 오세요! 플랜트마루 블로거입니다.&lt;/p>
+&lt;p>오늘은 여러분의 사랑스러운 반려식물들을 더욱 스마트하게 돌볼 수 있도록 도와줄 &lt;strong>샤오미 플라워 케어 (Xiaomi Flower Care) IoT 기기&lt;/strong>를 직접 사용해본 솔직한 리뷰를 들고 왔어요. 저처럼 식물 집사 생활을 즐기시는 분들이라면 분명 솔깃하실 거예요!&lt;/p></description></item></channel></rss>
