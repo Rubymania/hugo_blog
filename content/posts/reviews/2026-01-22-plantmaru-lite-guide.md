@@ -31,7 +31,7 @@ tags: ["플랜트마루", "식물집사", "반려식물", "가이드"]
 
 앱을 실행하면 직관적인 두 가지 실행 버튼이 나타납니다.
 
-![플랜트마루 Lite 홈](/images/plantmaru_home.png)
+![플랜트마루 Lite 홈](/images/plantmaru_lite_home.png)
 
 - 📸 **카메라**: 식물의 잎을 지금 바로 촬영하여 진단합니다.
 
