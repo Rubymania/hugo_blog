@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plant on PlantMaru</title>
+    <link>http://localhost:1313/tags/plant/</link>
+    <description>Recent content in Plant on PlantMaru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <managingEditor>contact@plantmaru.com (plantmaru)</managingEditor>
+    <webMaster>contact@plantmaru.com (plantmaru)</webMaster>
+    <copyright>© 2025 plantmaru</copyright>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/plant/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>식물 초보도 걱정 없는 반려식물 생활! 플랜트마루</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <author>contact@plantmaru.com (plantmaru)</author>
+      <guid>http://localhost:1313/posts/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;🌿 플랜트마루에 오신 걸 환영합니다! 당신의 초록 생활을 위한 모든 것 💚 
+    &lt;div id=&#34;-플랜트마루에-오신-걸-환영합니다-당신의-초록-생활을-위한-모든-것-&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;안녕하세요, 식집사 이웃님들! 플랜트마루 블로그에 오신 것을 진심으로 환영합니다. 🌞 이곳은 푸릇푸릇한 반려식물과 함께하는 삶을 꿈꾸는 모든 분들을 위한 특별한 공간이에요. 흙 한 줌, 새싹 하나에도 설렘을 느끼는 여러분의 마음을 누구보다 잘 알기에, 플랜트마루는 식물 생활의 모든 순간을 함께하고 싶습니다.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

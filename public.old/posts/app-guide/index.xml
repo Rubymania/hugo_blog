@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>📱 앱 가이드 on PlantMaru</title>
+    <link>https://plantmaru.com/posts/app-guide/</link>
+    <description>Recent content in 📱 앱 가이드 on PlantMaru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    <managingEditor>plantmaru@plantmaru.com (plantmaru)</managingEditor>
+    <webMaster>plantmaru@plantmaru.com (plantmaru)</webMaster>
+    <copyright>© 2025 plantmaru</copyright>
+    <lastBuildDate>Wed, 21 May 2025 10:24:36 +0900</lastBuildDate><atom:link href="https://plantmaru.com/posts/app-guide/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Example Post in app-guide</title>
+      <link>https://plantmaru.com/posts/app-guide/example/</link>
+      <pubDate>Wed, 21 May 2025 10:24:36 +0900</pubDate>
+      <author>plantmaru@plantmaru.com (plantmaru)</author>
+      <guid>https://plantmaru.com/posts/app-guide/example/</guid>
+      <description>&lt;p&gt;This is an example post in the &amp;lsquo;app-guide&amp;rsquo; category. You can replace this with actual content later.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,776 @@
+archetypedir = 'archetypes'
+assetdir = 'assets'
+baseurl = 'https://plantmaru.com/'
+buildfuture = true
+cachedir = '/Users/albert_macpro/Library/Caches/hugo_cache'
+capitalizelisttitles = true
+contentdir = 'content'
+datadir = 'data'
+defaultcontentlanguage = 'ko'
+defaultoutputformat = 'html'
+enableemoji = true
+enablerobotstxt = true
+environment = 'production'
+hascjklanguage = true
+i18ndir = 'i18n'
+languagecode = 'ko'
+layoutdir = 'layouts'
+mainsections = ['posts']
+pluralizelisttitles = true
+publishdir = 'public'
+resourcedir = 'resources'
+staticdir = ['static']
+summarylength = 70
+theme = ['blowfish']
+themesdir = 'themes'
+timeout = '60s'
+title = 'PlantMaru'
+titlecasestyle = 'AP'
+workingdir = '/Users/albert_macpro/development/plantmaru_blog'
+
+[author]
+
+[build]
+  useresourcecachewhen = 'fallback'
+
+  [build.buildstats]
+
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'
+
+[caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxage = -1
+
+  [caches.getcsv]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.images]
+    dir = ':resourceDir/_gen'
+    maxage = -1
+
+  [caches.misc]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.modules]
+    dir = ':cacheDir/modules'
+    maxage = -1
+
+[contenttypes]
+  [contenttypes.'text/asciidoc']
+
+  [contenttypes.'text/html']
+
+  [contenttypes.'text/markdown']
+
+  [contenttypes.'text/org']
+
+  [contenttypes.'text/pandoc']
+
+  [contenttypes.'text/rst']
+
+[deployment]
+  invalidatecdn = true
+  maxdeletes = 256
+  workers = 10
+
+[frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  expirydate = ['expirydate', 'unpublishdate']
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+  publishdate = ['publishdate', 'pubdate', 'published', 'date']
+
+[httpcache]
+  [httpcache.cache]
+    [httpcache.cache.for]
+      excludes = ['**']
+
+  [[httpcache.polls]]
+    disable = true
+    high = '0s'
+    low = '0s'
+
+    [httpcache.polls.for]
+      includes = ['**']
+
+[imaging]
+  bgcolor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resamplefilter = 'box'
+
+[languages]
+  [languages.ko]
+    languagecode = 'ko'
+    languagename = 'Korean'
+    title = 'PlantMaru'
+    weight = 1
+
+[markup]
+  defaultmarkdownhandler = 'goldmark'
+
+  [markup.asciidocext]
+    backend = 'html5'
+    failurelevel = 'fatal'
+    noheaderorfooter = true
+    safemode = 'unsafe'
+
+    [markup.asciidocext.attributes]
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionlist = true
+      footnote = true
+      linkify = true
+      linkifyprotocol = 'https'
+      strikethrough = true
+      table = true
+      tasklist = true
+
+      [markup.goldmark.extensions.cjk]
+        eastasianlinebreaksstyle = 'simple'
+
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+
+        [markup.goldmark.extensions.extras.insert]
+
+        [markup.goldmark.extensions.extras.mark]
+
+        [markup.goldmark.extensions.extras.subscript]
+
+        [markup.goldmark.extensions.extras.superscript]
+
+      [markup.goldmark.extensions.passthrough]
+        [markup.goldmark.extensions.passthrough.delimiters]
+
+      [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        ellipsis = '&hellip;'
+        emdash = '&mdash;'
+        endash = '&ndash;'
+        leftanglequote = '&laquo;'
+        leftdoublequote = '&ldquo;'
+        leftsinglequote = '&lsquo;'
+        rightanglequote = '&raquo;'
+        rightdoublequote = '&rdquo;'
+        rightsinglequote = '&rsquo;'
+
+    [markup.goldmark.parser]
+      autoheadingid = true
+      autoidtype = 'github'
+      wrapstandaloneimagewithinparagraph = true
+
+      [markup.goldmark.parser.attribute]
+        title = true
+
+    [markup.goldmark.renderer]
+
+    [markup.goldmark.renderhooks]
+      [markup.goldmark.renderhooks.image]
+        enabledefault = true
+
+      [markup.goldmark.renderhooks.link]
+        enabledefault = true
+
+  [markup.highlight]
+    codefences = true
+    linenostart = 1
+    linenumbersintable = true
+    noclasses = true
+    style = 'monokai'
+    tabwidth = 4
+    wrapperclass = 'highlight'
+
+  [markup.tableofcontents]
+    endlevel = 3
+    startlevel = 2
+
+[mediatypes]
+  [mediatypes.'application/json']
+    delimiter = '.'
+    suffixes = ['json']
+
+  [mediatypes.'application/manifest+json']
+    delimiter = '.'
+    suffixes = ['webmanifest']
+
+  [mediatypes.'application/octet-stream']
+    delimiter = '.'
+
+  [mediatypes.'application/pdf']
+    delimiter = '.'
+    suffixes = ['pdf']
+
+  [mediatypes.'application/rss+xml']
+    delimiter = '.'
+    suffixes = ['xml', 'rss']
+
+  [mediatypes.'application/toml']
+    delimiter = '.'
+    suffixes = ['toml']
+
+  [mediatypes.'application/wasm']
+    delimiter = '.'
+    suffixes = ['wasm']
+
+  [mediatypes.'application/xml']
+    delimiter = '.'
+    suffixes = ['xml']
+
+  [mediatypes.'application/yaml']
+    delimiter = '.'
+    suffixes = ['yaml', 'yml']
+
+  [mediatypes.'font/otf']
+    delimiter = '.'
+    suffixes = ['otf']
+
+  [mediatypes.'font/ttf']
+    delimiter = '.'
+    suffixes = ['ttf']
+
+  [mediatypes.'image/bmp']
+    delimiter = '.'
+    suffixes = ['bmp']
+
+  [mediatypes.'image/gif']
+    delimiter = '.'
+    suffixes = ['gif']
+
+  [mediatypes.'image/jpeg']
+    delimiter = '.'
+    suffixes = ['jpg', 'jpeg', 'jpe', 'jif', 'jfif']
+
+  [mediatypes.'image/png']
+    delimiter = '.'
+    suffixes = ['png']
+
+  [mediatypes.'image/svg+xml']
+    delimiter = '.'
+    suffixes = ['svg']
+
+  [mediatypes.'image/tiff']
+    delimiter = '.'
+    suffixes = ['tif', 'tiff']
+
+  [mediatypes.'image/webp']
+    delimiter = '.'
+    suffixes = ['webp']
+
+  [mediatypes.'text/asciidoc']
+    delimiter = '.'
+    suffixes = ['adoc', 'asciidoc', 'ad']
+
+  [mediatypes.'text/calendar']
+    delimiter = '.'
+    suffixes = ['ics']
+
+  [mediatypes.'text/css']
+    delimiter = '.'
+    suffixes = ['css']
+
+  [mediatypes.'text/csv']
+    delimiter = '.'
+    suffixes = ['csv']
+
+  [mediatypes.'text/html']
+    delimiter = '.'
+    suffixes = ['html', 'htm']
+
+  [mediatypes.'text/javascript']
+    delimiter = '.'
+    suffixes = ['js', 'jsm', 'mjs']
+
+  [mediatypes.'text/jsx']
+    delimiter = '.'
+    suffixes = ['jsx']
+
+  [mediatypes.'text/markdown']
+    delimiter = '.'
+    suffixes = ['md', 'mdown', 'markdown']
+
+  [mediatypes.'text/org']
+    delimiter = '.'
+    suffixes = ['org']
+
+  [mediatypes.'text/pandoc']
+    delimiter = '.'
+    suffixes = ['pandoc', 'pdc']
+
+  [mediatypes.'text/plain']
+    delimiter = '.'
+    suffixes = ['txt']
+
+  [mediatypes.'text/rst']
+    delimiter = '.'
+    suffixes = ['rst']
+
+  [mediatypes.'text/tsx']
+    delimiter = '.'
+    suffixes = ['tsx']
+
+  [mediatypes.'text/typescript']
+    delimiter = '.'
+    suffixes = ['ts']
+
+  [mediatypes.'text/x-gotmpl']
+    delimiter = '.'
+    suffixes = ['gotmpl']
+
+  [mediatypes.'text/x-sass']
+    delimiter = '.'
+    suffixes = ['sass']
+
+  [mediatypes.'text/x-scss']
+    delimiter = '.'
+    suffixes = ['scss']
+
+  [mediatypes.'video/3gpp']
+    delimiter = '.'
+    suffixes = ['3gpp', '3gp']
+
+  [mediatypes.'video/mp4']
+    delimiter = '.'
+    suffixes = ['mp4']
+
+  [mediatypes.'video/mpeg']
+    delimiter = '.'
+    suffixes = ['mpg', 'mpeg']
+
+  [mediatypes.'video/ogg']
+    delimiter = '.'
+    suffixes = ['ogv']
+
+  [mediatypes.'video/webm']
+    delimiter = '.'
+    suffixes = ['webm']
+
+  [mediatypes.'video/x-msvideo']
+    delimiter = '.'
+    suffixes = ['avi']
+
+[menus]
+  [[menus.main]]
+    identifier = 'guide'
+    name = '🌿 반려식물 가이드'
+    url = '#'
+    weight = 1
+
+  [[menus.main]]
+    name = '🌱 식물백과'
+    parent = 'guide'
+    url = '/posts/encyclopedia/'
+
+  [[menus.main]]
+    name = '🧑‍🌾 키우는 팁'
+    parent = 'guide'
+    url = '/posts/guides/'
+
+  [[menus.main]]
+    name = '🚨 문제 해결'
+    parent = 'guide'
+    url = '/posts/problems/'
+
+  [[menus.main]]
+    name = '🛒 제품 & 리뷰'
+    url = '/posts/reviews/'
+    weight = 2
+
+  [[menus.main]]
+    name = '📆 키우기 캘린더'
+    url = '/posts/calendar/'
+    weight = 3
+
+  [[menus.main]]
+    identifier = 'community'
+    name = '📰 커뮤니티'
+    url = '#'
+    weight = 4
+
+  [[menus.main]]
+    name = '📘 반려식물 이야기'
+    parent = 'community'
+    url = '/posts/stories/'
+
+  [[menus.main]]
+    name = '📰 뉴스 & 트렌드'
+    parent = 'community'
+    url = '/posts/trends/'
+
+  [[menus.main]]
+    name = '📱 앱 안내'
+    url = '/posts/app-guide/'
+    weight = 5
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+      keepcss2 = true
+
+    [minify.tdewolff.html]
+      keepdefaultattrvals = true
+      keepdocumenttags = true
+      keependtags = true
+      keepspecialcomments = true
+      templatedelims = ['', '']
+
+    [minify.tdewolff.js]
+      version = 2022
+
+    [minify.tdewolff.json]
+
+    [minify.tdewolff.svg]
+
+    [minify.tdewolff.xml]
+
+[module]
+  noproxy = 'none'
+  private = '*.*'
+  proxy = 'direct'
+  workspace = 'off'
+
+  [module.hugoversion]
+
+  [[module.imports]]
+    path = 'blowfish'
+
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+
+  [[module.mounts]]
+    source = 'data'
+    target = 'data'
+
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+
+  [[module.mounts]]
+    source = 'i18n'
+    target = 'i18n'
+
+  [[module.mounts]]
+    source = 'archetypes'
+    target = 'archetypes'
+
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+
+[outputformats]
+  [outputformats.404]
+    ishtml = true
+    mediatype = 'text/html'
+    notalternative = true
+    permalinkable = true
+    ugly = true
+
+  [outputformats.alias]
+    ishtml = true
+    mediatype = 'text/html'
+    ugly = true
+
+  [outputformats.amp]
+    basename = 'index'
+    ishtml = true
+    mediatype = 'text/html'
+    path = 'amp'
+    permalinkable = true
+    rel = 'amphtml'
+
+  [outputformats.calendar]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/calendar'
+    protocol = 'webcal://'
+    rel = 'alternate'
+
+  [outputformats.css]
+    basename = 'styles'
+    isplaintext = true
+    mediatype = 'text/css'
+    notalternative = true
+    rel = 'stylesheet'
+
+  [outputformats.csv]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/csv'
+    rel = 'alternate'
+
+  [outputformats.gotmpl]
+    isplaintext = true
+    mediatype = 'text/x-gotmpl'
+    notalternative = true
+
+  [outputformats.html]
+    basename = 'index'
+    ishtml = true
+    mediatype = 'text/html'
+    permalinkable = true
+    rel = 'canonical'
+    weight = 10
+
+  [outputformats.json]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'application/json'
+    rel = 'alternate'
+
+  [outputformats.markdown]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/markdown'
+    rel = 'alternate'
+
+  [outputformats.robots]
+    basename = 'robots'
+    isplaintext = true
+    mediatype = 'text/plain'
+    rel = 'alternate'
+    root = true
+
+  [outputformats.rss]
+    basename = 'index'
+    mediatype = 'application/rss+xml'
+    nougly = true
+    rel = 'alternate'
+
+  [outputformats.sitemap]
+    basename = 'sitemap'
+    mediatype = 'application/xml'
+    rel = 'sitemap'
+    ugly = true
+
+  [outputformats.sitemapindex]
+    basename = 'sitemap'
+    mediatype = 'application/xml'
+    rel = 'sitemap'
+    root = true
+    ugly = true
+
+  [outputformats.webappmanifest]
+    basename = 'manifest'
+    isplaintext = true
+    mediatype = 'application/manifest+json'
+    notalternative = true
+    rel = 'manifest'
+
+[outputs]
+  home = ['html', 'rss']
+  page = ['html']
+  rss = ['rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
+
+[page]
+  nextprevinsectionsortorder = 'desc'
+  nextprevsortorder = 'desc'
+
+[pagination]
+  pagersize = 10
+  path = 'page'
+
+[params]
+  autoswitchappearance = true
+  colorscheme = 'blowfish'
+  dateformat = '2006-01-02'
+  defaultappearance = 'light'
+  defaulttheme = 'auto'
+  enablesearch = true
+  fingerprintalgorithm = 'sha512'
+  forgejodefaultserver = 'https://v11.next.forgejo.org'
+  giteadefaultserver = 'https://git.fsfe.org'
+  mainsections = ['posts']
+  subtitle = '반려식물과 함께하는 건강한 일상 🌿'
+
+  [params.advertisement]
+
+  [params.article]
+    editappendpath = true
+    layoutbackgroundblur = true
+    layoutbackgroundheaderspace = true
+    showauthor = true
+    showdate = true
+    showdraftlabel = true
+    showheadinganchors = true
+    showpagination = true
+    showreadingtime = true
+    showwordcount = true
+
+  [params.author]
+    email = 'plantmaru@plantmaru.com'
+    name = 'plantmaru'
+
+  [params.buymeacoffee]
+
+  [params.fathomanalytics]
+
+  [params.firebase]
+
+  [params.footer]
+    custom = '© 2025 플랜트마루 | 함께하는 반려식물 일상'
+    enable = true
+    showappearanceswitcher = true
+    showcopyright = true
+    showmenu = true
+    showscrolltotop = true
+    showthemeattribution = true
+    since = 2025
+
+  [params.header]
+    layout = 'basic'
+
+    [params.header.title]
+      name = '플랜트마루'
+      type = 'text'
+
+  [params.home]
+    [params.home.hero]
+      enable = true
+      subtitle = '반려식물과 함께하는 건강한 일상 🌿'
+      title = '플랜트마루'
+      typing = ['🌿 **플랜트마루**는 반려식물을 사랑하는 사람들을 위한 블로그입니다. ', '초보자도 쉽게 따라할 수 있는 키우는 팁부터, 제품 리뷰, IoT 연동까지 함께합니다.']
+
+  [params.homepage]
+    layout = 'default'
+    showmorelinkdest = '/posts/'
+    showrecentitems = 5
+
+  [params.list]
+    groupbyyear = true
+    layoutbackgroundblur = true
+    layoutbackgroundheaderspace = true
+
+  [params.rssnext]
+
+  [params.selineanalytics]
+
+  [params.share]
+    clipboard = true
+    enable = true
+    kakao = true
+    naver = true
+    print = true
+
+  [params.site]
+
+  [params.sitemap]
+    excludedkinds = ['taxonomy', 'term']
+
+  [params.social]
+
+  [params.taxonomy]
+    showtermcount = true
+
+  [params.term]
+    showtableofcontents = true
+
+  [params.umamianalytics]
+
+  [params.verification]
+
+[permalinks]
+  [permalinks.page]
+
+  [permalinks.section]
+
+  [permalinks.taxonomy]
+
+  [permalinks.term]
+
+[privacy]
+  [privacy.disqus]
+
+  [privacy.googleanalytics]
+
+  [privacy.instagram]
+
+  [privacy.twitter]
+
+  [privacy.vimeo]
+
+  [privacy.x]
+
+  [privacy.youtube]
+
+[related]
+  threshold = 80
+
+  [[related.indices]]
+    name = 'keywords'
+    type = 'basic'
+    weight = 100
+
+  [[related.indices]]
+    name = 'date'
+    type = 'basic'
+    weight = 10
+
+  [[related.indices]]
+    name = 'tags'
+    type = 'basic'
+    weight = 80
+
+[security]
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^git$', '^npx$', '^postcss$', '^tailwindcss$']
+    osenv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG|SYSTEMDRIVE)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
+
+[segments]
+
+[server]
+  [[server.redirects]]
+    from = '/**'
+    status = 404
+    to = '/404.html'
+
+[services]
+  [services.disqus]
+
+  [services.googleanalytics]
+
+  [services.instagram]
+
+  [services.rss]
+    limit = -1
+
+  [services.twitter]
+
+  [services.x]
+
+[sitemap]
+  filename = 'sitemap.xml'
+  priority = -1
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+[uglyurls]
