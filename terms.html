@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플랜트마루 서비스 이용약관 | Terms of Service | サービス利用規約</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2E7D32;
+            --primary-light: #4CAF50;
+            --secondary-color: #1B5E20;
+            --bg-color: #F8FAF8;
+            --card-bg: #FFFFFF;
+            --text-main: #2C3E50;
+            --text-muted: #5D6D7E;
+            --border-color: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7; margin: 0; padding: 0;
+            background-color: var(--bg-color); color: var(--text-main);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white; padding: 60px 20px; text-align: center; margin-bottom: -40px; position: relative;
+        }
+
+        .lang-selector {
+            position: absolute; top: 20px; right: 20px; display: flex; gap: 8px; z-index: 1000;
+        }
+
+        .lang-btn {
+            background: rgba(255, 255, 255, 0.2); border: 1px solid rgba(255, 255, 255, 0.4);
+            color: white; padding: 6px 14px; border-radius: 20px; cursor: pointer;
+            font-size: 0.85rem; font-weight: 600; transition: all 0.3s;
+        }
+
+        .lang-btn.active { background: white; color: var(--primary-color); border-color: white; }
+
+        .header h1 { margin: 0; font-size: 2.5rem; font-weight: 800; letter-spacing: -0.02em; }
+        .header p { margin-top: 10px; opacity: 0.9; font-size: 1.1rem; }
+
+        .container { max-width: 900px; margin: 0 auto 60px; padding: 0 20px; }
+
+        .tabs-container {
+            display: flex; background: #EDF2EE; padding: 6px; border-radius: 16px;
+            margin-bottom: 40px; position: sticky; top: 20px; z-index: 100;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+
+        .tab-btn {
+            flex: 1; padding: 14px 20px; border: none; background: transparent;
+            font-size: 1rem; font-weight: 600; color: var(--text-muted);
+            cursor: pointer; border-radius: 12px; transition: all 0.3s;
+            display: flex; justify-content: center; align-items: center;
+        }
+
+        .tab-btn.active { background: white; color: var(--primary-color); box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); }
+
+        .card {
+            background: var(--card-bg); padding: 40px; border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05); border: 1px solid var(--border-color);
+        }
+
+        .content-section { display: none; animation: fadeIn 0.4s ease-out; }
+        .content-section.active { display: block; }
+
+        [data-lang] { display: none; }
+        .lang-ko [data-lang="ko"] { display: block; }
+        .lang-en [data-lang="en"] { display: block; }
+        .lang-jp [data-lang="jp"] { display: block; }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+        h2 {
+            font-size: 1.4rem; color: var(--primary-color); margin-top: 40px;
+            padding-bottom: 12px; border-bottom: 2px solid #F1F5F1;
+            display: flex; align-items: center; gap: 12px;
+        }
+
+        h2::before { content: ''; width: 4px; height: 24px; background: var(--primary-color); border-radius: 2px; }
+        ul { padding-left: 20px; list-style: none; }
+        li { margin-bottom: 12px; position: relative; padding-left: 20px; }
+        li::before { content: "•"; color: var(--primary-light); font-weight: bold; position: absolute; left: 0; }
+
+        .highlight { color: var(--primary-color); font-weight: 600; }
+        .warning-box { background-color: #FFF5F5; border-left: 4px solid #FC8181; padding: 20px; border-radius: 8px; margin: 20px 0; font-size: 0.95rem; color: #C53030; }
+        .info-box { background-color: #F1F8F1; border-left: 4px solid var(--primary-color); padding: 20px; border-radius: 8px; margin: 20px 0; font-size: 0.95rem; }
+        footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.9rem; }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.8rem; }
+            .card { padding: 25px; }
+        }
+    </style>
+</head>
+<body class="lang-ko">
+
+<div class="header">
+    <div class="lang-selector">
+        <button class="lang-btn active" id="btn-ko" onclick="switchLang('ko')">한국어</button>
+        <button class="lang-btn" id="btn-en" onclick="switchLang('en')">English</button>
+        <button class="lang-btn" id="btn-jp" onclick="switchLang('jp')">日本語</button>
+    </div>
+    <h1 id="header-title">서비스 이용약관</h1>
+    <p id="header-sub">플랜트마루와 함께 건강한 반려식물 생활을 시작하세요.</p>
+</div>
+
+<div class="container">
+    <div class="tabs-container">
+        <button class="tab-btn active" id="tab-lite" onclick="switchTab('lite')">
+            <span data-lang="ko">플랜트마루 Lite</span>
+            <span data-lang="en">Plantmaru Lite</span>
+            <span data-lang="jp">プラントマル Lite</span>
+        </button>
+        <button class="tab-btn" id="tab-pro" onclick="switchTab('pro')">
+            <span data-lang="ko">플랜트마루 Pro</span>
+            <span data-lang="en">Plantmaru Pro</span>
+            <span data-lang="jp">プラントマル Pro</span>
+        </button>
+    </div>
+
+    <div class="card">
+        <!-- 1. AI 서비스 면책 (가장 중요) -->
+        <h2 data-lang="ko">1. 인공지능(AI) 서비스 이용 면책 조항</h2>
+        <h2 data-lang="en">1. AI Service Disclaimer</h2>
+        <h2 data-lang="jp">1. AIサービス利用に関する免責事項</h2>
+        
+        <div class="warning-box">
+            <div data-lang="ko">
+                <strong>주의:</strong> 본 서비스의 모든 진단 결과는 AI 분석에 기반하므로 100% 정확도를 보장하지 않습니다. 분석 결과에 따른 행위(약제 살포, 식물 처분 등)로 인해 발생하는 결과에 대해 개발사는 법적 책임을 지지 않습니다.
+            </div>
+            <div data-lang="en">
+                <strong>Notice:</strong> All diagnosis results are based on AI analysis and do not guarantee 100% accuracy. The developer is not liable for any outcomes arising from actions taken based on the results.
+            </div>
+            <div data-lang="jp">
+                <strong>注意：</strong> 本サービスのすべての診断結果はAI分析に基づくものであり、100％の正確性を保証するものではありません。診断結果に基づく行為により生じた結果について、開発者は一切の責任を負いません。
+            </div>
+        </div>
+
+        <!-- 2. 서비스 형태별 이용 규칙 -->
+        <div id="lite-content" class="content-section active">
+            <h2 data-lang="ko">2. Lite 서비스 이용</h2>
+            <h2 data-lang="en">2. Lite Service Usage</h2>
+            <h2 data-lang="jp">2. Liteサービスの利用</h2>
+            <div data-lang="ko">
+                <ul>
+                    <li>비로그인 방식으로 제공되며, 앱 삭제 또는 데이터 초기화 시 기존 진단 기록이 복구되지 않을 수 있습니다.</li>
+                    <li>무료 서비스인 Lite 버전은 광고가 포함될 수 있으며, 언제든 서비스 내용이 변경될 수 있습니다.</li>
+                </ul>
+            </div>
+            <div data-lang="en">
+                <ul>
+                    <li>Provided for non-members. History may be lost if the app is deleted or data is cleared.</li>
+                    <li>Lite version is a free service that may include ads and features may change without notice.</li>
+                </ul>
+            </div>
+            <div data-lang="jp">
+                <ul>
+                    <li>非会員方式で提供され、アプリの削除やデータ初期化時に診断履歴が復旧できない場合があります。</li>
+                    <li>無料版であるLite版には広告が含まれる場合があり、サービス内容はいつでも変更される可能性があります。</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="pro-content" class="content-section">
+            <h2 data-lang="ko">2. Pro 서비스 및 결제</h2>
+            <h2 data-lang="en">2. Pro Service & Payments</h2>
+            <h2 data-lang="jp">2. Proサービスおよび決済</h2>
+            <div data-lang="ko">
+                <ul>
+                    <li>구독/결제는 각 앱 스토어(Apple/Google)의 결제 시스템을 따르며, 환불 정책 또한 스토어의 규정을 따릅니다.</li>
+                    <li>IoT 기기 연동 시 네트워크 상태에 따라 데이터 전송 지연 또는 오류가 발생할 수 있습니다.</li>
+                </ul>
+            </div>
+            <div data-lang="en">
+                <ul>
+                    <li>Subscriptions and payments follow App Store/Play Store rules, including refund policies.</li>
+                    <li>IoT connectivity may experience delays or errors depending on network conditions.</li>
+                </ul>
+            </div>
+            <div data-lang="jp">
+                <ul>
+                    <li>購読および決済は各アプリストアのシステムに従い、返金ポリシーもストアの規定に従います。</li>
+                    <li>IoT機器の連携時、ネットワーク状態によりデータの遅延やエラーが発生する場合があります。</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Common Sections -->
+        <h2 data-lang="ko">3. 지적 재산권</h2>
+        <h2 data-lang="en">3. Intellectual Property</h2>
+        <h2 data-lang="jp">3. 知的財産権</h2>
+        <div data-lang="ko"><p>앱 내 모든 디자인, 텍스트, 알고리즘은 플랜트마루의 소유이며 무단 복제를 금합니다. 이용자가 업로드한 이미지는 서비스 품질 개선 및 AI 학습에 활용될 수 있습니다.</p></div>
+        <div data-lang="en"><p>All design, text, and algorithms are owned by Plantmaru. User images may be used for service improvement and AI training.</p></div>
+        <div data-lang="jp"><p>アプリ内のデザイン、テキスト、アルゴリズムはプラントマルの所有物です。利用者がアップロードした画像は、サービス改善やAI学習に活用される場合があります。</p></div>
+
+        <h2 data-lang="ko">4. 준거법 및 관할 법원</h2>
+        <h2 data-lang="en">4. Governing Law</h2>
+        <h2 data-lang="jp">4. 準拠法および裁判管轄</h2>
+        <div data-lang="ko"><p>본 약관은 대한민국 법령을 준수하며, 서비스 관련 분쟁 발생 시 관할 법원은 서울중앙지방법원으로 합니다.</p></div>
+        <div data-lang="en"><p>These terms are governed by the laws of the Republic of Korea. Any disputes shall be settled in the Seoul Central District Court.</p></div>
+        <div data-lang="jp"><p>本規約は大韓民国の法令に準拠し、サービスに関する紛争が生じた場合はソウル中央地方裁判所を専属的管轄裁判所とします。</p></div>
+
+        <div class="info-box" style="margin-top: 40px;">
+            <span data-lang="ko">시행 일자: 2025년 9월 2일</span>
+            <span data-lang="en">Effective Date: September 2, 2025</span>
+            <span data-lang="jp">施行日：2025年9月2日</span>
+        </div>
+    </div>
+</div>
+
+<footer>&copy; 2025 Plantmaru. All rights reserved.</footer>
+
+<script>
+    function switchTab(type) {
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        if (event && event.currentTarget) event.currentTarget.classList.add('active');
+        else document.getElementById('tab-' + type).classList.add('active');
+        document.querySelectorAll('.content-section').forEach(section => section.classList.remove('active'));
+        document.getElementById(type + '-content').classList.add('active');
+    }
+
+    function switchLang(lang) {
+        document.body.className = 'lang-' + lang;
+        document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('btn-' + lang).classList.add('active');
+        const texts = {
+            ko: { title: "서비스 이용약관", sub: "건강한 반려식물 생활을 제안합니다." },
+            en: { title: "Terms of Service", sub: "Start a healthy plant life with us." },
+            jp: { title: "サービス利用規約", sub: "植物との健やかな暮らしをサポートします。" }
+        };
+        document.getElementById('header-title').innerText = texts[lang].title;
+        document.getElementById('header-sub').innerText = texts[lang].sub;
+    }
+
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang');
+        if (lang) switchLang(lang);
+    }
+</script>
+
+</body>
+</html>
