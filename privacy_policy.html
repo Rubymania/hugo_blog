@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>플랜트마루 개인정보 처리 방침</title>
+    <title id="page-title">플랜트마루 개인정보 처리 방침 | Plantmaru Privacy Policy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap" rel="stylesheet">
@@ -35,11 +35,40 @@
             padding: 60px 20px;
             text-align: center;
             margin-bottom: -40px;
+            position: relative;
+        }
+
+        /* Language Selector Positioning */
+        .lang-selector {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 8px;
+        }
+
+        .lang-btn {
+            background: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            backdrop-filter: blur(5px);
+            transition: all 0.2s;
+        }
+
+        .lang-btn.active {
+            background: white;
+            color: var(--primary-color);
+            border-color: white;
         }
 
         .header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             font-weight: 800;
             letter-spacing: -0.02em;
         }
@@ -54,14 +83,6 @@
             max-width: 900px;
             margin: 0 auto 60px;
             padding: 0 20px;
-        }
-
-        .card {
-            background: var(--card-bg);
-            padding: 40px;
-            border-radius: 24px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-            border: 1px solid var(--border-color);
         }
 
         /* Tabs Styling */
@@ -87,13 +108,21 @@
             color: var(--text-muted);
             cursor: pointer;
             border-radius: 12px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: all 0.3s;
         }
 
         .tab-btn.active {
             background: white;
             color: var(--primary-color);
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+            border: 1px solid var(--border-color);
         }
 
         .content-section {
@@ -105,15 +134,20 @@
             display: block;
         }
 
+        /* Language visibility control */
+        [data-lang] { display: none; }
+        .lang-ko [data-lang="ko"] { display: block; }
+        .lang-en [data-lang="en"] { display: block; }
+
         @keyframes fadeIn {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
         h2 {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             color: var(--primary-color);
-            margin-top: 40px;
+            margin-top: 45px;
             padding-bottom: 12px;
             border-bottom: 2px solid #F1F5F1;
             display: flex;
@@ -129,23 +163,8 @@
             border-radius: 2px;
         }
 
-        h3 {
-            font-size: 1.2rem;
-            margin-top: 25px;
-            color: var(--secondary-color);
-        }
-
-        ul {
-            padding-left: 20px;
-            list-style: none;
-        }
-
-        li {
-            margin-bottom: 12px;
-            position: relative;
-            padding-left: 20px;
-        }
-
+        ul { padding-left: 20px; list-style: none; }
+        li { margin-bottom: 12px; position: relative; padding-left: 20px; }
         li::before {
             content: "•";
             color: var(--primary-light);
@@ -156,18 +175,25 @@
             position: absolute;
         }
 
-        .highlight {
-            color: var(--primary-color);
-            font-weight: 600;
-        }
-
+        .highlight { color: var(--primary-color); font-weight: 600; }
+        
         .info-box {
             background-color: #F1F8F1;
             border-left: 4px solid var(--primary-color);
             padding: 20px;
-            border-radius: 8px;
+            border-radius: 12px;
             margin: 20px 0;
             font-size: 0.95rem;
+        }
+
+        .disclaimer-box {
+            background-color: #FFF9F2;
+            border-left: 4px solid #FF9800;
+            padding: 15px 20px;
+            border-radius: 12px;
+            margin: 25px 0;
+            font-size: 0.9rem;
+            color: #795548;
         }
 
         .footer-info {
@@ -179,147 +205,186 @@
             text-align: center;
         }
 
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-        }
+        footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.9rem; }
 
         @media (max-width: 600px) {
-            .header h1 { font-size: 1.8rem; }
+            .header h1 { font-size: 1.6rem; }
             .card { padding: 25px; }
-            .tabs-container { top: 10px; }
-            .tab-btn { padding: 10px 5px; font-size: 0.9rem; }
+            .lang-selector { top: 10px; right: 10px; }
         }
     </style>
 </head>
-<body>
+<body class="lang-ko">
 
 <div class="header">
-    <h1>개인정보 처리 방침</h1>
-    <p>플랜트마루는 이용자의 소중한 정보를 보호하기 위해 최선을 다합니다.</p>
+    <div class="lang-selector">
+        <button class="lang-btn active" id="btn-ko" onclick="switchLang('ko')">한국어</button>
+        <button class="lang-btn" id="btn-en" onclick="switchLang('en')">English</button>
+    </div>
+    <h1 id="title-main">개인정보 처리 방침</h1>
+    <p id="title-sub">플랜트마루는 이용자의 정보를 안전하게 보호합니다.</p>
 </div>
 
 <div class="container">
     <div class="tabs-container">
-        <button class="tab-btn active" onclick="switchTab('lite')">플랜트마루 Lite</button>
-        <button class="tab-btn" onclick="switchTab('pro')">플랜트마루 (정식 버전)</button>
+        <button class="tab-btn active" id="tab-lite" onclick="switchTab('lite')">플랜트마루 Lite</button>
+        <button class="tab-btn" id="tab-pro" onclick="switchTab('pro')">플랜트마루 Pro</button>
     </div>
 
     <div class="card">
+        <!-- AI Disclaimer (Global Requirement) -->
+        <div class="disclaimer-box">
+            <div data-lang="ko">
+                <strong>💡 진단 결과 안내:</strong> AI 분석 결과는 정보 제공용이며 전문가의 진단을 대체할 수 없습니다. 분석 이미지는 서비스 제공 후 서버에서 즉시 또는 단시간 내에 자동 파기됩니다.
+            </div>
+            <div data-lang="en">
+                <strong>💡 Note on AI Results:</strong> AI diagnosis results are for informational purposes only and cannot replace professional advice. Uploaded images are automatically deleted from our servers once the analysis is complete or shortly thereafter.
+            </div>
+        </div>
+
         <div class="info-box">
-            플랜트마루 서비스는 이용자의 개인정보를 소중히 생각하며, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 및 「개인정보보호법」 등 관련 법규를 준수하여 이용자의 권익 보호에 최선을 다하고 있습니다. <br>
-            <small>본 개인정보 처리 방침은 <strong>2025년 9월 2일</strong>부터 적용됩니다.</small>
+            <div data-lang="ko">
+                플랜트마루는 「개인정보보호법」 등 관련 법규를 준수하여 이용자의 권익 보호에 최선을 다하고 있습니다. <br>
+                <small>시행 일자: <strong>2025년 9월 2일</strong></small>
+            </div>
+            <div data-lang="en">
+                Plantmaru is committed to protecting user rights in accordance with data protection laws. <br>
+                <small>Effective Date: <strong>September 2, 2025</strong></small>
+            </div>
         </div>
 
         <!-- Lite Version Content -->
         <div id="lite-content" class="content-section active">
-            <h2>1. 수집하는 개인정보의 항목 및 수집 방법</h2>
-            <p><span class="highlight">플랜트마루 Lite</span>는 별도의 회원가입 없이 이용하실 수 있는 간편 버전으로, 아래와 같은 최소한의 정보만을 수집합니다.</p>
-            <ul>
-                <li><strong>서비스 이용 시</strong>: 반려식물 사진, 분석 결과(건강 상태, 질병 의심 여부 등), 단말기 식별자(고유 ID), 앱 사용 기록, 접속 로그</li>
-                <li><strong>수집 방법</strong>: 앱 내 카메라/갤러리 접근 권한 및 서비스 이용 과정에서 자동 생성</li>
-            </ul>
+            <h2 data-lang="ko">1. 수집하는 개인정보 및 방법</h2>
+            <h2 data-lang="en">1. Information We Collect</h2>
+            <div data-lang="ko">
+                <p><span class="highlight">Lite 버전</span>은 회원가입 없이 아래 정보를 수집합니다.</p>
+                <ul>
+                    <li>반려식물 사진, 분석 결과, 단말기 식별 고유 ID, 앱 사용 기록</li>
+                    <li>수집 방법: 카메라/갤러리 접근 및 서비스 이용 시 자동 생성</li>
+                </ul>
+            </div>
+            <div data-lang="en">
+                <p><span class="highlight">Lite Version</span> collects the following without membership registration:</p>
+                <ul>
+                    <li>Plant photos, analysis results, Device Unique ID, App usage logs</li>
+                    <li>Method: Camera/Gallery access and automatic generation during use</li>
+                </ul>
+            </div>
 
-            <h2>2. 개인정보의 수집 및 이용 목적</h2>
-            <p>수집된 개인정보는 다음의 목적을 위해 활용됩니다.</p>
-            <ul>
-                <li><strong>서비스 제공</strong>: AI 반려식물 건강 진단 결과 제공 및 이미지 분석</li>
-                <li><strong>서비스 개선</strong>: 서비스 품질 개선 및 알고리즘 분석·학습, 새로운 기능 개발</li>
-                <li><strong>고객 지원</strong>: 이용자의 문의 및 불만 처리, 부정 이용 방지</li>
-            </ul>
-
-            <h2>3. 개인정보의 보유 및 이용 기간</h2>
-            <p>이용자의 개인정보는 원칙적으로 개인정보 수집 및 이용 목적이 달성된 후 지체 없이 파기합니다. 단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우, 해당 기간 동안 보관합니다.</p>
-
-            <h2>4. 개인정보의 제3자 제공</h2>
-            <p>서비스 제공을 위한 필수적인 필수 제휴의 경우, 아래와 같이 정보를 위탁 또는 제공할 수 있습니다.</p>
-            <ul>
-                <li><strong>OpenAI / Google Gemini</strong>: AI 이미지 분석 및 건강 상태 진단 (제공 정보: 전송된 식물 이미지)</li>
-                <li><strong>Google Analytics / Firebase</strong>: 앱 사용 분석 및 통계 (제공 정보: 익명화된 사용 로그)</li>
-                <li><strong>Supabase</strong>: 클라우드 기반 기능 수행 및 데이터 처리 (제공 정보: 단말기 식별자, 식물 정보 등)</li>
-            </ul>
+            <h2 data-lang="ko">2. 이용 목적</h2>
+            <h2 data-lang="en">2. Purpose of Use</h2>
+            <div data-lang="ko">
+                <ul>
+                    <li>AI 진단 결과 제공 및 이미지 분석</li>
+                    <li>품질 개선 및 AI 알고리즘 학습</li>
+                    <li>문의 대응 및 부정 이용 방지</li>
+                </ul>
+            </div>
+            <div data-lang="en">
+                <ul>
+                    <li>Providing AI diagnosis results and image analysis</li>
+                    <li>Service improvement and AI algorithm training</li>
+                    <li>Customer support and security monitoring</li>
+                </ul>
+            </div>
         </div>
 
         <!-- Pro Version Content -->
         <div id="pro-content" class="content-section">
-            <h2>1. 수집하는 개인정보의 항목 및 수집 방법</h2>
-            <p><span class="highlight">플랜트마루 정식 버전</span>은 통합 관리 서비스를 위해 아래와 같은 개인정보를 수집합니다.</p>
-            <ul>
-                <li><strong>회원 가입 시</strong>: 이메일, 프로필 사진, 사용자 이름</li>
-                <li><strong>서비스 이용 시</strong>: 사용자 식별 정보(고유 ID), 식물 정보(이름, 종), 사진 데이터, 센서 데이터(온도, 습도, 조도, 토양 수분), 앱 사용 기록, 접속 로그</li>
-            </ul>
-
-            <h2>2. 개인정보의 수집 및 이용 목적</h2>
-            <p>수집된 개인정보는 다음의 목적을 위해 활용됩니다.</p>
-            <ul>
-                <li><strong>서비스 제공</strong>: 회원 관리 및 식물 관리 서비스 제공, 챗봇 기능, 맞춤형 정보 제공</li>
-                <li><strong>서비스 개선</strong>: 서비스 이용 통계 분석 및 기능 개선, 새로운 기능 개발</li>
-                <li><strong>고객 지원</strong>: 이용자의 문의 및 불만 처리, 공지사항 전달</li>
-            </ul>
-
-            <h2>3. 개인정보의 보유 및 이용 기간</h2>
-            <p>이용자의 개인정보는 원칙적으로 개인정보 수집 및 이용 목적이 달성된 후 지체 없이 파기합니다. 단, 관계 법령의 규정에 의하여 보존할 필요가 있는 경우 관련 법령에서 정한 기간 동안 회원 정보를 보관합니다.</p>
-            <ul>
-                <li>계약 또는 청약 철회 등에 관한 기록: 5년 (전자상거래 등에서의 소비자보호에 관한 법률)</li>
-                <li>소비자의 불만 또는 분쟁 처리에 관한 기록: 3년 (전자상거래 등에서의 소비자보호에 관한 법률)</li>
-            </ul>
-
-            <h2>4. 개인정보의 제3자 제공</h2>
-            <p>플랜트마루는 이용자의 동의 없이 개인정보를 외부에 제공하지 않습니다. 단, 서비스 제공을 위한 필수적인 제휴/위탁의 경우, 아래와 같이 개인정보를 제공할 수 있습니다.</p>
-            <ul>
-                <li><strong>Supabase</strong>: 사용자 계정 및 식물 데이터 관리, DB/Edge Function 서비스 제공 (제공 정보: 이메일, 사용자 ID, 식물 정보 등)</li>
-                <li><strong>OpenAI / Google Gemini</strong>: 챗봇 기능 제공 (제공 정보: 대화 내용, 식물 건강 데이터 등)</li>
-                <li><strong>Google Analytics / Firebase</strong>: 앱 사용 분석 및 개선 (제공 정보: 사용 기록, 접속 로그 등)</li>
-            </ul>
+            <h2 data-lang="ko">1. 수집하는 개인정보 및 방법</h2>
+            <h2 data-lang="en">1. Information We Collect</h2>
+            <div data-lang="ko">
+                <p><span class="highlight">Pro 버전</span>은 계정 기반 관리를 위해 아래 정보를 추가 수집합니다.</p>
+                <ul>
+                    <li>이메일, 프로필 이름, 식물 관리 상세 데이터(센서 정보 등)</li>
+                </ul>
+            </div>
+            <div data-lang="en">
+                <p><span class="highlight">Pro Version</span> collects additional account-based information:</p>
+                <ul>
+                    <li>Email, Profile Name, Detailed plant management data (Sensor data, etc.)</li>
+                </ul>
+            </div>
         </div>
 
         <!-- Common Sections -->
-        <h2>5. 이용자 및 법정대리인의 권리와 그 행사 방법</h2>
-        <p>이용자는 언제든지 등록되어 있는 자신의 개인정보를 조회하거나 수정할 수 있으며, 서비스 해지 및 개인정보 삭제를 요청할 수 있습니다. 개인정보 관리책임자에게 서면, 전화 또는 이메일로 연락하시면 지체 없이 조치하겠습니다.</p>
+        <h2 data-lang="ko">3. 제3자 제공 및 위탁 (글로벌 이전)</h2>
+        <h2 data-lang="en">3. Third-party data processing (International)</h2>
+        <div data-lang="ko">
+            <ul>
+                <li><strong>Google Gemini / OpenAI</strong>: 식물 이미지 분석 (미국 소재 서버)</li>
+                <li><strong>Firebase / Analytics</strong>: 익명화된 앱 통계 분석</li>
+                <li><strong>Supabase</strong>: 데이터베이스 및 API 서버 운영</li>
+            </ul>
+        </div>
+        <div data-lang="en">
+            <ul>
+                <li><strong>Google Gemini / OpenAI</strong>: Image analysis (Servers located in the US)</li>
+                <li><strong>Firebase / Analytics</strong>: Anonymized app usage statistics</li>
+                <li><strong>Supabase</strong>: Database and API server operations</li>
+            </ul>
+        </div>
 
-        <h2>6. 개인정보 보호를 위한 노력</h2>
-        <p>플랜트마루는 이용자의 개인정보를 안전하게 보호하기 위해 기술적, 관리적 노력을 다하고 있습니다. SSL 암호화 통신을 사용하며, 개인정보에 대한 접근을 통제하고 있습니다.</p>
-
-        <h2>7. 개인정보 관리 책임자</h2>
-        <p>개인정보 처리 관련 문의사항은 아래로 연락해 주십시오.</p>
-        <ul>
-            <li><strong>개인정보 관리 책임자</strong>: 플랜트마루 운영팀</li>
-            <li><strong>이메일</strong>: <a href="mailto:contact@plantmaru.com" class="highlight">contact@plantmaru.com</a></li>
-        </ul>
+        <h2 data-lang="ko">4. 개인정보 보호 및 관리 책임자</h2>
+        <h2 data-lang="en">4. Data Security & Contact</h2>
+        <div data-lang="ko">
+            <ul>
+                <li>이용자는 언제든 개인정보 삭제를 요청할 수 있습니다.</li>
+                <li>문의: <a href="mailto:contact@plantmaru.com" class="highlight">contact@plantmaru.com</a></li>
+            </ul>
+        </div>
+        <div data-lang="en">
+            <ul>
+                <li>Users may request the deletion of their personal data at any time.</li>
+                <li>Contact: <a href="mailto:contact@plantmaru.com" class="highlight">contact@plantmaru.com</a></li>
+            </ul>
+        </div>
 
         <div class="footer-info">
-            본 정책은 2025년 9월 2일부터 시행됩니다.
+            <span data-lang="ko">&copy; 2025 플랜트마루. 모든 권리 보유.</span>
+            <span data-lang="en">&copy; 2025 Plantmaru. All rights reserved.</span>
         </div>
     </div>
 </div>
 
 <footer>
-    &copy; 2025 Plantmaru. All rights reserved.
+    Plantmaru Lite & Pro | Global Service Standard
 </footer>
 
 <script>
+    // 탭 전환 기능
     function switchTab(type) {
-        // Update buttons
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.classList.remove('active');
-        });
-        const activeBtn = event.currentTarget || (type === 'lite' ? document.querySelectorAll('.tab-btn')[0] : document.querySelectorAll('.tab-btn')[1]);
-        activeBtn.classList.add('active');
+        document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+        if (event) event.currentTarget.classList.add('active');
+        else document.getElementById('tab-' + type).classList.add('active');
 
-        // Update content
-        document.querySelectorAll('.content-section').forEach(section => {
-            section.classList.remove('active');
-        });
+        document.querySelectorAll('.content-section').forEach(section => section.classList.remove('active'));
         document.getElementById(type + '-content').classList.add('active');
+    }
 
-        // Smooth scroll to top of card if needed
-        const cardPosition = document.querySelector('.tabs-container').getBoundingClientRect().top + window.pageYOffset - 100;
-        window.scrollTo({
-            top: cardPosition,
-            behavior: 'smooth'
-        });
+    // 언어 전환 기능
+    function switchLang(lang) {
+        document.body.className = 'lang-' + lang;
+        
+        // 버튼 활성화
+        document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('btn-' + lang).classList.add('active');
+
+        // 헤더 텍스트 변경
+        const texts = {
+            ko: { title: "개인정보 처리 방침", sub: "플랜트마루는 이용자의 정보를 안전하게 보호합니다." },
+            en: { title: "Privacy Policy", sub: "Plantmaru ensures your information is protected." }
+        };
+        document.getElementById('title-main').innerText = texts[lang].title;
+        document.getElementById('title-sub').innerText = texts[lang].sub;
+    }
+
+    // URL 파라미터 확인 (?lang=en)
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang');
+        if (lang === 'en') switchLang('en');
     }
 </script>
 
