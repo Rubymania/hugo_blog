@@ -100,6 +100,9 @@
             cursor: pointer;
             border-radius: 12px;
             transition: all 0.3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .tab-btn.active {
@@ -173,8 +176,17 @@
 
 <div class="container">
     <div class="tabs-container">
-        <button class="tab-btn active" id="tab-lite" onclick="switchTab('lite')">플랜트마루 Lite</button>
-        <button class="tab-btn" id="tab-pro" onclick="switchTab('pro')">플랜트마루 Pro</button>
+        <!-- Tab buttons with Language support added -->
+        <button class="tab-btn active" id="tab-lite" onclick="switchTab('lite')">
+            <span data-lang="ko">플랜트마루 Lite</span>
+            <span data-lang="en">Plantmaru Lite</span>
+            <span data-lang="jp">プラントマル Lite</span>
+        </button>
+        <button class="tab-btn" id="tab-pro" onclick="switchTab('pro')">
+            <span data-lang="ko">플랜트마루 Pro</span>
+            <span data-lang="en">Plantmaru Pro</span>
+            <span data-lang="jp">プラントマル Pro</span>
+        </button>
     </div>
 
     <div class="card">
@@ -188,8 +200,8 @@
                 <small>This Privacy Policy is effective as of <strong>September 2, 2025</strong>.</small>
             </div>
             <div data-lang="jp">
-                プラントマル（Plantmaru）は利用者の個人情報を大切にし、個人情報保護法等の関連法規を遵守して利用者の権利保護に最善を尽くしています。<br>
-                <small>本個人情報保護方針は、<strong>2025年9月2日</strong>から適用されます。</small>
+                プラントマル（Plantmaru）は利用者の個人情報を大切にし、個人情報保護法等の関連法規を遵守して利用者の権利保護에 최선을 다하고 있습니다.<br>
+                <small>本個人情報保護方針は、<strong>2025년9월2일</strong>から適用されます。</small>
             </div>
         </div>
 
@@ -366,7 +378,7 @@
             <p>The diagnosis results of this service are based on AI analysis and do not guarantee 100% accuracy. The results are for educational and informational purposes only and are not a substitute for professional botanical or agricultural advice. Plantmaru shall not be liable for any decisions made by the user based on the diagnosis results.</p>
         </div>
         <div data-lang="jp">
-            <p>本サービスの診断結果はAIによる画像分析の結果であり、100％の正確性を保証하는 것이 아닙니다. 診断結果は教育および情報提供のみを目的としており、専門的な農業や植物学的な助言に代わるものではありません。利用者が診断結果を根拠に行った決定に対し、プラントマルは一切の法的責任を負いません。</p>
+            <p>本サービスの診断結果はAIによる画像分析の結果であり、100％の正確性を保証するものではありません。診断結果は教育および情報提供のみを目的としており、専門的な農業や植物学的な助言に代わるものではありません。利用者が診断結果を根拠に行った決定に対し、プラントマルは一切の法的責任を負いません。</p>
         </div>
         <!-- 9. 아동 보호 정책 (미국 COPPA 대응) -->
         <h2 data-lang="ko">9. 아동 보호 정책</h2>
