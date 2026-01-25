@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap" rel="stylesheet">
     <style>
+        /* CSS는 이전과 동일하게 유지됩니다 */
         :root {
             --primary-color: #2E7D32;
             --primary-light: #4CAF50;
@@ -38,7 +39,6 @@
             position: relative;
         }
 
-        /* Language Selector Styling */
         .lang-selector {
             position: absolute;
             top: 20px;
@@ -122,7 +122,6 @@
         .content-section { display: none; animation: fadeIn 0.4s ease-out; }
         .content-section.active { display: block; }
 
-        /* Multi-language content control */
         [data-lang] { display: none; }
         .lang-ko [data-lang="ko"] { display: block; }
         .lang-en [data-lang="en"] { display: block; }
@@ -176,7 +175,6 @@
 
 <div class="container">
     <div class="tabs-container">
-        <!-- Tab buttons with Language support added -->
         <button class="tab-btn active" id="tab-lite" onclick="switchTab('lite')">
             <span data-lang="ko">플랜트마루 Lite</span>
             <span data-lang="en">Plantmaru Lite</span>
@@ -192,7 +190,7 @@
     <div class="card">
         <div class="info-box">
             <div data-lang="ko">
-                플랜트마루 서비스는 이용자의 개인정보를 소중히 생각하며, 「정보통신망 이용촉진 및 정보보호 등에 관한 법률」 및 「개인정보보호법」 등 관련 법규를 준수하여 이용자의 권익 보호에 최선을 다하고 있습니다. <br>
+                플랜트마루 서비스는 이용자의 개인정보를 소중히 생각하며, 관련 법규를 준수하여 이용자의 권익 보호에 최선을 다하고 있습니다. <br>
                 <small>본 개인정보 처리 방침은 <strong>2025년 9월 2일</strong>부터 적용됩니다.</small>
             </div>
             <div data-lang="en">
@@ -200,8 +198,8 @@
                 <small>This Privacy Policy is effective as of <strong>September 2, 2025</strong>.</small>
             </div>
             <div data-lang="jp">
-                プラントマル（Plantmaru）は利用者の個人情報を大切にし、個人情報保護法等の関連法規を遵守して利用者の権利保護에 최선을 다하고 있습니다.<br>
-                <small>本個人情報保護方針は、<strong>2025년9월2일</strong>から適用されます。</small>
+                プラントマル（Plantmaru）は利用者の個人情報を大切にし、個人情報保護法等の関連法規を遵守して利用者の権利保護に最善を尽くしています。<br>
+                <small>本個人情報保護方針は、<strong>2025年9월2日</strong>から適用されます。</small>
             </div>
         </div>
 
@@ -362,7 +360,7 @@
         <h2 data-lang="en">7. Privacy Officer</h2>
         <h2 data-lang="jp">7. 個人情報管理責任者</h2>
         <ul>
-            <li><strong>Manager</strong>: Plantmaru Team</li>
+            <li><strong data-lang="ko">책임자</strong><strong data-lang="en">Manager</strong><strong data-lang="jp">責任者</strong>: Plantmaru Team</li>
             <li><strong>Email</strong>: <a href="mailto:contact@plantmaru.com" class="highlight">contact@plantmaru.com</a></li>
         </ul>
 
