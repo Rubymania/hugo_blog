@@ -411,13 +411,29 @@
         });
     }
 
-    // Auto-detect browser language
+    // Handle language switching based on URL parameters or browser language
     window.onload = function() {
-        const browserLang = navigator.language.substring(0, 2);
-        if (['ko', 'en', 'ja'].includes(browserLang)) {
-            switchLang(browserLang === 'ja' ? 'jp' : browserLang);
+        // 1. Check URL parameters (?lang=jp 등)
+        const urlParams = new URLSearchParams(window.location.search);
+        let targetLang = urlParams.get('lang');
+
+        // 2. Map 'ja' to 'jp' if necessary, or validate
+        if (targetLang === 'ja') targetLang = 'jp';
+
+        const supported = ['ko', 'en', 'jp'];
+        
+        if (targetLang && supported.includes(targetLang)) {
+            switchLang(targetLang);
         } else {
-            switchLang('ko'); // Default
+            // 3. Fallback to browser language
+            const browserLang = navigator.language.substring(0, 2);
+            if (browserLang === 'ja') {
+                switchLang('jp');
+            } else if (['ko', 'en'].includes(browserLang)) {
+                switchLang(browserLang);
+            } else {
+                switchLang('ko'); // Final fallback
+            }
         }
     };
 </script>
