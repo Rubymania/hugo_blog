@@ -116,10 +116,34 @@
             transition: all 0.3s ease;
         }
 
-        .tab-btn.active {
-            background: var(--primary-color);
-            color: white;
-            box-shadow: 0 4px 12px rgba(46, 125, 50, 0.2);
+        /* Language Selector Dropdown */
+        .lang-selector-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 20px;
+        }
+
+        .lang-select {
+            appearance: none;
+            background-color: white;
+            border: 1px solid var(--border-color);
+            padding: 10px 40px 10px 20px;
+            border-radius: 12px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-main);
+            cursor: pointer;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%232E7D32' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 18px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+
+        .lang-select:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 6px 16px rgba(46, 125, 50, 0.1);
         }
 
         /* Content Card */
@@ -296,10 +320,13 @@
 </div>
 
 <div class="container">
-    <div class="tabs-container">
-        <button class="tab-btn active" onclick="switchLang('ko')">한국어 (KO)</button>
-        <button class="tab-btn" onclick="switchLang('en')">English (EN)</button>
-        <button class="tab-btn" onclick="switchLang('jp')">日本語 (JP)</button>
+    <div class="lang-selector-wrapper">
+        <select class="lang-select" onchange="switchLang(this.value)" id="lang-picker">
+            <option value="ko">한국어 (Korean)</option>
+            <option value="en">English</option>
+            <option value="jp">日本語 (Japanese)</option>
+            <option value="es">Español (Spanish)</option>
+        </select>
     </div>
 
     <div class="card">
@@ -476,6 +503,64 @@
                 더 건강하고 행복한 반려생활이 시작됩니다! 🌱
             </div>
         </div>
+
+        <!-- Spanish Section -->
+        <div id="lang-es" class="lang-section">
+            <div class="info-box">
+                <strong>🌿 Tu doctor de plantas IA, Plantmaru Lite</strong><br>
+                Aprende cómo aprovechar al máximo Plantmaru Lite, la forma más fácil de diagnosticar la salud de tu planta con IA.
+            </div>
+
+            <h2>1. ¿Qué es Plantmaru Lite?</h2>
+            <p>Una aplicación de diagnóstico de salud de plantas impulsada por IA que analiza plagas y el estado nutricional con solo una foto, sin necesidad de registro.</p>
+            <img src="https://plantmaru.com/images/lite/plantmaru_lite_launcher_en.jpg" alt="Plantmaru Lite Launcher ES" height="132" width="128" class="launcher-img">
+
+            <h2>2. Iniciar Diagnóstico (Cámara y Galería)</h2>
+            <p>Al abrir la aplicación, verás dos botones intuitivos.</p>
+            <ul>
+                <li><strong>📸 Cámara</strong>: Toma una foto de las hojas de la planta ahora mismo para un diagnóstico instantáneo.</li>
+                <li><strong>🖼️ Galería</strong>: Selecciona y diagnostica una foto que ya hayas tomado.</li>
+            </ul>
+            <div class="tip-box">
+                <div class="tip-title">💡 Consejos para un Diagnóstico Preciso</div>
+                <p>1. Centra la hoja de la planta o el área afectada en el encuadre.<br>
+                2. Toma fotos en un área bien iluminada para obtener la mejor precisión.</p>
+            </div>
+            <div class="screenshot-container">
+                <img src="https://plantmaru.com/images/lite/plantmaru_home_en.jpg" alt="App Home Screen ES">
+            </div>
+
+            <h2>3. Resultados del Análisis de IA (Puntaje de Salud)</h2>
+            <p>Después de subir la foto, nuestra IA analiza la condición de la planta en real-time.</p>
+            <ul>
+                <li><strong>Puntaje de Salud</strong>: Muestra la energía de tu planta en una escala de 0 a 100.</li>
+                <li><strong>Diagnóstico</strong>: Muestra los problemas identificados por la IA (ej. exceso de riego, deficiencia de nutrientes).</li>
+                <li><strong>Guía de Cuidado</strong>: Proporciona pasos accionables que puedes tomar de inmediato para ayudar a tu planta.</li>
+            </ul>
+            <div class="screenshot-container">
+                <img src="https://plantmaru.com/images/lite/plantmaru_lite_diagnosis_result_en.jpg" alt="Diagnosis Result Screen ES">
+            </div>
+
+            <h2>4. Compartir y Gestión del Historial</h2>
+            <p>Puedes compartir los resultados como hermosas tarjetas o guardarlos como registros.</p>
+            <h3>📤 Compartir en Redes Sociales</h3>
+            <p>Toca el botón <strong>Compartir Resultado</strong> en la parte inferior para enviar tu diagnóstico a familiares y amigos.</p>
+            <div class="screenshot-container">
+                <img src="https://plantmaru.com/images/lite/plantmaru_lite_share_en.jpg" alt="Sharing Result Card ES">
+            </div>
+
+            <h3>📁 Ver Historial</h3>
+            <p>La lista de <strong>Amigos Verdes</strong> te permite ver todos tus diagnósticos pasados de un vistazo. Sigue los cambios en los puntajes de salud para ver cómo se recupera tu planta.</p>
+            <div class="screenshot-container">
+                <img src="https://plantmaru.com/images/lite/plantmaru_home_en.jpg" alt="History List Screen ES">
+            </div>
+
+            <div class="conclusion">
+                "Las plantas no hablan, pero envían señales a través de sus hojas."<br><br>
+                ¡Deja de preocuparte y empieza a leer la mente de tu planta con <strong>Plantmaru Lite</strong>!<br>
+                ¡Una vida vegetal más sana y feliz comienza hoy! 🌱
+            </div>
+        </div>
     </div>
 </div>
 
@@ -500,6 +585,11 @@
                 title: 'プラントマル Lite',
                 slogan: '葉っぱ一枚から始まるAI植物主治医、今すぐ無料で診断してみましょう. ',
                 btn: 'Google Play でダウンロード'
+            },
+            'es': {
+                title: 'Plantmaru Lite',
+                slogan: 'Tu doctor de plantas IA con solo una foto. ¡Diagnóstico gratuito ahora!',
+                btn: 'Descargar en Google Play'
             }
         };
 
@@ -510,18 +600,15 @@
     }
 
     function switchLang(lang) {
-        // Update tabs
-        document.querySelectorAll('.tab-btn').forEach(btn => {
-            btn.classList.remove('active');
-        });
-        const activeBtn = Array.from(document.querySelectorAll('.tab-btn')).find(btn => btn.innerText.includes(lang.toUpperCase()));
-        if (activeBtn) activeBtn.classList.add('active');
+        // Update picker
+        document.getElementById('lang-picker').value = lang;
 
         // Update sections
         document.querySelectorAll('.lang-section').forEach(section => {
             section.classList.remove('active');
         });
-        document.getElementById('lang-' + lang).classList.add('active');
+        const targetSection = document.getElementById('lang-' + lang);
+        if (targetSection) targetSection.classList.add('active');
 
         // Update Hero Content
         updateHero(lang);
@@ -538,19 +625,20 @@
 
         if (targetLang === 'ja') targetLang = 'jp';
 
-        const supported = ['ko', 'en', 'jp'];
+        const supported = ['ko', 'en', 'jp', 'es'];
         
         if (targetLang && supported.includes(targetLang)) {
             switchLang(targetLang);
         } else {
             const browserLang = navigator.language.substring(0, 2);
             if (browserLang === 'ja') {
-                switchLang('jp');
-            } else if (['ko', 'en'].includes(browserLang)) {
-                switchLang(browserLang);
+                targetLang = 'jp';
+            } else if (supported.includes(browserLang)) {
+                targetLang = browserLang;
             } else {
-                switchLang('ko');
+                targetLang = 'ko';
             }
+            switchLang(targetLang);
         }
     };
 </script>
