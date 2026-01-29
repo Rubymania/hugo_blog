@@ -189,8 +189,6 @@
         .screenshot-container img {
             width: 100%;
             display: block;
-            margin-top: -5%; /* Crops the status bar (battery, time, etc.) */
-            transform: scale(1.01); /* Adjust to avoid edge artifacts */
         }
 
         /* Launcher Icon Specific Style */
@@ -281,7 +279,7 @@
                 border-radius: 0;
             }
             .screenshot-container img {
-                margin-top: -6%; /* Slightly more aggressive crop on mobile if needed */
+                /* Removed crop to prevent header loss */
             }
         }
     </style>
