@@ -118,32 +118,35 @@
 
         /* Language Selector Dropdown */
         .lang-selector-wrapper {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 20px;
+            position: absolute;
+            top: 25px;
+            right: 25px;
+            z-index: 1000;
         }
 
         .lang-select {
             appearance: none;
-            background-color: white;
-            border: 1px solid var(--border-color);
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
             padding: 10px 40px 10px 20px;
             border-radius: 12px;
-            font-size: 0.95rem;
-            font-weight: 600;
-            color: var(--text-main);
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--primary-color);
             cursor: pointer;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%232E7D32' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
             background-repeat: no-repeat;
             background-position: right 12px center;
             background-size: 18px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
         }
 
         .lang-select:hover {
-            border-color: var(--primary-color);
-            box-shadow: 0 6px 16px rgba(46, 125, 50, 0.1);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+            background-color: white;
         }
 
         /* Content Card */
@@ -310,6 +313,15 @@
 </head>
 <body>
 
+<div class="lang-selector-wrapper">
+    <select class="lang-select" onchange="switchLang(this.value)" id="lang-picker">
+        <option value="ko">한국어 (KR)</option>
+        <option value="en">English (EN)</option>
+        <option value="jp">日本語 (JP)</option>
+        <option value="es">Español (ES)</option>
+    </select>
+</div>
+
 <div class="hero">
     <h1 id="hero-title">Plantmaru Lite</h1>
     <p id="hero-slogan" class="slogan">잎 한 장으로 시작하는 반려식물 주치의, 지금 무료로 진단해보세요.</p>
@@ -320,15 +332,6 @@
 </div>
 
 <div class="container">
-    <div class="lang-selector-wrapper">
-        <select class="lang-select" onchange="switchLang(this.value)" id="lang-picker">
-            <option value="ko">한국어 (Korean)</option>
-            <option value="en">English</option>
-            <option value="jp">日本語 (Japanese)</option>
-            <option value="es">Español (Spanish)</option>
-        </select>
-    </div>
-
     <div class="card">
         <!-- Korean Section -->
         <div id="lang-ko" class="lang-section active">
