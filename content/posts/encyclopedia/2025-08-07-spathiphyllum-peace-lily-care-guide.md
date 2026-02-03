@@ -1,14 +1,26 @@
 ---
-title: "(식물백과) 24. 스파티필럼 – 조용한 위로를 건네는 실내 식물 🌿"
+title: (식물백과) 24. 스파티필럼 – 조용한 위로를 건네는 실내 식물 🌿
 date: 2025-08-07
 publishDate: 2025-08-07T00:00:00+09:00
-description: "우아한 하얀 꽃과 공기정화 능력까지 갖춘 스파티필럼(Peace Lily). 초보자도 키우기 쉬운 반려식물로, 실내 분위기를 차분하게 바꾸어주는 자연의 선물을 소개합니다."
-type: "article"
-images: ["/images/spathiphyllum.jpg"]
-og_title: "Peace Lily, 조용한 평화를 담은 반려식물 🤍"
-og_description: "하얀 포엽과 짙은 초록잎이 조화를 이루는 스파티필럼은 공기정화 효과와 아름다움까지 갖춘 실내 식물이에요. 당신의 공간에 고요한 평화를 선물해보세요."
-og_image: ["/images/spathiphyllum.jpg"]
-tags: ["스파티필럼", "Peace Lily", "Spathiphyllum","실내식물","반려식물","공기정화식물","이지플랜트","하얀꽃식물"]
+description: 우아한 하얀 꽃과 공기정화 능력까지 갖춘 스파티필럼(Peace Lily). 초보자도 키우기 쉬운 반려식물로, 실내 분위기를 차분하게 바꾸어주는 자연의 선물을 소개합니다.
+type: article
+images:
+  - /images/spathiphyllum.jpg
+og_title: Peace Lily, 조용한 평화를 담은 반려식물 🤍
+og_description: 하얀 포엽과 짙은 초록잎이 조화를 이루는 스파티필럼은 공기정화 효과와 아름다움까지 갖춘 실내 식물이에요. 당신의 공간에 고요한 평화를 선물해보세요.
+og_image:
+  - /images/spathiphyllum.jpg
+tags:
+  - 스파티필럼
+  - Peace_Lily
+  - Spathiphyllum
+  - 실내식물
+  - 반려식물
+  - 공기정화식물
+  - 이지플랜트
+  - 하얀꽃식물
+  - plant/스파티필럼
+  - plant/Spathiphyllum
 draft: false
 ---
 

@@ -1,8 +1,10 @@
 ---
-title: "(식물 백과) 10. 작은 황금빛 트리, 골드크레스트의 매력 속으로!"
+title: (식물 백과) 10. 작은 황금빛 트리, 골드크레스트의 매력 속으로!
 date: 2025-07-19
-images: ["/images/goldcrest.png"]
-og_image: ["/images/goldcrest.png"]
+images:
+  - /images/goldcrest.png
+og_image:
+  - /images/goldcrest.png
 tags:
   - 반려식물
   - 식물키우기
@@ -10,6 +12,8 @@ tags:
   - 식물수명
   - 식물백과
   - 골드크레스트
+  - plant/골드크레스트
+  - plant/Goldcrest
 draft: false
 ---
 

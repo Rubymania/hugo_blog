@@ -1,16 +1,28 @@
 ---
-title: (식물백과) 62. 팔레놉시스(호접란, Phalaenopsis spp.) 키우는 법 
+title: (식물백과) 62. 팔레놉시스(호접란, Phalaenopsis spp.) 키우는 법
 date: 2025-09-20
 publishDate: 2025-09-20T00:00:00+09:00
 description: 팔레놉시스(호접란, Phalaenopsis spp.)는 나비 모양의 화려한 꽃으로 사랑받는 난초입니다. 실내에서 키우는 법, 관리 요령, 활용 아이디어를 확인해보세요.
 type: article
-images: 
+images:
   - /images/phalaenopsis-potted.jpg
-og_title: 팔레놉시스(호접란, Phalaenopsis spp.) 키우는 법 
+og_title: 팔레놉시스(호접란, Phalaenopsis spp.) 키우는 법
 og_description: 우아한 나비 모양 꽃이 매력적인 팔레놉시스(호접란), 키우는 법과 관리 팁을 확인해보세요.
-og_image: 
+og_image:
   - /images/phalaenopsis-potted.jpg
-tags: ["팔레놉시스", "호접란", "난초", "실내식물", "꽃선물", "인테리어_식물", "축하화분", "MothOrchid", "OrchidCare", "Phalaenopsis"]
+tags:
+  - 팔레놉시스
+  - 호접란
+  - 난초
+  - 실내식물
+  - 꽃선물
+  - 인테리어_식물
+  - 축하화분
+  - MothOrchid
+  - OrchidCare
+  - Phalaenopsis
+  - plant/호접란
+  - plant/Phalaenopsis_Spp
 ---
 
 ### **팔레놉시스(호접란,Phalaenopsis spp.) – 우아한 꽃의 여왕**

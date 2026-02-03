@@ -10,7 +10,18 @@ og_title: 불꽃처럼 피어나는 꽃, 익소라(Ixora chinensis)
 og_description: 화려한 붉은 꽃으로 정원과 실내를 환하게 밝혀주는 익소라의 매력과 키우는 법을 만나보세요.
 og_image:
   - /images/ixora_interior.jpg
-tags: ["익소라", "Ixora", "산호수", "산호화", "열대식물", "꽃식물", "정원식물", "실내화분", "반려식물"]
+tags:
+  - 익소라
+  - Ixora
+  - 산호수
+  - 산호화
+  - 열대식물
+  - 꽃식물
+  - 정원식물
+  - 실내화분
+  - 반려식물
+  - plant/익소라
+  - plant/ixora_chinensis
 ---
 
 

@@ -10,7 +10,18 @@ og_title: 무늬털머위 (Farfugium japonicum 'Argenteum') 키우는 법과 인
 og_description: 독특한 은색 무늬와 동양적인 매력을 가진 무늬털머위. 반그늘에서도 잘 자라는 아름다운 실내 식물의 키우는 법을 소개합니다.
 og_image:
   - /images/farfugium-argenteum-potted.jpg
-tags: ["무늬털머위", "Farfugium_japonicum_Argenteum", "털머위", "관엽식물", "음지식물", "공기정화식물", "인테리어_식물", "그늘식물", "정원식물", "플랜테리어"]
+tags:
+  - 무늬털머위
+  - plant/Farfugium_japonicum_Argenteum
+  - 털머위
+  - 관엽식물
+  - 음지식물
+  - 공기정화식물
+  - 인테리어_식물
+  - 그늘식물
+  - 정원식물
+  - 플랜테리어
+  - plant/무늬털머위
 ---
 
 

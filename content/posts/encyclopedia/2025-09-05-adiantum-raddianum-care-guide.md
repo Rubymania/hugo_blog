@@ -11,15 +11,12 @@ og_description: 섬세한 잎과 우아한 매력을 가진 아디안텀(Adiantu
 og_image:
   - /images/adiantum-raddianum-interior.jpg
 tags:
-  - 네마탄투스
-  - Nematanthus_gregarius
-  - 골드피쉬플랜트
-  - 금붕어꽃
-  - 덩굴식물
   - 행잉플랜트
   - 실내식물
   - 반려식물
   - 플랜테리어
+  - plant/아디안텀
+  - plant/Adiantum_Radianum
 ---
 
 ## **🌿 아디안텀(Adiantum raddianum) – 우아한 미세 잎의 매력을 가진 관엽식물**

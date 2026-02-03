@@ -1,8 +1,10 @@
 ---
-title: "(식물 백과) 11. 든든한 초록 친구, 고무나무의 모든 것!"
+title: (식물 백과) 11. 든든한 초록 친구, 고무나무의 모든 것!
 date: 2025-07-21
-images: ["/images/rubber_plant.png"]
-og_image: ["/images/rubber_plant.png"]
+images:
+  - /images/rubber_plant.png
+og_image:
+  - /images/rubber_plant.png
 tags:
   - 반려식물
   - 식물키우기
@@ -10,6 +12,8 @@ tags:
   - 식물수명
   - 식물백과
   - 고무나무
+  - plant/고무나무
+  - plant/Rubber_Plant
 draft: false
 ---
 

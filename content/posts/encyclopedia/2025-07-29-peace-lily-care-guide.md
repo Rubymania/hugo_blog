@@ -1,8 +1,10 @@
 ---
-title: "(식물백과) 14. 평화백합, Peace Lily 이야기"
+title: (식물백과) 14. 평화백합, Peace Lily 이야기
 date: 2025-07-29
-images: ["/images/lily.jpg"]
-og_image: ["/images/lily.jpg"]
+images:
+  - /images/lily.jpg
+og_image:
+  - /images/lily.jpg
 tags:
   - 반려식물
   - 식물키우기
@@ -10,6 +12,8 @@ tags:
   - 평화
   - 식물백과
   - 백합
+  - plant/백합
+  - plant/Peace_Lily
 draft: false
 ---
 

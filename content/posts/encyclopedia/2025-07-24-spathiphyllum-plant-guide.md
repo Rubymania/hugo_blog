@@ -1,8 +1,10 @@
 ---
-title: "(식물백과) 12. 스파티필룸 완벽 가이드. 우아한 초록 친구, 우리 집에서 꽃피우기!"
+title: (식물백과) 12. 스파티필룸 완벽 가이드. 우아한 초록 친구, 우리 집에서 꽃피우기!
 date: 2025-07-24
-images: ["/images/spathiphyllum.png"]
-og_image: ["/images/spathiphyllum.png"]
+images:
+  - /images/spathiphyllum.png
+og_image:
+  - /images/spathiphyllum.png
 tags:
   - 반려식물
   - 식물키우기
@@ -10,6 +12,7 @@ tags:
   - 식물수명
   - 식물백과
   - 스트티필룸
+  - plant/스파티필름
 draft: false
 ---
 

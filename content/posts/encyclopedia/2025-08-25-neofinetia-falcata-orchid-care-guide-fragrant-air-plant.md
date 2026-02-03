@@ -10,7 +10,19 @@ og_title: 나도풍란 키우기 | 향기로운 공중식물의 매력과 관리
 og_description: 작지만 고귀한 향을 가진 나도풍란! 관리 요령부터 인테리어 활용까지 한 번에 알아보세요.
 og_image:
   - /images/neofinetia_2.jpg
-tags: ["나도풍란", "네오피네티아", "NeofinetiaFalcata", "공중식물", "착생란", "동양난초", "실내식물", "식물인테리어", "난초키우기", "미니난초"]
+tags:
+  - 나도풍란
+  - 네오피네티아
+  - NeofinetiaFalcata
+  - 공중식물
+  - 착생란
+  - 동양난초
+  - 실내식물
+  - 식물인테리어
+  - 난초키우기
+  - 미니난초
+  - plant/나도풍란
+  - plant/Neofinetia_Falcata
 ---
 
 

@@ -10,7 +10,19 @@ og_title: 기누라 키우기 | Gynura aurantiaca 관리법
 og_description: 보랏빛 벨벳 잎의 매력이 돋보이는 기누라. 키우는 법부터 인테리어 활용까지 자세히 소개합니다.
 og_image:
   - /images/gynura_aurantiaca_potted.jpg
-tags: ["기누라", "Gynura_aurantiaca", "퍼플벨벳", "Purple_Velvet_Plant", "보라색식물", "실내식물", "관엽식물", "테이블플랜트", "인테리어식물", "반려식물"]
+tags:
+  - 기누라
+  - Gynura_aurantiaca
+  - 퍼플벨벳
+  - Purple_Velvet_Plant
+  - 보라색식물
+  - 실내식물
+  - 관엽식물
+  - 테이블플랜트
+  - 인테리어식물
+  - 반려식물
+  - plant/기누라
+  - plant/Gynura_Aurantiaca
 ---
 
 ### **💜 보랏빛 벨벳 잎의 매력, 기누라(Gynura aurantiaca)**

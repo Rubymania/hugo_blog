@@ -1,9 +1,19 @@
 ---
-title: "(식물백과) 5. 집 안 가득 행복을 심는 식물, 해피트리!"
+title: (식물백과) 5. 집 안 가득 행복을 심는 식물, 해피트리!
 date: 2025-07-18
-images: [/images/happytree.png"]
-og_image: [/images/happytree.png"]
-tags: ["반려식물", "식물키우기","식물입문자","식물수명","해피트리","드라세나 프라그란스 마사네아"]
+images:
+  - /images/happytree.png"
+og_image:
+  - /images/happytree.png"
+tags:
+  - 반려식물
+  - 식물키우기
+  - 식물입문자
+  - 식물수명
+  - 해피트리
+  - 드라세나_프라그란스_마사네아
+  - plant/해피트리
+  - plant/Massangeana
 draft: false
 ---
 

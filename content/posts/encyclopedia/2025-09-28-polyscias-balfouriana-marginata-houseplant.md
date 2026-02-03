@@ -12,7 +12,7 @@ og_image:
   - /images/polyscias_potted.jpg
 tags:
   - 폴리시아스
-  - Polyscias_balfouriana_Marginata
+  - plant/Polyscias_balfouriana_Marginata
   - 마지나타
   - 둥근잎_아랄리아
   - 관엽식물
@@ -21,6 +21,7 @@ tags:
   - 인테리어_식물
   - 실내_나무
   - 실내정원
+  - plant/폴리시아스_마지나타
 ---
 
 ## **폴리시아스 ‘마지나타’ : 우아한 매력을 가진 실내 관엽식물**

@@ -10,7 +10,18 @@ og_title: 네마탄투스 키우기 | 금붕어 꽃이 매력적인 실내 플�
 og_description: 금붕어 같은 꽃이 피는 네마탄투스 키우는 법, 관리 팁, 플랜테리어 활용 아이디어까지 한 번에 확인해 보세요.
 og_image:
   - /images/nematanthus_potted.jpg
-tags: ["네마탄투스", "Nematanthus_gregarius", "골드피쉬플랜트", "금붕어꽃", "덩굴식물", "행잉플랜트", "실내식물", "반려식물", "플랜테리어"]
+tags:
+  - 네마탄투스
+  - Nematanthus_gregarius
+  - 골드피쉬플랜트
+  - 금붕어꽃
+  - 덩굴식물
+  - 행잉플랜트
+  - 실내식물
+  - 반려식물
+  - 플랜테리어
+  - plant/네마탄투스
+  - plant/Nematanthus_gregarius
 ---
 
 ## **네마탄투스(Nematanthus gregarius) 키우기**

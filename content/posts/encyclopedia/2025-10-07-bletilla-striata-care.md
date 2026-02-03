@@ -10,7 +10,19 @@ og_title: 자란 (Bletilla striata) 키우는 법과 인테리어 활용
 og_description: 자주빛 난초꽃으로 정원을 물들이는 자란. 동양적 감성과 세련된 미를 가진 실내외 식물의 매력을 소개합니다.
 og_image:
   - /images/bletilla-striata-potted.jpg
-tags: ["자란", "Bletilla_striata", "난초과", "춘란", "관엽식물", "실내식물", "인테리어_식물", "정원식물", "공기정화식물", "플랜테리어"]
+tags:
+  - 자란
+  - Bletilla_striata
+  - 난초과
+  - 춘란
+  - 관엽식물
+  - 실내식물
+  - 인테리어_식물
+  - 정원식물
+  - 공기정화식물
+  - 플랜테리어
+  - plant/bletilla_striata
+  - plant/자란
 ---
 
 #### **1. 자란, 한국의 전통미를 담은 난초**

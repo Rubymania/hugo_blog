@@ -4,13 +4,25 @@ date: 2025-09-22
 publishDate: 2025-09-22T00:00:00+09:00
 description: 둥근잎 아랄리아(Polyscias balfouriana)는 둥근 잎과 세련된 자태로 실내 인테리어를 돋보이게 하는 인기 관엽식물입니다. 관리 방법과 특징을 알아보세요.
 type: article
-images: 
+images:
   - /images/polyscias-potted.jpg
-og_title: 둥근잎 아랄리아 (Polyscias balfouriana) 
+og_title: 둥근잎 아랄리아 (Polyscias balfouriana)
 og_description: 세련된 둥근잎 아랄리아의 특징과 관리법, 인테리어 활용 아이디어를 확인하세요.
-og_image: 
+og_image:
   - /images/polyscias-potted.jpg
-tags: ["둥근잎_아랄리아","Polyscias_balfouriana","실내관엽식물","houseplant","공기정화식물","foliage_plant","인테리어식물","indoor_plant","관엽식물관리","green_interior"]
+tags:
+  - 둥근잎_아랄리아
+  - Polyscias_balfouriana
+  - 실내관엽식물
+  - houseplant
+  - 공기정화식물
+  - foliage_plant
+  - 인테리어식물
+  - indoor_plant
+  - 관엽식물관리
+  - green_interior
+  - plant/둥근잎_아랄리아
+  - plant/Polyscias_balforuiana
 ---
 
 ## 둥근잎 아랄리아(Polyscias balfouriana) – 고급스러운 분위기를 더하는 실내 관엽식물

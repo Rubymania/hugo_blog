@@ -10,7 +10,20 @@ og_title: 골드크레스트 윌마 키우기 & 인테리어 활용법
 og_description: 향긋한 레몬 향과 황록색 잎의 매력, 골드크레스트 윌마를 키우는 법과 인테리어 활용 팁을 소개합니다.
 og_image:
   - /images/wilma_2.jpg
-tags: ["골드크레스트윌마", "Wilma", "Cupressus", "macrocarpa", "레몬사이프러스", "실내식물", "관엽식물", "공기정화식물", "인테리어플랜트", "미니크리스마스트리", "실내화분"]
+tags:
+  - 골드크레스트윌마
+  - Wilma
+  - Cupressus
+  - macrocarpa
+  - 레몬사이프러스
+  - 실내식물
+  - 관엽식물
+  - 공기정화식물
+  - 인테리어플랜트
+  - 미니크리스마스트리
+  - 실내화분
+  - plant/월마
+  - plant/Wilma
 ---
 
 

@@ -21,6 +21,8 @@ tags:
   - 거실_식물
   - 실내정원
   - office_plant
+  - plant/디펜바키아
+  - plant/Dieffenbachia_Marianne
 ---
 
 ## **🌿 디펜바키아 ‘마리안느’ (Dieffenbachia ‘Marianne’) 키우는 법과 인테리어 활용**

@@ -10,7 +10,19 @@ og_title: 접란 키우기 가이드 | Chlorophytum comosum 관리법
 og_description: 초보자도 쉽게 키울 수 있는 공기정화식물 접란, 키우는 방법과 관리 팁을 소개합니다.
 og_image:
   - /images/chlorophytum_comosum_2.jpg
-tags: ["접란", "Chlorophytum_comosum", "스파이더플랜트", "공기정화식물", "실내식물", "관엽식물", "식물키우기", "초보자식물", "접란번식", "접란관리"]
+tags:
+  - 접란
+  - Chlorophytum_comosum
+  - 스파이더플랜트
+  - 공기정화식물
+  - 실내식물
+  - 관엽식물
+  - 식물키우기
+  - 초보자식물
+  - 접란번식
+  - 접란관리
+  - plant/접란
+  - plant/Chlorophytum_Comosum
 ---
 
 

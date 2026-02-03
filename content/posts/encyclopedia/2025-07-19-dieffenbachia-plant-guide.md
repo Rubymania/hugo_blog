@@ -1,8 +1,10 @@
 ---
-title: "(식물 백과) 9. 이국적인 잎 무늬, 디펜바키아의 매력에 빠져봐!"
+title: (식물 백과) 9. 이국적인 잎 무늬, 디펜바키아의 매력에 빠져봐!
 date: 2025-07-19
-images: ["/images/dieffenbachia.png"]
-og_image: ["/images/dieffenbachia.png"]
+images:
+  - /images/dieffenbachia.png
+og_image:
+  - /images/dieffenbachia.png
 tags:
   - 반려식물
   - 식물키우기
@@ -10,6 +12,8 @@ tags:
   - 식물수명
   - 식물백과
   - 디펜바키아
+  - plant/디펜바키아
+  - plant/Dieffenbachia
 draft: false
 ---
 

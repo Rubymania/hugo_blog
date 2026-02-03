@@ -10,7 +10,19 @@ og_title: 치자나무 키우기 가이드 | Gardenia jasminoides 관리법
 og_description: 향긋한 꽃향기와 세련된 인테리어 효과까지, 치자나무 키우는 법을 자세히 소개합니다.
 og_image:
   - /images/gardenia_2.jpg
-tags: ["치자나무", "Gardenia", "Gardenia_Jasminoides", "가든니아", "향기식물", "실내식물", "공기정화식물", "관엽식물", "치자나무키우기", "인테리어식물"]
+tags:
+  - 치자나무
+  - Gardenia
+  - Gardenia_Jasminoides
+  - 가든니아
+  - 향기식물
+  - 실내식물
+  - 공기정화식물
+  - 관엽식물
+  - 치자나무키우기
+  - 인테리어식물
+  - plant/치자나무
+  - plant/Gardenia_Jasminoides
 ---
 
 

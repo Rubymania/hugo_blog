@@ -1,12 +1,14 @@
 ---
-title: "(식물백과) 15. 행운을 부르는 식물, 행운목(Lucky Bamboo)"
+title: (식물백과) 15. 행운을 부르는 식물, 행운목(Lucky Bamboo)
 date: 2025-07-30
-description: "행운을 가져오는 반려식물, 행운목, Lucky Bamboo, Dracaena sanderiana"
-type: "website"
-images: ["/images/luckybamboo.jpg"]
-og_title: "우리집에 행운을 부르는 반려식물, 행운목 이야기"
-og_description: "누구나 쉽게 키울 수 있는 행운목 이야기"
-og_image: ["/images/luckybamboo.jpg"]
+description: 행운을 가져오는 반려식물, 행운목, Lucky Bamboo, Dracaena sanderiana
+type: website
+images:
+  - /images/luckybamboo.jpg
+og_title: 우리집에 행운을 부르는 반려식물, 행운목 이야기
+og_description: 누구나 쉽게 키울 수 있는 행운목 이야기
+og_image:
+  - /images/luckybamboo.jpg
 tags:
   - 반려식물
   - 식물키우기
@@ -15,6 +17,8 @@ tags:
   - LuckyBamboo
   - DracaenaSanderiana
   - 식물인테리어
+  - plant/행운목
+  - plant/lucky_bamboo
 draft: false
 ---
 

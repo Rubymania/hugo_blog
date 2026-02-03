@@ -10,7 +10,18 @@ og_title: 봉의꼬리 키우기 | Pteris multifida 관리 가이드
 og_description: 세한 잎과 우아한 자태를 가진 봉의꼬리! 물 주기, 햇빛 관리, 인테리어 활용까지 반려식물 가이드로 만나보세요.
 og_image:
   - /images/pteris_2.jpg
-tags: ["봉의꼬리", "Pteris multifida", "고사리", "실내식물", "공기정화식물", "반려식물", "화분인테리어", "식물키우기", "홈가드닝"]
+tags:
+  - 봉의꼬리
+  - Pteris multifida
+  - 고사리
+  - 실내식물
+  - 공기정화식물
+  - 반려식물
+  - 화분인테리어
+  - 식물키우기
+  - 홈가드닝
+  - plant/봉의꼬리
+  - plant/Pteris_multifida
 ---
 
 

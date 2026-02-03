@@ -21,6 +21,8 @@ tags:
   - 인테리어_식물
   - 소형식물
   - 관엽식물
+  - plant/크립탄서스
+  - plant/Cryptanthus
 ---
 
 

@@ -2,7 +2,7 @@
 title: (식물백과) 25. 대나무야자 – 공간에 싱그러움을 더하는 실내의 작은 숲 🌿
 date: 2025-08-08
 publishDate: 2025-08-08T00:00:00+09:00
-description: 우아한 하얀 꽃과 공기정화 능력까지 갖춘 스파티필럼(Peace Lily). 초보자도 키우기 쉬운 반려식물로, 실내 분위기를 차분하게 바꾸어주는 자연의 선물을 소개합니다.
+description: 공기정화 능력과 아늑한 분위기를 동시에 선사하는 대나무야자. 키우기 쉬운 방법부터 인테리어 활용까지, 반려식물의 매력을 알아보세요.
 type: article
 images:
   - /images/bamboo_palm.jpg
@@ -21,6 +21,8 @@ tags:
   - 공기정화식물
   - 실내
   - 정원
+  - plant/대나무야자
+  - plant/bamboo_palm
 draft: false
 ---
 

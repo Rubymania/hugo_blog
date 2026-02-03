@@ -11,6 +11,8 @@ og_description: 세련된 잎과 모던한 분위기를 주는 드라세나 자�
 og_image:
   - /images/dracaena_interior.jpg
 tags:
+  - plant/드라세나_자바
+  - plant/Chlorophytum_comosum
 ---
 
 ## **세련된 매력을 가진 실내 식물, 드라세나 자바**

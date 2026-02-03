@@ -10,7 +10,19 @@ og_title: 백량금(Ardisia crenata) 키우는 법 | 겨울 인테리어 식물
 og_description: 붉은 열매가 매력적인 백량금(Ardisia crenata) 키우는 방법부터 인테리어 활용 아이디어까지 완벽 가이드!
 og_image:
   - /images/ardisia-crenata-interior.jpg
-tags: ["백량금", "Ardisia_Crenata", "Coral_Berry", "Christmas_Berry", "관엽식물", "실내식물", "겨울식물", "공기정화식물", "인테리어식물", "열매식물"]
+tags:
+  - 백량금
+  - Ardisia_Crenata
+  - Coral_Berry
+  - Christmas_Berry
+  - 관엽식물
+  - 실내식물
+  - 겨울식물
+  - 공기정화식물
+  - 인테리어식물
+  - 열매식물
+  - plant/백량금
+  - plant/Ardisia_Crenata
 ---
 
 ## **🌿 백량금(Ardisia crenata) — 빨간 열매가 매력적인 행운의 관엽식물**

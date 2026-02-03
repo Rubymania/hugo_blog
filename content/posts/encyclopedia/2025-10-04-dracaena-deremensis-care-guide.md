@@ -21,6 +21,8 @@ tags:
   - 소형_실내식물
   - 실내정원
   - 스트레스완화식물
+  - plant/드라세나_자바
+  - plant/Dracaena_deremensis
 ---
 
 ## **🌿 드라세나 콤팩타 (Dracaena deremensis ‘Virens Compacta’) 키우는 법과 인테리어 활용**

@@ -10,7 +10,19 @@ og_title: 얼룩자주달개비 (Zebrina pendula) 키우는 법과 인테리어 
 og_description: 보랏빛과 은빛이 조화로운 얼룩자주달개비. 매력적인 줄기와 잎 패턴으로 공간을 생기 있게 만들어주는 덩굴식물의 키우는 법과 인테리어 아이디어를 알아보세요.
 og_image:
   - /images/zebrina-pendula-potted.jpg
-tags: ["얼룩자주달개비", "Zebrina_pendula", "달개비", "트라데스칸티아", "덩굴식물", "관엽식물", "실내식물", "공기정화식물", "플랜테리어", "행잉플랜트"]
+tags:
+  - 얼룩자주달개비
+  - Zebrina_pendula
+  - 달개비
+  - 트라데스칸티아
+  - 덩굴식물
+  - 관엽식물
+  - 실내식물
+  - 공기정화식물
+  - 플랜테리어
+  - 행잉플랜트
+  - plant/얼룩자주달개비
+  - plant/Zebrina_pendula
 ---
 
 ## **알로카시아 아마조니카 (Alocasia amazonica) 키우는 법과 인테리어 활용**

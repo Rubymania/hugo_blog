@@ -1,10 +1,21 @@
 ---
-title: "(식물 백과) 8. 이국적인 힐링, 아레카 야자의 모든 것!"
+title: (식물 백과) 8. 이국적인 힐링, 아레카 야자의 모든 것!
 date: 2025-07-19
-images: ["/images/arecapalm.png"]
+images:
+  - /images/arecapalm.png
 og:
-og_image: ["/images/arecapalm.png"]
-tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "공기정화", "아레카", "야자"]
+og_image:
+  - /images/arecapalm.png
+tags:
+  - 반려식물
+  - 식물키우기
+  - 식물입문자
+  - 식물수명
+  - 공기정화
+  - 아레카
+  - 야자
+  - plant/아레카야자
+  - plant/Areca_Palm
 draft: false
 ---
 

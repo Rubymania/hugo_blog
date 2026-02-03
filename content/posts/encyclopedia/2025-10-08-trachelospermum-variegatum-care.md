@@ -10,7 +10,19 @@ og_title: 무늬마삭줄 (Trachelospermum asiaticum var. variegatum) 키우는 
 og_description: 사계절 푸르고 은은한 향기가 매력적인 무늬마삭줄. 실내외 어디서나 생기와 자연미를 더하는 식물의 매력을 소개합니다.
 og_image:
   - /images/trachelospermum-variegatum-potted.jpg
-tags: ["무늬마삭줄", "Trachelospermum_asiaticum_var_variegatum", "상록식물", "덩굴식물", "관엽식물", "실내식물", "인테리어_식물", "정원식물", "공기정화식물", "플랜테리어", "variegated_plant"]
+tags:
+  - 무늬마삭줄
+  - plant/Trachelospermum_asiaticum_var_variegatum
+  - 상록식물
+  - 덩굴식물
+  - 관엽식물
+  - 실내식물
+  - 인테리어_식물
+  - 정원식물
+  - 공기정화식물
+  - 플랜테리어
+  - variegated_plant
+  - plant/무늬마삭줄
 ---
 
 #### **1. 무늬마삭줄, 사계절 푸르름의 상징**

@@ -1,14 +1,24 @@
 ---
-title: "(식물백과) 21. 마란타 레우코네우라, 기도하는 식물의 아름다움 🌿"
+title: (식물백과) 21. 마란타 레우코네우라, 기도하는 식물의 아름다움 🌿
 date: 2025-08-04
 publishDate: 2025-08-04T00:00:00+09:00
-description: "마란타 레우코네우라(Prayer Plant)는 화려한 잎무늬와 밤에 잎을 오므리는 특별한 움직임으로 사랑받는 실내 식물입니다. 이 독특한 식물의 특징과 키우는 방법을 알아보세요."
-type: "article"
-images: ["/images/prayerplant.jpg"]
-og_title: "밤마다 기도하는 식물, 마란타 레우코네우라 🌿"
-og_description: "Prayer Plant로도 알려진 마란타는 무늬 잎과 움직임이 매력적인 실내식물입니다. 물 주기, 햇빛, 습도 관리 등 키우는 팁을 함께 소개합니다."
-og_image: ["/images/prayerplant.jpg"]
-tags: ["마란타", "Prayer Plant", "Maranta leuconeura", "반려식물", "실내식물", "식물 관리", "잎무늬 식물"]
+description: 마란타 레우코네우라(Prayer Plant)는 화려한 잎무늬와 밤에 잎을 오므리는 특별한 움직임으로 사랑받는 실내 식물입니다. 이 독특한 식물의 특징과 키우는 방법을 알아보세요.
+type: article
+images:
+  - /images/prayerplant.jpg
+og_title: 밤마다 기도하는 식물, 마란타 레우코네우라 🌿
+og_description: Prayer Plant로도 알려진 마란타는 무늬 잎과 움직임이 매력적인 실내식물입니다. 물 주기, 햇빛, 습도 관리 등 키우는 팁을 함께 소개합니다.
+og_image:
+  - /images/prayerplant.jpg
+tags:
+  - 마란타
+  - Prayer_Plant
+  - Maranta_leuconeura
+  - 반려식물
+  - 실내식물
+  - 식물관리
+  - 잎무늬_식물
+  - plant/Maranta_leuconeura
 draft: false
 ---
 

@@ -1,14 +1,29 @@
 ---
-title: "(식물백과) 18. 행운을 부르는 반려식물, 파키라 (Money Tree) 이야기"
+title: (식물백과) 18. 행운을 부르는 반려식물, 파키라 (Money Tree) 이야기
 date: 2025-08-01
 publishDate: 2025-08-01T00:00:00+09:00
-description: "파키라(Pachira aquatica)는 'Money Tree'라는 별명처럼 풍수 인테리어 식물로 유명하며, 관리가 쉬워 초보자에게 적합합니다. 키우는 방법부터 물주기 팁까지 알아보세요."
-type: "website"
-images: ["/images/moneytree.jpg"]
-og_title: "파키라 키우기 | 돈을 부르는 행운의 반려식물"
-og_description: "기 정화 효과와 풍수 인테리어 효과까지 겸비한 파키라, 실내에서 쉽게 키울 수 있는 방법을 소개합니다."
-og_image: ["/images/moneytree.jpg"]
-tags: ["파키라", "파키라키우기", "Money Tree", "실내식물", "공기정화식물", "행운의나무", "반려식물", "초보식물", "식물인테리어", "Pachira aquatica"]
+description: 파키라(Pachira aquatica)는 'Money Tree'라는 별명처럼 풍수 인테리어 식물로 유명하며, 관리가 쉬워 초보자에게 적합합니다. 키우는 방법부터 물주기 팁까지 알아보세요.
+type: website
+images:
+  - /images/moneytree.jpg
+og_title: 파키라 키우기 | 돈을 부르는 행운의 반려식물
+og_description: 기 정화 효과와 풍수 인테리어 효과까지 겸비한 파키라, 실내에서 쉽게 키울 수 있는 방법을 소개합니다.
+og_image:
+  - /images/moneytree.jpg
+tags:
+  - 파키라
+  - 파키라키우기
+  - Money_Tree
+  - 실내식물
+  - 공기정화식물
+  - 행운의나무
+  - 반려식물
+  - 초보식물
+  - 식물인테리어
+  - Pachira_aquatica
+  - plant/파키라
+  - plant/money_tree
+  - plant/Pachira_aquatica
 draft: false
 ---
 

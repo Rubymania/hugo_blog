@@ -10,7 +10,23 @@ og_title: 타임 키우기 가이드 - Thyme, Thymus vulgaris 허브 재배법
 og_description: 지중해 허브 타임(Thyme, Thymus vulgaris)을 집에서 키우는 방법과 관리 요령을 소개합니다. 화분 재배, 물 주기, 햇빛 관리, 활용 아이디어까지 한눈에 확인해 보세요.
 og_image:
   - /images/thyme_1.jpg
-tags: ["타임","Thyme","Thymus vulgaris","허브","허브차","허브요리","향균효과","허브가든","실내식물","호흡기건강","반려식물","정원식물","허브인테리어","허브드프로방스"]
+tags:
+  - 타임
+  - Thyme
+  - Thymus vulgaris
+  - 허브
+  - 허브차
+  - 허브요리
+  - 향균효과
+  - 허브가든
+  - 실내식물
+  - 호흡기건강
+  - 반려식물
+  - 정원식물
+  - 허브인테리어
+  - 허브드프로방스
+  - plant/타임
+  - plant/Thyme
 ---
 
 ## 타임(Thyme, Thymus vulgaris) – 향과 건강을 동시에 담은 허브의 매력

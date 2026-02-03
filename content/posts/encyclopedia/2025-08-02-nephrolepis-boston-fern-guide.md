@@ -1,14 +1,27 @@
 ---
-title: "(식물백과) 19. 푸르름의 여왕, 보스턴 고사리 키우기 A to Z!"
+title: (식물백과) 19. 푸르름의 여왕, 보스턴 고사리 키우기 A to Z!
 date: 2025-08-02
 publishDate: 2025-08-02T00:00:00+09:00
-description: "공기 정화 능력이 뛰어난 실내식물 보스턴 펀(Nephrolepis exaltata)에 대해 알아보세요. 물주기, 습도 유지 팁, 인테리어 활용법까지 자세히 소개합니다."
-type: "website"
-images: ["/images/bostonfern.jpg"]
-og_title: "초록 숲처럼 싱그러운 실내식물, 보스턴 펀(Nephrolepis exaltata) 키우기 가이드"
-og_description: "습도와 간접광을 좋아하는 보스턴 펀은 공기 정화는 물론 인테리어 효과까지 뛰어난 실내 식물입니다. 키우는 요령부터 자주 묻는 질문까지 모두 알려드립니다."
-og_image: ["/images/bostonfern.jpg"]
-tags: ["보스턴펀", "네프롤레피스", "실내식물", "공기정화식물", "반려동물안전식물", "양치식물", "인테리어식물", "습도식물", "화분식물"]
+description: 공기 정화 능력이 뛰어난 실내식물 보스턴 펀(Nephrolepis exaltata)에 대해 알아보세요. 물주기, 습도 유지 팁, 인테리어 활용법까지 자세히 소개합니다.
+type: website
+images:
+  - /images/bostonfern.jpg
+og_title: 초록 숲처럼 싱그러운 실내식물, 보스턴 펀(Nephrolepis exaltata) 키우기 가이드
+og_description: 습도와 간접광을 좋아하는 보스턴 펀은 공기 정화는 물론 인테리어 효과까지 뛰어난 실내 식물입니다. 키우는 요령부터 자주 묻는 질문까지 모두 알려드립니다.
+og_image:
+  - /images/bostonfern.jpg
+tags:
+  - 보스턴펀
+  - 네프롤레피스
+  - 실내식물
+  - 공기정화식물
+  - 반려동물안전식물
+  - 양치식물
+  - 인테리어식물
+  - 습도식물
+  - 화분식물
+  - plant/고사리
+  - plant/Nephrolepis_exaltata
 draft: false
 ---
 

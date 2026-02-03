@@ -10,7 +10,18 @@ og_title: 솔레이롤리아 키우기 | Soleirolia soleirolii 관리 가이드
 og_description: 작고 귀여운 잎으로 공간을 초록빛으로 물들이는 솔레이롤리아! 물 주기, 빛 관리, 인테리어 활용까지 식물 키우기 완벽 가이드.
 og_image:
   - /images/soleirolia_2.jpg
-tags: ["솔레이롤리아", "SoleiroliaSoleirolii", "베이비티어즈", "실내식물", "테라리움", "반려식물", "식물키우기", "공기정화식물", "홈가드닝"]
+tags:
+  - 솔레이롤리아
+  - SoleiroliaSoleirolii
+  - 베이비티어즈
+  - 실내식물
+  - 테라리움
+  - 반려식물
+  - 식물키우기
+  - 공기정화식물
+  - 홈가드닝
+  - plant/솔레이롤리아
+  - plant/Soleirolia_Soleirolli
 ---
 
 

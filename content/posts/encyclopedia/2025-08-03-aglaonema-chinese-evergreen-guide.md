@@ -1,14 +1,28 @@
 ---
-title: "(식물백과) 20.  아글라오네마(Chinese Evergreen) – 초보자도 쉽게 키우는 공기정화 식물 🌿"
+title: (식물백과) 20.  아글라오네마(Chinese Evergreen) – 초보자도 쉽게 키우는 공기정화 식물 🌿
 date: 2025-08-03
 publishDate: 2025-08-03T00:00:00+09:00
-description: "아글라오네마(Aglaonema commutatum)는 공기정화 능력이 뛰어나고, 그늘에서도 잘 자라는 실내식물입니다. 초보자에게도 추천되는 반려식물이에요."
-type: "article"
-images: ["/images/aglaonema.jpg"]
-og_title: "아글라오네마 – 반려식물로 딱! 실내를 생기 있게 만드는 천연 공기청정기"
-og_description: "그늘에도 잘 자라고 공기까지 정화해주는 실내식물 아글라오네마를 소개합니다. 초보자에게 추천하는 식물이에요!"
-og_image: ["/images/aglaonema.jpg"]
-tags: ["아글라오네마", "중국상록수", "실내식물", "관엽식물", "반려식물추천", "초보자식물", "공기정화식물", "그늘식물", "인테리어식물", "식물키우기"]
+description: 아글라오네마(Aglaonema commutatum)는 공기정화 능력이 뛰어나고, 그늘에서도 잘 자라는 실내식물입니다. 초보자에게도 추천되는 반려식물이에요.
+type: article
+images:
+  - /images/aglaonema.jpg
+og_title: 아글라오네마 – 반려식물로 딱! 실내를 생기 있게 만드는 천연 공기청정기
+og_description: 그늘에도 잘 자라고 공기까지 정화해주는 실내식물 아글라오네마를 소개합니다. 초보자에게 추천하는 식물이에요!
+og_image:
+  - /images/aglaonema.jpg
+tags:
+  - 아글라오네마
+  - 중국상록수
+  - 실내식물
+  - 관엽식물
+  - 반려식물추천
+  - 초보자식물
+  - 공기정화식물
+  - 그늘식물
+  - 인테리어식물
+  - 식물키우기
+  - plant/아글라오네마
+  - plant/Chinese_Evergreen
 draft: false
 ---
 

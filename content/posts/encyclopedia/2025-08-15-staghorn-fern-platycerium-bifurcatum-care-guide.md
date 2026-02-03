@@ -26,6 +26,8 @@ tags:
   - 반려식물
   - 실내식물
   - 박쥐란
+  - plant/사슴뿔고사리
+  - plant/Staghorn_Fern
 draft: false
 ---
 

@@ -10,7 +10,18 @@ og_title: 피라칸사 키우기 & 특징 | 빨간 열매가 매력적인 상록
 og_description: 피라칸사의 특징부터 키우는 법, 플랜테리어 활용까지! 사계절 아름다운 붉은 열매식물 피라칸사의 매력을 지금 확인하세요.
 og_image:
   - /images/pyracantha_coccinea_interior.jpg
-tags: ["피라칸사", "Pyracantha_coccinea", "붉은열매식물", "상록관목", "정원수", "조경식물", "플랜테리어", "관엽식물", "실외식물"]
+tags:
+  - 피라칸사
+  - Pyracantha_coccinea
+  - 붉은열매식물
+  - 상록관목
+  - 정원수
+  - 조경식물
+  - 플랜테리어
+  - 관엽식물
+  - 실외식물
+  - plant/피라칸사
+  - plant/Pyracantha
 ---
 
 

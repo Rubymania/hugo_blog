@@ -10,7 +10,19 @@ og_title: 페페로미아 클루시폴리아 키우기 | 무늬잎이 매력적�
 og_description: 페페로미아 클루시폴리아(Peperomia clusiifolia)는 귀여운 크기와 세련된 색감으로 인테리어에 잘 어울리는 실내 반려식물입니다. 키우는 법과 관리 팁을 확인하세요.
 og_image:
   - /images/peperomia-clusiifolia-interior.jpg
-tags: ["페페로미아", "페페로미아클루시폴리아", "Peperomia", "PeperomiaClusiifolia", "실내식물", "반려식물", "공기정화식물", "무늬잎식물", "식물인테리어", "식물키우기"]
+tags:
+  - 페페로미아
+  - 페페로미아클루시폴리아
+  - Peperomia
+  - PeperomiaClusiifolia
+  - 실내식물
+  - 반려식물
+  - 공기정화식물
+  - 무늬잎식물
+  - 식물인테리어
+  - 식물키우기
+  - plant/페페로미아
+  - plant/peperomia_clusiifolia
 ---
 
 ## **작고 우아한 잎, 페페로미아 클루시폴리아(Peperomia clusiifolia)의 매력**

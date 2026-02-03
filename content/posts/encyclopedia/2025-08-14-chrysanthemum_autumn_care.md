@@ -22,6 +22,8 @@ tags:
   - 원예
   - 가드닝
   - 꽃말
+  - plant/국화
+  - plant/chrysanthemum
 draft: false
 ---
 

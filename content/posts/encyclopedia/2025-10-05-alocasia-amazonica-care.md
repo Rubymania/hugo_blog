@@ -10,7 +10,19 @@ og_title: 알로카시아 아마조니카 (Alocasia amazonica) 키우는 법과 
 og_description: 고급스럽고 이국적인 알로카시아 아마조니카. 잎맥이 돋보이는 인테리어 식물의 매력을 소개합니다.
 og_image:
   - /images/alocasia-amazonica-potted.jpg
-tags: ["알로카시아", "Alocasia_amazonica", "아프리칸마스크", "관엽식물", "실내식물", "공기정화식물", "열대식물", "인테리어_식물", "트로피컬_플랜트", "플랜테리어"]
+tags:
+  - 알로카시아
+  - Alocasia_amazonica
+  - 아프리칸마스크
+  - 관엽식물
+  - 실내식물
+  - 공기정화식물
+  - 열대식물
+  - 인테리어_식물
+  - 트로피컬_플랜트
+  - 플랜테리어
+  - plant/알로카시아
+  - plant/Alocasia_amazonica
 ---
 
 ## **알로카시아 아마조니카 (Alocasia amazonica) 키우는 법과 인테리어 활용**

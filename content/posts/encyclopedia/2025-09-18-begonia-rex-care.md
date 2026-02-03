@@ -10,7 +10,17 @@ og_title: 렉스베고니아 (Begonia rex) 키우는 법 & 관리 가이드
 og_description: 화려한 잎의 예술, 렉스베고니아(Begonia rex)! 특징부터 키우는 법, 관리 팁, 인테리어 아이디어까지 확인해보세요.
 og_image:
   - /images/begonia_potted.jpg
-tags: ["렉스베고니아", "Begonia_rex", "관엽식물", "무늬잎식물", "실내식물", "인테리어식물", "공기정화식물", "반려식물"]
+tags:
+  - 렉스베고니아
+  - Begonia_rex
+  - 관엽식물
+  - 무늬잎식물
+  - 실내식물
+  - 인테리어식물
+  - 공기정화식물
+  - 반려식물
+  - plant/렉스베고니아
+  - plant/Begonia_Rex
 ---
 
 

@@ -12,7 +12,7 @@ og_image:
   - /images/muehlenbeckia_closeup.jpg
 tags:
   - 뮤렌베키아
-  - Muehlenbeckia_complexa
+  - plant/Muehlenbeckia_complexa
   - 와이어플랜트
   - 덩굴식물
   - 행잉플랜트
@@ -21,6 +21,7 @@ tags:
   - 공기정화식물
   - 인테리어_식물
   - 그린월
+  - plant/뮤렌베키아
 ---
 
 ## **🌿 뮤렌베키아 (Muehlenbeckia complexa) 키우는 법과 인테리어 활용**

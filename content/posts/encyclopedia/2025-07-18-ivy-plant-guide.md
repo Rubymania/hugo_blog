@@ -1,10 +1,20 @@
 ---
-title: "(식물백과) 6. 어디서든 푸르게! 늘 푸른 덩굴식물, 아이비 이야기!"
+title: (식물백과) 6. 어디서든 푸르게! 늘 푸른 덩굴식물, 아이비 이야기!
 date: 2025-07-18
-images: ["/images/ivy.png"]
+images:
+  - /images/ivy.png
 og:
-og_image: ["/images/ivy.png"]
-tags: ["반려식물", "식물키우기", "식물입문자", "식물수명", "덩굴", "아이비"]
+og_image:
+  - /images/ivy.png
+tags:
+  - 반려식물
+  - 식물키우기
+  - 식물입문자
+  - 식물수명
+  - 덩굴
+  - 아이비
+  - plant/아이비
+  - plant/ivy
 draft: false
 ---
 

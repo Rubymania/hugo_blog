@@ -10,7 +10,22 @@ og_title: 로즈마리 키우기 가이드 | Rosemary, Salvia rosmarinus 허브�
 og_description: 향기로운 허브 로즈마리(Rosemary, Salvia rosmarinus)를 키우는 법, 주의할 점, 활용 아이디어까지 알아보세요. 주방, 인테리어, 정원 어디서든 어울리는 허브의 매력.
 og_image:
   - /images/rosemary_2.jpg
-tags: ["로즈마리", "Rosemary", "Salvia rosmarinus","허브","요리허브","약용식물","허브재배","허브가든","실내식물","향기허브","반려식물","정원식물","허브인테리어"]
+tags:
+  - 로즈마리
+  - Rosemary
+  - Salvia rosmarinus
+  - 허브
+  - 요리허브
+  - 약용식물
+  - 허브재배
+  - 허브가든
+  - 실내식물
+  - 향기허브
+  - 반려식물
+  - 정원식물
+  - 허브인테리어
+  - plant/로즈마리
+  - plant/rosemary
 draft: false
 ---
 

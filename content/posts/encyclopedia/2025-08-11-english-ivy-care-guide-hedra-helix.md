@@ -2,15 +2,25 @@
 title: (식물백과) 29. 헤더라, 담쟁이의 우아함을 품은 실내 녹음
 date: 2025-08-11
 publishDate: 2025-08-11T00:00:00+09:00
-description: "헤더라(English Ivy, Hedera helix)는 우아한 덩굴과 공기정화 효과로 사랑받는 실내·실외 식물입니다. 키우기 팁, 인테리어 활용, 관리 요령을 소개합니다."
+description: 헤더라(English Ivy, Hedera helix)는 우아한 덩굴과 공기정화 효과로 사랑받는 실내·실외 식물입니다. 키우기 팁, 인테리어 활용, 관리 요령을 소개합니다.
 type: article
 images:
   - /images/hedera.jpg
-og_title: "헤더라(English Ivy) 키우기 가이드 🌿"
-og_description: "우아한 덩굴과 싱그러운 잎사귀로 사랑받는 헤더라. 빛, 물, 온도, 토양 관리법부터 인테리어 활용 아이디어까지 담은 English Ivy 완벽 가이드."
+og_title: 헤더라(English Ivy) 키우기 가이드 🌿
+og_description: 우아한 덩굴과 싱그러운 잎사귀로 사랑받는 헤더라. 빛, 물, 온도, 토양 관리법부터 인테리어 활용 아이디어까지 담은 English Ivy 완벽 가이드.
 og_image:
   - /images/hedera.jpg
-tags: ["헤더라", "English Ivy", "Hedera helix", "덩굴식물", "실내식물", "공기정화식물", "행잉플랜트", "반려식물"]
+tags:
+  - 헤더라
+  - English_Ivy
+  - Hedera_helix
+  - 덩굴식물
+  - 실내식물
+  - 공기정화식물
+  - 행잉플랜트
+  - 반려식물
+  - plant/English_Ivy
+  - plant/헤더라
 draft: false
 ---
 

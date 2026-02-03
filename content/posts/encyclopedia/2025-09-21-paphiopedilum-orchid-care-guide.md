@@ -1,16 +1,36 @@
 ---
-title: (식물백과) 63. 파피오페딜럼(Paphiopedilum hybrids) 신비로운 슬리퍼 오키드의 매력과 키우는 법 
+title: (식물백과) 63. 파피오페딜럼(Paphiopedilum hybrids) 신비로운 슬리퍼 오키드의 매력과 키우는 법
 date: 2025-09-21
 publishDate: 2025-09-21T00:00:00+09:00
 description: 파피오페딜럼(Paphiopedilum hybrids), 일명 슬리퍼 오키드의 특징과 원산지, 실내에서 건강하게 키우는 법, 인테리어 활용 팁을 소개합니다.
 type: article
-images: 
+images:
   - /images/paphiopedilum-potted.jpg
-og_title: 파피오페딜럼(Paphiopedilum hybrids) 신비로운 슬리퍼 오키드의 매력과 키우는 법 
+og_title: 파피오페딜럼(Paphiopedilum hybrids) 신비로운 슬리퍼 오키드의 매력과 키우는 법
 og_description: 독특한 꽃 형태와 고급스러운 색감을 가진 파피오페딜럼(Paphiopedilum hybrids)을 실내에서 아름답게 키우는 방법과 인테리어 활용 아이디어를 만나보세요.
-og_image: 
+og_image:
   - /images/paphiopedilum-potted.jpg
-tags:  ["Paphiopedilum","파피오페딜럼","Paphiopedilum_hybrids","파피오페딜럼_교배종","slipper_orchid","슬리퍼_오키드","orchid_care_tips","난초_관리","rare_orchids","희귀난초","indoor_orchid_growing","실내_난초_재배","flowering_plants","꽃피는_식물","shade-loving_orchids","그늘_좋아하는_난초","unique_houseplants","특별한_실내식물"]
+tags:
+  - Paphiopedilum
+  - 파피오페딜럼
+  - Paphiopedilum_hybrids
+  - 파피오페딜럼_교배종
+  - slipper_orchid
+  - 슬리퍼_오키드
+  - orchid_care_tips
+  - 난초_관리
+  - rare_orchids
+  - 희귀난초
+  - indoor_orchid_growing
+  - 실내_난초_재배
+  - flowering_plants
+  - 꽃피는_식물
+  - shade-loving_orchids
+  - 그늘_좋아하는_난초
+  - unique_houseplants
+  - 특별한_실내식물
+  - plant/파피오페딜럼
+  - plant/Paphiopedilum_hybrids
 ---
 
 

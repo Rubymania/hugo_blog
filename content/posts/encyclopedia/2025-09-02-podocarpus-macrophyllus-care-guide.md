@@ -10,7 +10,18 @@ og_title: 나한송 키우기 & 플랜테리어 가이드 | 실내 소나무 같
 og_description: 나한송 관리 방법과 플랜테리어 인테리어 활용 팁을 한 번에! 실내 공기정화에 효과적인 나한송을 건강하게 키우는 비법을 확인하세요.
 og_image:
   - /images/podocarpus_macrophyllus_potted.jpg
-tags: ["나한송", "Podocarpus_macrophyllus", "실내소나무", "공기정화식물", "관엽식물", "인테리어식물", "플랜테리어", "실내식물", "집들이선물"]
+tags:
+  - 나한송
+  - Podocarpus_macrophyllus
+  - 실내소나무
+  - 공기정화식물
+  - 관엽식물
+  - 인테리어식물
+  - 플랜테리어
+  - 실내식물
+  - 집들이선물
+  - plant/나한송
+  - plant/Podocarpus_Macrophyllus
 ---
 
 

@@ -10,7 +10,19 @@ og_title: 칠레안 벨 플라워 키우기 가이드 | Chilean Bellflower
 og_description: 종 모양의 귀여운 칠레안 벨 플라워(Chilean Bellflower, Nolana paradoxa)를 잘 키우는 법과 인테리어 활용 팁을 소개합니다.
 og_image:
   - /images/bellflower.jpg
-tags: ["칠레안 벨 플라워", "Chilean Bellflower", "Nolana paradoxa", "해안가 식물", "실내식물", "관상식물", "걸이화분", "창가식물", "플라워 인테리어", "희귀식물"]
+tags:
+  - 칠레안 벨 플라워
+  - Chilean Bellflower
+  - Nolana paradoxa
+  - 해안가 식물
+  - 실내식물
+  - 관상식물
+  - 걸이화분
+  - 창가식물
+  - 플라워 인테리어
+  - 희귀식물
+  - plant/칠레안_벨플라워
+  - plant/chilean_bellflower
 draft: false
 ---
 

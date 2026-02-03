@@ -5,22 +5,18 @@ publishDate: 2025-08-12T00:00:00+09:00
 description: 거베라(Gerbera Daisy, Gerbera jamesonii) 키우기 가이드. 물주기, 햇빛, 온도, 색상별 의미와 IoT 센서를 활용한 스마트 가드닝 방법까지 소개합니다.
 type: article
 images:
-  - "/images/gerbera.jpg"
+  - /images/gerbera.jpg
 og_title: 거베라(Gerbera Daisy) 스마트 가드닝 가이드 🌼
 og_description: 햇살처럼 화사한 거베라. 키우기 요령, 색상별 의미, 인테리어 활용법, 그리고 IoT 센서를 활용한 스마트 재배법까지!
 og_image:
   - /images/gerbera.jpg
 tags:
-  - 헤더라
-  - English
-  - Ivy
-  - Hedera
-  - helix
-  - 덩굴식물
   - 실내식물
   - 공기정화식물
   - 행잉플랜트
   - 반려식물
+  - plant/거베라
+  - plant/gerbera
 draft: false
 ---
 

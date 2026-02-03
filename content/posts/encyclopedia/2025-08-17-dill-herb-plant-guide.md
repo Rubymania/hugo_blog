@@ -10,7 +10,21 @@ og_title: 딜(Dill) 키우기와 활용법 | 허브 재배 가이드
 og_description: 향긋한 허브 딜(Dill)의 특징과 키우는 법, 요리 활용 팁까지 알아보세요.
 og_image:
   - /images/dill_herb_2.jpg
-tags: ["딜", "Dill", "Anethum graveolens", "허브", "요리허브", "허브재배", "허브가든", "실내허브", "향신료식물", "허브요리", "건강식물", "반려식물"]
+tags:
+  - 딜
+  - Dill
+  - Anethum graveolens
+  - 허브
+  - 요리허브
+  - 허브재배
+  - 허브가든
+  - 실내허브
+  - 향신료식물
+  - 허브요리
+  - 건강식물
+  - 반려식물
+  - plant/딜
+  - plant/Dill
 draft: false
 ---
 

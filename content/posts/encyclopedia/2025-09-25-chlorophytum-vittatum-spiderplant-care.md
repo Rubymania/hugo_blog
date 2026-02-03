@@ -19,6 +19,8 @@ tags:
   - 인테리어_식물
   - 행잉플랜트
   - 초보자_식물
+  - plant/비타툼접란
+  - plant/Chlorophytum_comosum
 ---
 
 ## **🌱 비타툼접란 (Chlorophytum comosum var. vittatum) 블로그 포스트**
