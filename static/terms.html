@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플랜트마루 서비스 이용약관 | Terms of Service | Condiciones de servicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2E7D32;
+            --primary-light: #4CAF50;
+            --secondary-color: #1B5E20;
+            --bg-color: #F8FAF8;
+            --card-bg: #FFFFFF;
+            --text-main: #2C3E50;
+            --text-muted: #5D6D7E;
+            --border-color: #E2E8F0;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7; margin: 0; padding: 0; background-color: var(--bg-color); color: var(--text-main); -webkit-font-smoothing: antialiased;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white; padding: 70px 20px 60px; text-align: center; position: relative;
+        }
+
+        /* Language Selector Dropdown (Same as guide.html) */
+        .lang-selector-wrapper {
+            position: absolute; top: 20px; right: 20px; z-index: 1000;
+        }
+
+        .lang-select {
+            appearance: none; background-color: rgba(255, 255, 255, 0.9); backdrop-filter: blur(5px);
+            border: 1px solid rgba(255, 255, 255, 0.3); padding: 8px 35px 8px 15px; border-radius: 10px;
+            font-size: 0.85rem; font-weight: 700; color: var(--primary-color); cursor: pointer;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%232E7D32' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: right 10px center; background-size: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;
+        }
+
+        .header h1 { margin: 0; font-size: 2.2rem; font-weight: 800; letter-spacing: -0.02em; }
+        .header p { margin-top: 10px; opacity: 0.9; font-size: 1.1rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+
+        .container { max-width: 900px; margin: 30px auto 60px; padding: 0 20px; }
+
+        .card {
+            background: var(--card-bg); padding: 50px; border-radius: 28px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04); border: 1px solid var(--border-color);
+        }
+
+        [data-lang] { display: none; }
+        .lang-ko [data-lang="ko"] { display: block; }
+        .lang-en [data-lang="en"] { display: block; }
+        .lang-jp [data-lang="jp"] { display: block; }
+        .lang-es [data-lang="es"] { display: block; }
+
+        h2 {
+            font-size: 1.4rem; color: var(--primary-color); margin-top: 50px;
+            padding-bottom: 12px; border-bottom: 2px solid #F1F5F1;
+            display: flex; align-items: center; gap: 12px;
+        }
+
+        h2::before { content: ''; width: 4px; height: 24px; background: var(--primary-color); border-radius: 2px; }
+        ul { padding-left: 20px; list-style: none; }
+        li { margin-bottom: 12px; position: relative; padding-left: 20px; }
+        li::before { content: "•"; color: var(--primary-light); font-weight: bold; position: absolute; left: 0; }
+
+        .highlight { color: var(--primary-color); font-weight: 600; }
+        .warning-box { background-color: #FFF5F5; border-left: 4px solid #FC8181; padding: 25px; border-radius: 12px; margin: 20px 0 40px; font-size: 1rem; color: #C53030; }
+        .info-box { background-color: #F1F8F1; border-left: 4px solid var(--primary-color); padding: 25px; border-radius: 12px; margin: 20px 0 40px; font-size: 1rem; }
+        footer { text-align: center; padding: 40px 20px; color: var(--text-muted); font-size: 0.9rem; }
+
+        @media (max-width: 600px) {
+            .header { padding: 60px 20px 40px; }
+            .header h1 { font-size: 1.8rem; }
+            .card { padding: 30px 20px; border-radius: 20px; }
+            .lang-selector-wrapper { top: 15px; right: 15px; }
+        }
+    </style>
+</head>
+<body class="lang-ko">
+
+<div class="header">
+    <div class="lang-selector-wrapper">
+        <select class="lang-select" onchange="switchLang(this.value)" id="lang-picker">
+            <option value="ko">한국어 (KR)</option>
+            <option value="en">English (EN)</option>
+            <option value="jp">日本語 (JP)</option>
+            <option value="es">Español (ES)</option>
+        </select>
+    </div>
+    <h1 id="header-title">서비스 이용약관</h1>
+    <p id="header-sub">플랜트마루와 함께 건강한 반려식물 생활을 시작하세요.</p>
+</div>
+
+<div class="container">
+    <div class="card">
+        <!-- 1. AI 서비스 면책 (가장 중요) -->
+        <h2 data-lang="ko">1. 인공지능(AI) 서비스 이용 면책 조항</h2>
+        <h2 data-lang="en">1. AI Service Disclaimer</h2>
+        <h2 data-lang="jp">1. AIサービス利用に関する免責事項</h2>
+        <h2 data-lang="es">1. Descargo de responsabilidad por el servicio de IA</h2>
+        
+        <div class="warning-box">
+            <div data-lang="ko">
+                <strong>주의:</strong> 본 서비스의 모든 진단 결과는 AI 분석에 기반하므로 100% 정확도를 보장하지 않습니다. 분석 결과에 따른 행위(약제 살포, 식물 처분 등)로 인해 발생하는 결과에 대해 개발사는 법적 책임을 지지 않습니다.
+            </div>
+            <div data-lang="en">
+                <strong>Notice:</strong> All diagnosis results are based on AI analysis and do not guarantee 100% accuracy. The developer is not liable for any outcomes arising from actions taken based on the results.
+            </div>
+            <div data-lang="jp">
+                <strong>注意：</strong> 本サービスのすべての診断結果はAI分析に基づくものであり、100％の正確性を保証するものではありません。診断結果に基づく行為により生じた結果について、開発者は一切の責任を負いません。
+            </div>
+            <div data-lang="es">
+                <strong>Aviso:</strong> Todos los resultados de diagnóstico se basan en análisis de IA y no garantizan el 100% de precisión. El desarrollador no es responsable de las acciones tomadas basadas en los resultados.
+            </div>
+        </div>
+
+        <!-- 2. 서비스 이용 규칙 -->
+        <h2 data-lang="ko">2. 서비스 이용 규칙</h2>
+        <h2 data-lang="en">2. Service Usage Rules</h2>
+        <h2 data-lang="jp">2. サービスの利用規則</h2>
+        <h2 data-lang="es">2. Reglas de uso del servicio</h2>
+        <div data-lang="ko">
+            <ul>
+                <li><strong>플랜트마루 Lite</strong>는 비로그인 방식으로 제공되며, 앱 삭제 또는 데이터 초기화 시 기존 진단 기록이 복구되지 않을 수 있습니다.</li>
+                <li>무료 서비스 유지를 위해 일부 기능에 광고가 포함될 수 있습니다.</li>
+            </ul>
+        </div>
+        <div data-lang="en">
+            <ul>
+                <li><strong>Plantmaru Lite</strong> is provided as a non-member service. History may be lost if the app is deleted or data is cleared.</li>
+                <li>To keep the service free, advertisements may be included in some features.</li>
+            </ul>
+        </div>
+        <div data-lang="jp">
+            <ul>
+                <li><strong>プラントマル Lite</strong>は非会員方式で提供され、アプリの削除やデータ初期化時に履歴が復旧できない場合があります。</li>
+                <li>無料サービス維持のため、一部の機能に広告が含まれる場合があります。</li>
+            </ul>
+        </div>
+        <div data-lang="es">
+            <ul>
+                <li><strong>Plantmaru Lite</strong> se proporciona como un servicio sin registro. El historial puede perderse si se elimina la aplicación o se borran los datos.</li>
+                <li>Para mantener el servicio gratuito, se pueden incluir anuncios en algunas funciones.</li>
+            </ul>
+        </div>
+
+        <!-- 3. 지적 재산권 -->
+        <h2 data-lang="ko">3. 지적 재산권</h2>
+        <h2 data-lang="en">3. Intellectual Property</h2>
+        <h2 data-lang="jp">3. 知的財産権</h2>
+        <h2 data-lang="es">3. Propiedad intelectual</h2>
+        <div data-lang="ko"><p>앱 내 모든 디자인, 텍스트, 알고리즘은 플랜트마루의 소유이며 무단 복제를 금합니다. 이용자가 업로드한 이미지는 서비스 개선을 위해 활용될 수 있습니다.</p></div>
+        <div data-lang="en"><p>All designs, text, and algorithms in the app are owned by Plantmaru. User-uploaded images may be used for service improvement.</p></div>
+        <div data-lang="jp"><p>アプリ内のデザイン、テキスト、アルゴリズムはプラントマルの所有物です。利用者がアップロードした画像は、サービス改善のために活用される場合があります。</p></div>
+        <div data-lang="es"><p>Todos los diseños, textos y algoritmos de la aplicación son propiedad de Plantmaru. Las imágenes subidas por el usuario pueden utilizarse para mejorar el servicio.</p></div>
+
+        <!-- 4. 준거법 -->
+        <h2 data-lang="ko">4. 준거법 및 관할 법원</h2>
+        <h2 data-lang="en">4. Governing Law</h2>
+        <h2 data-lang="jp">4. 準拠法および裁判管轄</h2>
+        <h2 data-lang="es">4. Ley aplicable y jurisdicción</h2>
+        <div data-lang="ko"><p>본 약관은 대한민국 법령을 준수하며, 서비스 관련 분쟁 발생 시 관할 법원은 서울중앙지방법원으로 합니다.</p></div>
+        <div data-lang="en"><p>These terms are governed by the laws of the Republic of Korea. Any disputes shall be brought before the Seoul Central District Court.</p></div>
+        <div data-lang="jp"><p>本規約は大韓民国の法令に準拠し、紛争が生じた場合はソウル中央地方裁判所を管轄裁判所とします。</p></div>
+        <div data-lang="es"><p>Estas condiciones se rigen por las leyes de la República de Corea. Cualquier disputa se someterá a los tribunales del Distrito Central de Seúl.</p></div>
+
+        <div class="info-box" style="margin-top: 40px;">
+            <span data-lang="ko">시행 일자: 2025년 9월 2일</span>
+            <span data-lang="en">Effective Date: September 2, 2025</span>
+            <span data-lang="jp">施行日：2025年9月2日</span>
+            <span data-lang="es">Fecha de entrada en vigor: 2 de septiembre de 2025</span>
+        </div>
+    </div>
+</div>
+
+<footer>&copy; 2025 Plantmaru. All rights reserved.</footer>
+
+<script>
+    function switchLang(lang) {
+        document.body.className = 'lang-' + lang;
+        document.getElementById('lang-picker').value = lang;
+
+        const texts = {
+            ko: { title: "서비스 이용약관", sub: "플랜트마루와 함께 건강한 반려식물 생활을 시작하세요." },
+            en: { title: "Terms of Service", sub: "Start a healthy plant life with us." },
+            jp: { title: "サービス利用規約", sub: "植物との健やかな暮らしをサポートします。" },
+            es: { title: "Términos de servicio", sub: "Comience una vida verde saludable con Plantmaru." }
+        };
+        document.getElementById('header-title').innerText = texts[lang].title;
+        document.getElementById('header-sub').innerText = texts[lang].sub;
+    }
+
+    window.onload = function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const lang = urlParams.get('lang');
+        const supported = ['ko', 'en', 'jp', 'es'];
+        if (lang && supported.includes(lang)) {
+            switchLang(lang);
+        } else {
+            const browserLang = navigator.language.substring(0, 2);
+            if (browserLang === 'ja') switchLang('jp');
+            else if (supported.includes(browserLang)) switchLang(browserLang);
+            else switchLang('ko');
+        }
+    }
+</script>
+
+</body>
+</html>
